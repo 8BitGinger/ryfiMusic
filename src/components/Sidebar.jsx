@@ -13,15 +13,7 @@ export function Sidebar() {
   const { activeView, activePlaylistId, playlists, setActiveView, currentTrack, playTrack } = usePlayerStore()
 
   return (
-    <aside style={{
-      width: 'var(--sidebar-width)',
-      minWidth: 'var(--sidebar-width)',
-      background: 'var(--bg-surface)',
-      borderRight: '1px solid var(--border)',
-      display: 'flex',
-      flexDirection: 'column',
-      overflow: 'hidden',
-    }}>
+    <aside className='sidebar'>
       {/* Logo */}
       <div style={{ padding: '28px 24px 20px', flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>

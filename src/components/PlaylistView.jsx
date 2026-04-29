@@ -74,6 +74,7 @@ export function PlaylistView({ playlistId }) {
             </p>
           </div>
         </div>
+        
 
         {/* Controls */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginTop: 28 }}>
@@ -114,7 +115,12 @@ export function PlaylistView({ playlistId }) {
           </button>
         </div>
       </div>
-
+      
+      <button className='back-btn' 
+      onClick={() => usePlayerStore.getState().setActiveView('home')}
+      >
+        ←
+      </button>
       {/* Track list */}
       <div style={{ flex: 1, overflowY: 'auto', padding: '16px 24px 24px' }}>
         {/* Column headers */}
