@@ -7,6 +7,8 @@
 //   4. Suno also gives you a direct CDN link — you can use that URL directly!
 // ─────────────────────────────────────────────────────────────────────────────
 
+import { i } from "framer-motion/client";
+
 export const tracks = [
   {
     id: 't1',
@@ -294,7 +296,278 @@ export const tracks = [
     art: '/art/goodBoy.png',
     genre: 'Sinister R&B',
     bpm: null,
-  }
+  },
+  {
+    id: 't27',
+    title: 'Last Call Casanova',
+    artist: 'RyFi',
+      album: 'Dirt Road',
+    duration: 274,
+    src: 'https://cdn1.suno.ai/22a8b6f3-fed8-489c-a7ea-8620c57f68ab.mp3',
+    art: '/art/lastCall.png',
+    genre: 'Traditional Country',
+    bpm: 75,
+  },
+  {
+    id: 't28',
+    title: 'Can/t Sleep',
+    artist: 'RyFi',
+    album: 'Pulse',
+    duration: 192,
+    src: 'https://cdn1.suno.ai/b57bfa19-65d2-4f6c-a3bd-6a5e9da28a40.mp3',
+    art: '/art/cantSleep.PNG',
+    genre: 'LoFi Trap',
+    bpm: 70,
+  },
+
+  {
+    id: 't29',
+    title: 'Let/s Get High  (ft. Timbaland)',
+    artist: 'RyFi feat. Timbaland',
+    album: 'Flow Lab',
+    duration: 297,
+    src: 'https://cdn1.suno.ai/c9565d3f-0a36-44a9-9b4a-5052c10e8393.mp3',
+    art: '/art/letsGetHigh.png',
+    genre: 'LoFi Trap',
+    bpm: 140,
+  },
+  
+  {id: 't30',
+    title: '1st Day Out - One Night Duet',
+    artist: 'RyFi ft. @dearonwiley',
+    album: 'Flow Lab',
+    duration: 181,
+    src: 'https://cdn1.suno.ai/873ed8d8-d51e-4a8a-b4ee-6c723752d602.mp3',
+    art: '/art/1stDay.png',
+    genre: 'Emo Trap',
+    bpm: 140,
+  },
+
+  {
+    id: 't31',
+    title: 'Liquid or Lace',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 241,
+    src: 'https://cdn1.suno.ai/6cffaf21-d3c4-45d2-9671-1d4907c3ab22.mp3',
+    art: '/art/liquidLace.jpeg',
+    genre: 'Country Trap',
+    bpm: 135,
+  },
+
+  {
+    id: 't32',
+    title: 'Everything You Asked For',
+    artist: 'RyFi',
+    album: 'Heart & Break',
+    duration: 219,
+    src: 'https://cdn1.suno.ai/41fea86d-22ba-4295-8403-385093a059ca.mp3',
+    art: '/art/everythingYouAskedFor.jpeg',
+    genre: 'Dark R&B',
+    bpm: null,
+  },
+
+  {
+    id: 't33',
+    title: 'Apex Vision',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 222,
+    src: 'https://cdn1.suno.ai/b82ea744-18e0-4703-b29b-00b591ae6377.mp3',
+    art: '/art/apexVision.png',
+    genre: 'Trap Phonk',
+    bpm: 180,
+  },
+
+  {
+    id: 't34',
+    title: 'Soul in the Beat',
+    artist: 'RyFi',
+    album: 'Flow Lab',
+    duration: 197,
+    src: 'https://cdn1.suno.ai/0c8e5b9c-7a3b-4c8d-9a1e-2f1c9e5b6a7d.mp3',
+    art: '/art/soulInTheBeat.PNG',
+    genre: 'Trap Phonk',
+    bpm: 140,
+  },
+
+  {
+    id: 't35',
+    title: 'Pure Signal - Ethereal Edit',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 268,
+    src: 'https://cdn1.suno.ai/b4e3e85b-8d06-4d19-9f76-4f2e91ab6117.mp3',
+    art: '/art/pureSignal.png',
+    genre: 'Trap Phonk',
+    bpm: 140,
+  },
+
+  {
+    id: 't36',
+    title: 'Oxygen',
+    artist: 'RyFi',
+    album: 'Flow Lab',
+    duration: 248,
+    src: 'https://cdn1.suno.ai/bb9f91b5-e369-48c9-8637-54a8c6b092c9.mp3',
+    art: '/art/oxygen.png',
+    genre: 'Neo-Soul Trap',
+    bpm: 92,
+  },
+
+  {
+    id: 't37',
+    title: 'Let it Burn',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 210,
+    src: 'https://cdn1.suno.ai/fbf20fda-8934-41a1-87af-26889b5a201b.mp3',
+    art: '/art/letItBurn.PNG',
+    genre: 'Country Trap',
+    bpm: null,
+  },
+
+  {
+    id: 't38',
+    title: 'Resonate',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 277,
+    src: 'https://cdn1.suno.ai/9f33a6ce-d306-4d70-a096-a6a0069b639d.mp3',
+    art: '/art/resonate.jpeg',
+    genre: 'Hip-Hop Jazz',
+    bpm: 85,
+  },
+
+  {
+    id: 't39',
+    title: 'In Love with a Burlesque Queen',
+    artist: 'RyFi',
+    album: 'Silk Sheets',
+    duration: 259,
+    src: 'https://cdn1.suno.ai/00bb8dce-7cd8-4432-9568-a6415561a552.mp3',
+    art: '/art/burlesqueQueen.jpeg',
+    genre: 'R&B',
+    bpm: 70,
+  },
+
+  {
+    id: 't40',
+    title: 'Lackluster',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 259,
+    src: 'https://cdn1.suno.ai/5295c0e6-28a1-40f3-9805-6b6b73d001e1.mp3',
+    art: '/art/lackluster.png',
+    genre: 'Indie Dark Pop',
+    bpm: 95,
+  },
+
+  {
+    id: 't41',
+    title: 'Bourbon & Bitches',
+    artist: 'RyFi',
+    album: 'Alt Waves',
+    duration: 210,
+    src: 'https://cdn1.suno.ai/58ddfc8e-bbfd-4561-813d-d41f6098974c.mp3',
+    art: '/art/bourbonBitches.png',
+    genre: 'Modern Pop-Rock',
+    bpm: 82,
+  },
+
+  {
+    id: 't42',
+    title: 'Double Rainbow',
+    artist: 'RyFi',
+    album: 'Pulse',
+    duration: 209,
+    src: 'https://cdn1.suno.ai/7c9a1b8e-5c3d-4c8e-9a1e-2f1c9e5b6a7d.mp3',
+    art: '/art/doubleRainbow.png',
+    genre: 'Chillstep',
+    bpm: 130,
+  },
+
+  {
+    id: 't43',
+    title: 'Just Let it Render',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 231,
+    src: 'https://cdn1.suno.ai/3e8f5b9c-7a3b-4c8d-9a1e-2f1c9e5b6a7d.mp3',
+    art: '/art/justLetItRender.png',
+    genre: '2010s Hip-Hop',
+    bpm: 190,
+  },
+
+  {
+    id: 't44',
+    title: 'Vibe Check',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 147,
+    src: 'https://cdn1.suno.ai/3ed1e6f7-3835-45c2-a673-ca69e8c4f116.mp3',
+    art: '/art/vibeCheck.png',
+    genre: 'Trap Phonk',
+    bpm: 175,
+  },
+{
+    id: 't45',
+    title: 'Healing War',
+    artist: 'RyFi',
+    album: 'Pulse',
+    duration: 210,
+    src: 'https://cdn1.suno.ai/9f33a6ce-d306-4d70-a096-a6a0069b639d.mp3',
+    art: '/art/healingWar.jpeg',
+    genre: 'Soulful R&B',
+    bpm: 110,
+  },
+
+    {
+    id: 't46',
+    title: 'The Simulation - LoFi Rewind',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 266,
+    src: 'https://cdn1.suno.ai/9f33a6ce-d306-4d70-a096-a6a0069b639d.mp3',
+    art: '/art/simulation.jpeg',
+    genre: 'LoFi',
+    bpm: 140,
+  },
+
+
+  {
+    id: 't47',
+    title: 'Punching Out Mix',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 212,
+    src: 'https://cdn1.suno.ai/d75fd705-2aa3-4d85-ba8e-27b937783333.mp3',
+    art: '/art/punchingOut.png',
+    genre: 'Nu-Metal',
+    bpm: null,
+  },
+
+  {
+    id: 't48',
+    title: 'High Fidelity Hit',
+    artist: 'RyFi',
+    album: 'Flow Lab',
+    duration: 174,
+    src: 'https://cdn1.suno.ai/0e335442-d1e5-425d-a1d3-c504f0ebe642.mp3',
+    art: '/art/highFidelityHit.jpeg',
+    genre: '2010s Hip-Hop',
+    bpm: null,
+  },
+
+  
+ 
+
+
+
+
+
+
+
 ];
 
 // Gradient palettes per album (used as cover art fallback)
@@ -314,14 +587,14 @@ export const playlists = [
     id: 'pl1',
     name: 'Flow Lab',
     description: 'Trap beats, Raps, and experimental vibes',
-    trackIds: ['t2', 't1', 't3', 't10'],
+    trackIds: ['t2', 't1', 't3', 't10', 't29'],
     color: '#871cdf',
   },
   {
     id: 'pl2',
     name: 'Dirt Road',
     description: 'Country and Dirt Road Anthems',
-    trackIds: ['t15', 't14', 't16'],
+    trackIds: ['t15', 't14', 't16', 't27'],
     color: '#c7c427',
   },
   {

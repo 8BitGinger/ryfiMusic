@@ -3,6 +3,8 @@ import { Home, Search, Library, Radio, Music2, ChevronRight } from 'lucide-react
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
 
+import logo from '/public/art/logo.jpg'
+
 const navItems = [
   { icon: Home, label: 'Home', view: 'home' },
   { icon: Search, label: 'Search', view: 'search' },
@@ -17,7 +19,7 @@ export function Sidebar() {
       {/* Logo */}
       <div style={{ padding: '28px 24px 20px', flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <img src="/public/art/logo.jpg" alt="RyFi Logo" style={{ width: 32, height: 32, borderRadius: '50%' }} />
+          <img src={logo} alt="RyFi Logo" style={{ width: 32, height: 32, borderRadius: '50%' }} />
           <span style={{
             fontFamily: 'var(--font-display)',
             fontSize: 22,
