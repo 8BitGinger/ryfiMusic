@@ -3,7 +3,7 @@ import { Home, Search, Library, Radio, Music2, ChevronRight } from 'lucide-react
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
 
-import logo from '/public/art/logo.jpg'
+import logo from '/public/art/logo.webp'
 
 const navItems = [
   { icon: Home, label: 'Home', view: 'home' },
