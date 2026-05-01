@@ -822,17 +822,7 @@ export const tracks = [
     bpm: 95,
   },
 
-  {
-    id: 't71',
-    title: 'Alignment',
-    artist: 'RyFi',
-     album: 'Synergy',
-    duration: 342,
-    src: 'https://cdn1.suno.ai/13404606-5c49-4635-ba60-995a4013b09e.mp3',
-    art: '/art/sweetAlignment.webp',
-    genre: 'Soul-Rap',
-    bpm: 90,
-  },
+
 
   {
     id: 't72',
@@ -1167,6 +1157,42 @@ export const tracks = [
     art: '/art/midnightMatrix.webp',
     genre: 'New Genre',
     bpm: 130,
+  },
+
+  {
+    id: 't100',
+    title: 'Venom',
+    artist: 'RyFi & @dearonwiley',
+    album: 'Flow Lab',
+    duration: 316,
+    src: 'https://cdn1.suno.ai/5bed3c6f-1885-4a55-ba43-9e47a3547bc8.mp3',
+    art: '/art/venom.webp',
+    genre: 'Dark Trap Soul',
+    bpm: 92,
+  },
+
+  {
+    id: 't101',
+    title: 'Fatality',
+    artist: 'RyFi',
+    album: 'Flow Lab',
+    duration: 275,
+    src: 'https://cdn1.suno.ai/5e41be39-efb5-4724-98c5-f478f0b48cc5.mp3',
+    art: '/art/fatality.webp',
+    genre: 'Battle Rap',
+    bpm: 140,
+  },
+
+  {
+    id: 't102',
+    title: 'Null',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 128,
+    src: 'https://cdn1.suno.ai/8aa5e5ed-b846-4b69-afe9-cdf4e3172b56.mp3',
+    art: '/art/null.webp',
+    genre: 'Noir Rock',
+    bpm: 88,
   }
 
 ];
@@ -1190,7 +1216,7 @@ export const playlists = [
     id: 'pl1',
     name: 'Flow Lab',
     description: 'Trap beats, Raps, and experimental vibes',
-    trackIds: ['t2', 't1', 't3', 't10', 't29', 't30', 't34', 't36', 't48', 't53', 't87' , 't88' , 't96', 't98'],
+    trackIds: ['t2', 't1', 't100', 't3', 't10', 't29', 't30', 't34', 't36', 't48', 't53', 't87' , 't88' , 't96', 't98',  't101'],
     color: '#871cdf',
   },
   {
@@ -1231,7 +1257,7 @@ export const playlists = [
     id: 'pl7',
     name: 'High Gain',
     description: 'Rock, Metal, and everything with a high gain distortion',
-    trackIds: ['t22', 't24', 't23', 't52', 't47', 't40', 't56', 't76', 't77' , 't91'],
+    trackIds: ['t22', 't24', 't23', 't52', 't102', 't40', 't56', 't76', 't77' , 't91','t47'],
     color: '#ed6d3a',
   },
   {

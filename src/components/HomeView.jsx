@@ -154,7 +154,7 @@ export function HomeView() {
           marginBottom: 16,
           letterSpacing: '-0.5px',
         }}>
-          Favorites
+          Explore
         </h2>
         <div style={{
           display: 'grid',
