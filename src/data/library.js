@@ -1,10 +1,10 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// RyFi Music Library
+// RyFi Music Library - How to make it Yours!
 // To add your Suno songs:
 //   1. Upload your .mp3 files to /audio/
 //   2. Replace the `src` field with the path e.g. '/audio/my-track.mp3'
 //   3. Replace `art` with your own cover art in /art/
-//   4. Suno also gives you a direct CDN link — you can use that URL directly!
+//   4. Suno also gives you a direct CDN link — you can use that URL directly
 // ─────────────────────────────────────────────────────────────────────────────
 
 import { i } from "framer-motion/client";
@@ -1193,20 +1193,35 @@ export const tracks = [
     art: '/art/null.webp',
     genre: 'Noir Rock',
     bpm: 88,
-  }
+  },
+
+  {
+    id: 't103',
+    title: 'Hallowed Ground',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 266,
+    src: 'https://cdn1.suno.ai/3a42d34b-df96-4d6d-98f4-b45bfdcc9ca4.mp3',
+    art: '/art/hallowedGround.webp',
+    genre: 'Swamp Blues Country',
+    bpm: 80,
+  },
+
 
 ];
 
 // Gradient palettes per album (used as cover art fallback)
 export const albumPalettes = {
   'Flow Lab':           ['#7c3aed', '#4c0870', '#0f0219'],
-  'Dirt Road':          ['#c7c427', '#a3a30d', '#1c1408'],
+  'Dirt Road':          ['#c5c359', '#7f7a1e', '#2c2c00'],
   'Synergy':            ['#0b8cf5', '#064d8c', '#021519'],
   'Heart & Break':      ['#db0e07', '#7f0a05', '#2c0000'],
   'Alt Waves':         ['#36c236', '#1e7a1e', '#051904'],
   'Pulse':             ['#ff4081', '#c60055', '#2c0014'],
   'High Gain':         ['#ed6d3a', '#a83f1e', '#2c0f00'],
   'Silk Sheets':       ['#b642d3', '#6f1e7a', '#1c0519'],
+  'Coffee & Clouds':    ['#f8d359', '#c48e1e', '#2c1400'],
+  'Mixtape - All Tracks': ['#00e5ff', '#007a9c', '#05141c'],
 };
 
 
@@ -1215,57 +1230,65 @@ export const playlists = [
   {
     id: 'pl1',
     name: 'Flow Lab',
-    description: 'Trap beats, Raps, and experimental vibes',
+    description: 'Trap beats, Boom Bap, and Hardcore Rap to get in the Flow State',
     trackIds: ['t2', 't1', 't100', 't3', 't10', 't29', 't30', 't34', 't36', 't48', 't53', 't87' , 't88' , 't96', 't98',  't101'],
     color: '#871cdf',
   },
   {
     id: 'pl2',
     name: 'Dirt Road',
-    description: 'Country and Dirt Road Anthems',
-    trackIds: ['t15', 't90', 't14', 't16', 't27', 't37', 't31', 't50', 't62', 't64', 't68', 't80', 't85'],
-    color: '#c7c427',
+    description: 'Country Trap, Outlaw Country, and Traditional Country for those dusty drives',
+    trackIds: ['t15', 't90', 't14', 't16', 't27', 't37', 't31', 't50', 't62', 't64', 't68', 't80', 't85', 't103'],
+    color: '#bda26d',
   },
   {
     id: 'pl3',
     name: 'Synergy',
-    description: 'Manifestation, Simulation Theory, and Music collide',
-    trackIds: ['t5', 't12', 't7', 't38', 't13','t44', 't43', 't33', 't46', 't49', 't38', 't35', 't63', 't66', 't67', 't69', 't71'],
+    description: 'Manifestation, Simulation Theory, and the Power of Your Mind Collide',
+    trackIds: ['t5', 't12', 't7', 't13','t44', 't43', 't33', 't46', 't49', 't35', 't63', 't66', 't67', 't69', 't71'],
     color: '#0b8cf5',
   },
   {
     id: 'pl4',
     name: 'Heart & Break',
-    description: 'Love, Heartbreak, and Toxicity in the Digital Age',
-    trackIds: ['t83', 't18', 't17', 't51', 't32', 't57', 't60', 't72', 't73', 't79', 't97', 't4'],
+    description: 'Love, Heartbreak, and Toxic Relationships Explored',
+    trackIds: ['t83', 't18', 't17', 't51', 't32', 't57', 't60', 't72', 't73', 't79','t4'],
     color: '#e2231c',
   },
   {    id: 'pl6',
     name: 'Alt Waves',
-    description: 'Alternative vibes for late night coding sessions',
+    description: 'Alternative vibes for Late-Night drives and introspective moments',
     trackIds: ['t61', 't6', 't8', 't9', 't41', 't75', 't78', 't86', 't92'],
     color: '#36c236',
   },
   {
     id: 'pl9',
     name: 'Pulse',
-    description: 'Pop hits, Electronica, and Mellow Vibes',
-    trackIds: ['t21', 't20', 't28', 't42', 't45', 't19', 't65', 't70', 't74', 't81', 't89' , 't93' , 't94'],
+    description: 'Pop hits, Electronica, and Energetic vibes for any occasion',
+    trackIds: ['t21', 't20', 't28', 't42', 't19', 't65', 't74', 't81', 't89' , 't93' , 't94'],
     color: '#ff4081',
   },
   {
     id: 'pl7',
     name: 'High Gain',
-    description: 'Rock, Metal, and everything with a high gain distortion',
+    description: 'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
     trackIds: ['t22', 't24', 't23', 't52', 't102', 't40', 't56', 't76', 't77' , 't91','t47'],
     color: '#ed6d3a',
   },
   {
     id: 'pl8',
     name: 'Silk Sheets',
-    description: 'Smooth, sensual, and perfect for late night vibes',
+    description: 'Smooth, sensual, and perfect for After Hours and intimate moments',
     trackIds: ['t59', 't11', 't25', 't26', 't39', 't54', 't55', 't58', 't84', 't99'],
     color: '#b642d3',
+  },
+
+  {
+    id: 'pl10',
+    name: 'Coffee & Clouds',
+    description: 'LoFi, Mellow, and Emotional vibes for Rainy Days and Good Crys',
+    trackIds: ['t38', 't42', 't65', 't70', 't45', 't97', 't38'],
+    color: '#f8d359',
   },
 
 
