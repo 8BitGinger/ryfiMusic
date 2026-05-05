@@ -2,6 +2,7 @@ import React from 'react'
 import { Play } from 'lucide-react'
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
+import logo from '/logo4.png'
 
 function PlaylistCard({ playlist, onClick }) {
   const { tracks, playTrack, currentTrack, isPlaying } = usePlayerStore()
@@ -100,7 +101,8 @@ export function HomeView() {
   return (
     <div style={{ height: '100%', overflowY: 'auto', padding: '40px' }}>
       {/* Hero */}
-      <div style={{ marginBottom: 40 }}>
+      <div className='hero' style={{ marginBottom: 40, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <img src={logo} alt="RyFi Logo" style={{ width: 220, height: 220, borderRadius: '50%', marginBottom: 20 }} />
         <h1 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(28px, 5vw, 52px)',

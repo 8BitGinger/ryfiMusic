@@ -103,7 +103,7 @@ function VolumeControl({ volume, isMuted, setVolume, toggleMute }) {
   const displayVol = isMuted ? 0 : volume
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+    <div className='hide-small volume' >
       <button
         onClick={toggleMute}
         style={{ color: 'var(--text-secondary)', lineHeight: 0, padding: 4, transition: 'color 0.15s' }}
@@ -117,6 +117,7 @@ function VolumeControl({ volume, isMuted, setVolume, toggleMute }) {
         onClick={handleClick}
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={() => setHovering(false)}
+        
         style={{
           width: 80,
           height: hovering ? 6 : 4,
@@ -203,11 +204,9 @@ export function PlayerBar() {
           )}
         </div>
         <div style={{ minWidth: 0 }}>
-          <div style={{
-            display: 'flex', alignItems: 'center', gap: 8, marginBottom: 2,
-          }}>
+          <div className="eq-container">
             {isPlaying && <EqBars size={12} />}
-            <span style={{
+            <span className='hideSmall' style={{
               fontSize: 13, fontWeight: 600,
               overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
               color: 'var(--text-primary)',

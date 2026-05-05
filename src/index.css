@@ -9,7 +9,7 @@
 
   --accent: #00e5ff;
   --accent-dim: rgba(0,229,255,0.12);
-  --accent-glow: rgba(0,229,255,0.25);
+  --accent-glow: rgba(0, 229, 255, 0.438);
   --accent2: #7c3aed;
   --accent2-dim: rgba(124,58,237,0.15);
 
@@ -117,6 +117,14 @@ body::before {
   padding: 8px 12px;
   color: var(--text-secondary);
   z-index: 10000;
+  border: 1px solid var(--accent-glow);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.eq-container {
+display: flex;
+align-items: center;
+gap: 8px;
 }
 
 .eq-bar {
@@ -124,7 +132,24 @@ body::before {
   width: 3px;
   border-radius: 2px;
   background: var(--accent);
+  
   animation: eq-bounce var(--dur, 0.8s) ease-in-out infinite alternate;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero {
+  background-color: var(--bg-surface);
+  border-radius: 50px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 22px;
+  box-shadow: 0 0 20px var(--accent-glow);
+  opacity: 0.9;
 }
 
 @keyframes eq-bounce {
@@ -154,6 +179,28 @@ body::before {
 
   .back-btn{
     display: block;
+  }
+
+  .volume {
+    display: none;
+  }
+
+  .eq-container{
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+  }
+
+  .hideSmall {
+    display: none;
+  }
+
+  h1 {
+    font-size: 22px !important;
+  }
+
+  p {
+    font-size: 12px !important;
   }
 }
 

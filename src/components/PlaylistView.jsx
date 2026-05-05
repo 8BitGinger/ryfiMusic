@@ -101,18 +101,7 @@ export function PlaylistView({ playlistId }) {
             {isThisPlaying ? '⏸' : <Play size={16} fill="#000" />}
             &nbsp;{isThisPlaying ? 'Pause' : 'Play'}
           </button>
-          <button style={{
-            display: 'flex', alignItems: 'center', gap: 6,
-            color: 'var(--text-secondary)', padding: '10px 16px',
-            borderRadius: 50, border: '1px solid var(--border)',
-            fontSize: 13, fontWeight: 500,
-            transition: 'all 0.15s',
-          }}
-            onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--border-bright)'; e.currentTarget.style.color = 'var(--text-primary)' }}
-            onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.color = 'var(--text-secondary)' }}
-          >
-            <Shuffle size={14} /> Shuffle
-          </button>
+
         </div>
       </div>
       
