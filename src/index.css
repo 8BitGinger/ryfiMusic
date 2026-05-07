@@ -286,6 +286,7 @@ body::before {
 
   .hero img {
     height: 250px !important;
+    width:  250px !important;
   }
 
   h1 {
