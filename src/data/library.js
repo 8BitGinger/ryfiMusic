@@ -1174,7 +1174,7 @@ export const tracks = [
   {
     id: 't100',
     title: 'Venom',
-    artist: 'RyFi & @dearonwiley',
+    artist: 'RyFi',
     album: 'Flow Lab',
     duration: 316,
     src: 'https://cdn1.suno.ai/5bed3c6f-1885-4a55-ba43-9e47a3547bc8.mp3',
@@ -1295,7 +1295,7 @@ export const tracks = [
   {
     id: 't110',
     title: 'Spice It Up - Spice Girls Cover',
-    artist: 'RyFi (covering Spice Girls)',
+    artist: 'RyFi',
     album: 'Pulse',
     duration: 239,
     src: 'https://cdn1.suno.ai/e83bbe4b-5166-46fc-81e8-8d874c05a4c7.mp3',
@@ -1738,7 +1738,7 @@ export const tracks = [
     id: 't147',
     title: 'Shadowmaster',
     artist: 'RyFi',
-    album: 'Alt Wave',
+    album: 'Alt Waves',
     duration: 339,
     src: 'https://cdn1.suno.ai/5f435d9b-ea29-4b90-bf43-77da515e91e0.mp3',
     art: '/art/shadowmaster.webp',
@@ -1758,6 +1758,100 @@ export const tracks = [
     bpm: null,
    },
 
+   {
+    id: 't149',
+    title: 'Wear That',
+    artist: 'RyFi',
+    album: 'Silk Sheets',
+    duration: 227,
+    src: 'https://cdn1.suno.ai/7ad4e911-8787-483b-b883-348a496c7202.mp3',
+    art: '/art/wearThat.webp',
+    genre: 'Dark R&B',
+    bpm: 96,
+   },
+
+   {
+    id: 't150',
+    title: 'Before the Bloom',
+    artist: 'RyFi',
+    album: 'Alt Waves',
+    duration: 177,
+    src: 'https://cdn1.suno.ai/79cac44e-eeec-49a7-be2d-acb0e3a84df4.mp3',
+    art: '/art/beforeTheBloom.webp',
+    genre: 'Indie Rock',
+    bpm: 110,
+   },
+   {
+    id: 't151',
+    title: 'Enough',
+    artist: 'RyFi',
+    album: 'Alt Waves',
+    duration: 264,
+    src: 'https://cdn1.suno.ai/d7bc7f46-45be-4dc8-85eb-62f4ca432272.mp3',
+    art: '/art/enough.webp',
+    genre: 'Alternative Rock',
+    bpm: null,
+   },
+
+   {
+    id: 't152',
+    title: 'Five O\'Clock Fire',
+    artist: 'RyFi', 
+    album: 'High Gain',
+    duration: 152,
+    src: 'https://cdn1.suno.ai/319ebdd7-a6ae-4136-a276-0e93ac9d8664.mp3',
+    art: '/art/fiveFire.webp',
+    genre: 'Nu-Metal',
+    bpm: null,
+   },
+
+   {
+    id: 't153',
+    title: 'Haunted Kind of Heartbreak',
+    artist: 'RyFi',
+    album: 'Heart & Break',
+    duration: 182,
+    src: 'https://cdn1.suno.ai/83453158-9f19-42f7-bb4e-edc812c59e84.mp3',
+    art: '/art/hauntedHeartbreak.webp',
+    genre: 'Dark Pop',
+    bpm: 98,
+   },
+
+   {
+    id: 't154',
+    title: 'Doin\' Just Fiiine!',
+    artist: 'RyFi',
+    album: 'Pulse',
+    duration: 149,
+    src: 'https://cdn1.suno.ai/c0bee38c-f199-4a71-828f-9cbb2ef5f27d.mp3',
+    art: '/art/doinJustFine.webp',
+    genre: 'G-Funk Pop',
+    bpm: 115,
+   },
+
+   {
+    id: 't155',
+    title: 'Orbiting The Static',
+    artist: 'RyFi',
+    album: 'Synergy',
+    duration: 217,
+    src: 'https://cdn1.suno.ai/fcb089b3-8f6e-4876-a550-6cb4fd26c949.mp3',
+    art: '/art/orbitingTheStatic.webp',
+    genre: 'Psychedelic Boom-Bap',
+    bpm: null,
+   },
+
+   {
+    id: 't156',
+    title: 'You Got Mail',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 176,
+    src: 'https://cdn1.suno.ai/8f91553f-aef1-45b4-8238-860b684e390f.mp3',
+    art: '/art/gotMail.webp',
+    genre: 'Avante-Garde Metal',
+    bpm: null,
+   }
 
 
 
@@ -1797,58 +1891,60 @@ export const playlists = [
     id: 'pl2',
     name: 'Dirt Road',
     description: 'Country Trap, Outlaw Country, and Traditional Country for those dusty drives',
-    trackIds: ['t15', 't90', 't14', 't16', 't27', 't37', 't31', 't50', 't62', 't64', 't68', 't80', 't85', 't103', 't107', 't135', 't104', 't124'],
+    trackIds: ['t15', 't104', 't90', 't14', 't16', 't27', 't37', 't31', 't50', 't62', 't64', 't68', 't80', 't85', 't103', 't107', 't135', 't124'],
     color: '#bda26d',
   },
   {
     id: 'pl3',
     name: 'Synergy',
     description: 'Manifestation, Simulation Theory, and the Power of Your Mind Collide',
-    trackIds: ['t13','t5', 't12', 't7', 't44', 't43', 't33', 't46', 't49', 't35', 't63', 't66', 't67', 't69', 't71',  't109',  ],
+    trackIds: ['t13','t5', 't12', 't7', 't44', 't67', 't43',  't155', 't33', 't46', 't49', 't35', 't63', 't66', 't69', 't71',  't109'],
     color: '#0b8cf5',
   },
   {
     id: 'pl4',
     name: 'Heart & Break',
     description: 'Love, Heartbreak, and Toxic Relationships Explored',
-    trackIds: ['t79', 't28', 't83', 't18', 't51', 't112', 't32', 't57', 't60', 't72', 't73',  't114',  't119', 't137', 't138', 't17', 't4' ],
+    trackIds: ['t153', 't83','t28','t79',  't18', 't51', 't112', 't32', 't57', 't60', 't72', 't73',  't114',  't119', 't74', 't137', 't138', 't17', 't4' ],
     color: '#e2231c',
   },
   {    id: 'pl6',
     name: 'Alt Waves',
     description: 'Alternative vibes for Late-Night drives and introspective moments',
-    trackIds: ['t61', 't117','t6', 't8', 't9', 't41', 't75', 't78', 't86', 't147','t92',  't131', 't139', 't134', 't140', 't143'],
+    trackIds: ['t61', 't117','t6', 't8', 't9', 't41', 't75', 't78', 't86', 't147','t92','t151', 't131', 't139', 't134', 't140', 't143', 't150'],
     color: '#36c236',
   },
   {
     id: 'pl9',
     name: 'Pulse',
     description: 'Pop hits, Electronica, and Energetic vibes for any occasion',
-    trackIds: ['t116','t21', 't20', 't19', 't74', 't128', 't81', 't82', 't89' , 't127', 't93' , 't94', 't125', 't106', 't110', 't126',     't145'],
+    trackIds: ['t116','t21', 't20', 't19', 't154',  't128', 't81', 't82', 't89' , 't127', 't93' , 't94', 't125', 't106', 't110', 't126',     't145'],
     color: '#ff4081',
   },
   {
     id: 'pl7',
     name: 'High Gain',
     description: 'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
-    trackIds: ['t22', 't40',  't23', 't133', 't52','t24', 't102',  't56', 't76', 't77' , 't91','t47', 't123', 't130', 't132'],
+    trackIds: ['t22', 't40',  't23', 't133', 't52','t24', 't102',  't56', 't152', 't76', 't77' , 't156', 't91','t47', 't123', 't130', 't132'],
     color: '#ed6d3a',
   },
-  {
-    id: 'pl8',
-    name: 'Silk Sheets',
-    description: 'Smooth, sensual, and perfect for After Hours and intimate moments',
-    trackIds: ['t59', 't11','t115',  't25','t146','t26', 't39', 't54', 't55', 't58', 't84', 't99', 't148'],
-    color: '#b642d3',
-  },
 
-  {
+    {
     id: 'pl10',
     name: 'Coffee & Clouds',
     description: 'LoFi, Mellow, and Emotional vibes for Rainy Days and Good Crys',
     trackIds: ['t70', 't97', 't38', 't42', 't65', 't45',, 't141', 't111', 't121', 't136', 't122', 't129', 't120', 't142', 't144'],
     color: '#f8d359',
   },
+  {
+    id: 'pl8',
+    name: 'Silk Sheets',
+    description: 'Smooth, sensual, and perfect for After Hours and intimate moments',
+    trackIds: ['t59', 't11','t115',  't25','t146','t26', 't149', 't39', 't54', 't55', 't58', 't84', 't99', 't148'],
+    color: '#b642d3',
+  },
+
+
 
 
 

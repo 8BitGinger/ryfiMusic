@@ -2,7 +2,7 @@ import React from 'react'
 import { Play } from 'lucide-react'
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
-import logo from '/logo4.png'
+import logo from '/recordLogo.png'
 
 function PlaylistCard({ playlist, onClick }) {
   const { tracks, playTrack, currentTrack, isPlaying } = usePlayerStore()
@@ -102,7 +102,8 @@ export function HomeView() {
     <div style={{ height: '100%', overflowY: 'auto', padding: '40px' }}>
       {/* Hero */}
       <div className='hero' style={{ marginBottom: 40, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <img src={logo} alt="RyFi Logo" style={{ width: 220, height: 220, borderRadius: '50%', marginBottom: 20 }} />
+        <div className="hero-cover">
+        <img src={logo} alt="RyFi Logo" style={{  height: 350,  marginBottom: 20 }} />
         <h1 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(28px, 5vw, 52px)',
@@ -119,6 +120,7 @@ export function HomeView() {
         <p style={{ color: 'var(--text-secondary)', fontSize: 16 }}>
           Welcome to the RyFi universe — all original, all mine.
         </p>
+        </div>
       </div>
 
       {/* Featured playlists */}

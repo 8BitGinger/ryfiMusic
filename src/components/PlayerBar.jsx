@@ -196,9 +196,9 @@ export function PlayerBar() {
           {isPlaying && (
             <div style={{
               position: 'absolute', inset: 0,
-              border: '2px solid var(--accent)',
+              border: '2px solid #00e5ffb2',
               borderRadius: 8,
-              animation: 'pulse-ring 2s ease-out infinite',
+              animation: 'pulse-ring 3s ease-out infinite',
               pointerEvents: 'none',
             }} />
           )}
