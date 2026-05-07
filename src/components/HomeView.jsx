@@ -103,7 +103,7 @@ export function HomeView() {
       {/* Hero */}
       <div className='hero' style={{ marginBottom: 40, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div className="hero-cover">
-        <img src={logo} alt="RyFi Logo" style={{  height: 350,  marginBottom: 20 }} />
+        <img src={logo} alt="RyFi Logo" style={{  height: 350, width: 350, marginBottom: 20 }} />
         <h1 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(28px, 5vw, 52px)',
