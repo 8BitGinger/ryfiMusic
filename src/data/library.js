@@ -7,7 +7,7 @@
 //   4. Suno also gives you a direct CDN link — you can use that URL directly
 // ─────────────────────────────────────────────────────────────────────────────
 
-import { a, i } from "framer-motion/client";
+import { a, i } from 'framer-motion/client';
 
 export const tracks = [
   {
@@ -16,7 +16,7 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Flow Lab',
     duration: 228,
-    src: 'https://cdn1.suno.ai/d40a4722-7f2e-40ca-a3d8-f84e35c13832.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/d40a4722-7f2e-40ca-a3d8-f84e35c13832.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/ghostFrequency.webp',
     genre: 'Noir Country-Trap',
     bpm: 145,
@@ -27,18 +27,18 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Flow Lab',
     duration: 262,
-    src: 'https://cdn1.suno.ai/e30861b3-6651-41fe-8e7d-761c6b714544.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/e30861b3-6651-41fe-8e7d-761c6b714544.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/whiskeyWolf.webp', // 👈 replace with your cover art path or Suno URL
     genre: 'UK Drill',
     bpm: 144,
   },
   {
     id: 't3',
-    title: 'Cello\'s Grudge',
+    title: "Cello's Grudge",
     artist: 'RyFi',
     album: 'Flow Lab',
     duration: 194,
-    src: 'https://cdn1.suno.ai/8122412c-fbf7-4362-a21c-30eda18e8e2d.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/8122412c-fbf7-4362-a21c-30eda18e8e2d.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/cellosGrudge.webp', // 👈 replace with your cover art path or Suno URL
     genre: 'Hardcord Lo-Fi',
     bpm: null,
@@ -49,7 +49,7 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Heart & Break',
     duration: 312,
-    src: 'https://cdn1.suno.ai/6b3e6388-e996-4dd0-986c-5e35435c67ea.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/6b3e6388-e996-4dd0-986c-5e35435c67ea.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/yourLastSong.webp', // 👈 replace with your cover art path or Suno URL
     genre: 'Dark Celtic Trap',
     bpm: 72,
@@ -60,7 +60,7 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Synergy',
     duration: 323,
-    src: 'https://cdn1.suno.ai/afa7021b-7f2a-4076-ac6a-842951504cde.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/afa7021b-7f2a-4076-ac6a-842951504cde.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/iamInfinite.webp', // 👈 replace with your cover art path or Suno URL
     genre: 'Spiritual Hip-Hop',
     bpm: 95,
@@ -71,9 +71,9 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Alt Waves',
     duration: 268,
-    src: 'https://cdn1.suno.ai/19c2111b-4f21-40b9-851d-ce8c96877c47.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/19c2111b-4f21-40b9-851d-ce8c96877c47.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/finalSound.webp', // 👈 replace with your cover art path or Suno URL
-    genre: '90\'s Alternative',
+    genre: "90's Alternative",
     bpm: null,
   },
   {
@@ -82,7 +82,7 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Synergy',
     duration: 199,
-    src: 'https://cdn1.suno.ai/ed4bfdf6-9bca-446b-bdcb-b39cfc2ae9fc.mp3',            // 👈 replace with your .mp3 path or Suno URL
+    src: 'https://cdn1.suno.ai/ed4bfdf6-9bca-446b-bdcb-b39cfc2ae9fc.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/walkingInMyPower.webp', // 👈 replace with your cover art path or Suno URL
     genre: 'Drum & Bass',
     bpm: 174,
@@ -301,7 +301,7 @@ export const tracks = [
     id: 't27',
     title: 'Last Call Casanova',
     artist: 'RyFi',
-      album: 'Dirt Road',
+    album: 'Dirt Road',
     duration: 274,
     src: 'https://cdn1.suno.ai/22a8b6f3-fed8-489c-a7ea-8620c57f68ab.mp3',
     art: '/art/lastCall.webp',
@@ -310,7 +310,7 @@ export const tracks = [
   },
   {
     id: 't28',
-    title: 'Can\'t Sleep',
+    title: "Can't Sleep",
     artist: 'RyFi',
     album: 'Heart & Break',
     duration: 192,
@@ -322,7 +322,7 @@ export const tracks = [
 
   {
     id: 't29',
-    title: 'Let\'s Get High  (ft. Timbaland)',
+    title: "Let's Get High  (ft. Timbaland)",
     artist: 'RyFi feat. Timbaland',
     album: 'Flow Lab',
     duration: 297,
@@ -331,8 +331,9 @@ export const tracks = [
     genre: 'LoFi Trap',
     bpm: 140,
   },
-  
-  {id: 't30',
+
+  {
+    id: 't30',
     title: '1st Day Out - One Night Duet',
     artist: 'RyFi ft. @dearonwiley',
     album: 'Flow Lab',
@@ -510,7 +511,7 @@ export const tracks = [
     genre: 'Trap Phonk',
     bpm: 175,
   },
-{
+  {
     id: 't45',
     title: 'Healing War',
     artist: 'RyFi',
@@ -522,7 +523,7 @@ export const tracks = [
     bpm: 110,
   },
 
-    {
+  {
     id: 't46',
     title: 'The Simulation - LoFi Rewind',
     artist: 'RyFi',
@@ -533,7 +534,6 @@ export const tracks = [
     genre: 'LoFi',
     bpm: 140,
   },
-
 
   {
     id: 't47',
@@ -705,7 +705,7 @@ export const tracks = [
 
   {
     id: 't61',
-    title: 'I\'m Drunk Again',
+    title: "I'm Drunk Again",
     artist: 'RyFi',
     album: 'Alt Waves',
     duration: 207,
@@ -775,7 +775,8 @@ export const tracks = [
     bpm: 92,
   },
 
-{    id: 't67',
+  {
+    id: 't67',
     title: 'Flow State',
     artist: 'RyFi',
     album: 'Synergy',
@@ -785,7 +786,7 @@ export const tracks = [
     genre: 'LoFi Chillstep',
     bpm: 88,
   },
- 
+
   {
     id: 't68',
     title: 'Monochrome Grid',
@@ -834,8 +835,6 @@ export const tracks = [
     bpm: null,
   },
 
-
-
   {
     id: 't72',
     title: 'Poison in the Sheets',
@@ -874,7 +873,7 @@ export const tracks = [
 
   {
     id: 't75',
-    title: 'Cruisin\' Through the Shadows',
+    title: "Cruisin' Through the Shadows",
     artist: 'RyFi',
     album: 'Alt Waves',
     duration: 292,
@@ -955,7 +954,7 @@ export const tracks = [
     genre: 'Reggae Pop-Rock',
     bpm: null,
   },
-  
+
   {
     id: 't82',
     title: 'First Date Vibes',
@@ -1064,7 +1063,8 @@ export const tracks = [
     bpm: null,
   },
 
-  {id : 't91',
+  {
+    id: 't91',
     title: 'Choosing the Light Today',
     artist: 'RyFi',
     album: 'High Gain',
@@ -1269,7 +1269,7 @@ export const tracks = [
 
   {
     id: 't108',
-    title: 'X\'s Only (It\'s Elementary)',
+    title: "X's Only (It's Elementary)",
     artist: 'RyFi',
     album: 'Flow Lab',
     duration: 272,
@@ -1277,7 +1277,6 @@ export const tracks = [
     art: '/art/x.webp',
     genre: 'Dirty South Trap',
     bpm: 94,
-
   },
 
   {
@@ -1318,7 +1317,7 @@ export const tracks = [
 
   {
     id: 't112',
-    title: 'We Don\'t Talk Anymore',
+    title: "We Don't Talk Anymore",
     artist: 'RyFi & @kostaboda',
     album: 'Heart & Break',
     duration: 232,
@@ -1413,8 +1412,8 @@ export const tracks = [
   },
 
   {
-    id: 't120', 
-    title: 'Casanova\'s Curse',
+    id: 't120',
+    title: "Casanova's Curse",
     artist: 'RyFi',
     album: 'Coffee & Clouds',
     duration: 176,
@@ -1471,7 +1470,7 @@ export const tracks = [
     genre: 'Hick Hop',
     bpm: 82,
   },
-   {
+  {
     id: 't125',
     title: 'Zero to Sixty',
     artist: 'RyFi',
@@ -1481,9 +1480,9 @@ export const tracks = [
     art: '/art/zeroSixty.webp',
     genre: 'Teen Pop',
     bpm: 110,
-   },
+  },
 
-   {
+  {
     id: 't126',
     title: 'The Current',
     artist: 'RyFi',
@@ -1493,9 +1492,9 @@ export const tracks = [
     art: '/art/theCurrent.webp',
     genre: 'Dubstep',
     bpm: 150,
-   },
+  },
 
-   {
+  {
     id: 't127',
     title: 'The Return',
     artist: 'RyFi',
@@ -1505,9 +1504,9 @@ export const tracks = [
     art: '/art/theReturn.webp',
     genre: '90s New Jack Swing',
     bpm: 100,
-   },
+  },
 
-   {
+  {
     id: 't128',
     title: 'Infinite',
     artist: 'RyFi',
@@ -1517,9 +1516,9 @@ export const tracks = [
     art: '/art/infinite.webp',
     genre: 'Synth Pop',
     bpm: 78,
-   },
+  },
 
-   {
+  {
     id: 't129',
     title: 'Chasing the Echo',
     artist: 'RyFi',
@@ -1529,9 +1528,9 @@ export const tracks = [
     art: '/art/chasingTheEcho.webp',
     genre: 'Trap Soul',
     bpm: 78,
-   },
+  },
 
-   {
+  {
     id: 't130',
     title: 'Systematic Haunt',
     artist: 'RyFi',
@@ -1541,8 +1540,8 @@ export const tracks = [
     art: '/art/systematicHaunt.webp',
     genre: 'Industrial Trap Rock',
     bpm: 140,
-   },
-   {
+  },
+  {
     id: 't131',
     title: 'The Great Escape',
     artist: 'RyFi',
@@ -1552,9 +1551,9 @@ export const tracks = [
     art: '/art/greatEscape.webp',
     genre: 'Folk Hop',
     bpm: 90,
-   },
+  },
 
-   {
+  {
     id: 't132',
     title: 'Pointless',
     artist: 'RyFi',
@@ -1564,9 +1563,9 @@ export const tracks = [
     art: '/art/pointless.webp',
     genre: 'Post-Hardcore',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't133',
     title: 'Chrysalis',
     artist: 'RyFi',
@@ -1576,9 +1575,9 @@ export const tracks = [
     art: '/art/chrysalis.webp',
     genre: '70s Mystic Rock',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't134',
     title: 'Velvet & Glass',
     artist: 'RyFi',
@@ -1588,11 +1587,11 @@ export const tracks = [
     art: '/art/velvetGlass.webp',
     genre: 'Glitch Soul',
     bpm: 135,
-   },
+  },
 
-   {
+  {
     id: 't135',
-    title: 'Must\'ve Been',
+    title: "Must've Been",
     artist: 'RyFi',
     album: 'Dirt Road',
     duration: 292,
@@ -1600,11 +1599,11 @@ export const tracks = [
     art: '/art/mustveBeen.webp',
     genre: 'Traditional Country',
     bpm: 92,
-   },
+  },
 
-   {
+  {
     id: 't136',
-    title: 'Line Don\'t Break (Collab Cover)',
+    title: "Line Don't Break (Collab Cover)",
     artist: 'RyFi & @ARYVN',
     album: 'Coffee & Clouds',
     duration: 183,
@@ -1612,9 +1611,9 @@ export const tracks = [
     art: '/art/lineDontBreak.webp',
     genre: 'Afro Jazz',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't137',
     title: 'Obsessed',
     artist: 'RyFi',
@@ -1624,11 +1623,11 @@ export const tracks = [
     art: '/art/obsessed.webp',
     genre: 'Dark Pop/Hip-Hop',
     bpm: 88,
-   },
+  },
 
-   {
+  {
     id: 't138',
-    title: 'I Don\'t Miss Her',
+    title: "I Don't Miss Her",
     artist: 'RyFi',
     album: 'Heart & Break',
     duration: 374,
@@ -1636,11 +1635,11 @@ export const tracks = [
     art: '/art/iDontMissHer.webp',
     genre: 'Trap Soul',
     bpm: 82,
-   },
+  },
 
-   {
+  {
     id: 't139',
-    title: 'We\'re Home',
+    title: "We're Home",
     artist: 'RyFi',
     album: 'Alt Waves',
     duration: 232,
@@ -1648,9 +1647,9 @@ export const tracks = [
     art: '/art/wereHome.webp',
     genre: 'Alternative Rock',
     bpm: 140,
-   },
+  },
 
-   {
+  {
     id: 't140',
     title: 'Gravel Throne',
     artist: 'RyFi',
@@ -1660,9 +1659,9 @@ export const tracks = [
     art: '/art/gravelThrone.webp',
     genre: 'Alternative Country/Rock',
     bpm: 70,
-   },
+  },
 
-   {
+  {
     id: 't141',
     title: 'Empty Chair',
     artist: 'RyFi',
@@ -1672,9 +1671,9 @@ export const tracks = [
     art: '/art/emptyChair.webp',
     genre: 'Neo Soul',
     bpm: 62,
-   },
+  },
 
-   {
+  {
     id: 't142',
     title: 'Always Been You',
     artist: 'RyFi',
@@ -1684,9 +1683,9 @@ export const tracks = [
     art: '/art/alwaysBeenYou.webp',
     genre: 'Experimental Fusion',
     bpm: 95,
-   },
+  },
 
-   {
+  {
     id: 't143',
     title: 'Paper Crimes - Papercuts Cover (LIVE)',
     artist: 'RyFi',
@@ -1696,9 +1695,9 @@ export const tracks = [
     art: '/art/paperCrimes.webp',
     genre: 'Live Alternative Rock',
     bpm: null,
-   }, 
+  },
 
-   {
+  {
     id: 't144',
     title: '60Hz Lullaby',
     artist: 'RyFi',
@@ -1708,9 +1707,9 @@ export const tracks = [
     art: '/art/60Hz.png',
     genre: 'LoFi',
     bpm: 60,
-   },
+  },
 
-   {
+  {
     id: 't145',
     title: 'Glass Singing',
     artist: 'RyFi',
@@ -1720,9 +1719,9 @@ export const tracks = [
     art: '/art/glassSinging.webp',
     genre: 'Exerimental Synth Pop',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't146',
     title: 'Dangerous',
     artist: 'RyFi',
@@ -1732,9 +1731,9 @@ export const tracks = [
     art: '/art/dangerous.webp',
     genre: 'Hard Rock',
     bpm: 108,
-   },
+  },
 
-   {
+  {
     id: 't147',
     title: 'Shadowmaster',
     artist: 'RyFi',
@@ -1744,9 +1743,9 @@ export const tracks = [
     art: '/art/shadowmaster.webp',
     genre: 'Alternative Rock',
     bpm: 98,
-   },
+  },
 
-   {
+  {
     id: 't148',
     title: 'The Misses',
     artist: 'RyFi',
@@ -1756,9 +1755,9 @@ export const tracks = [
     art: '/art/theMisses.webp',
     genre: '70s Groove',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't149',
     title: 'Wear That',
     artist: 'RyFi',
@@ -1768,9 +1767,9 @@ export const tracks = [
     art: '/art/wearThat.webp',
     genre: 'Dark R&B',
     bpm: 96,
-   },
+  },
 
-   {
+  {
     id: 't150',
     title: 'Before the Bloom',
     artist: 'RyFi',
@@ -1780,8 +1779,8 @@ export const tracks = [
     art: '/art/beforeTheBloom.webp',
     genre: 'Indie Rock',
     bpm: 110,
-   },
-   {
+  },
+  {
     id: 't151',
     title: 'Enough',
     artist: 'RyFi',
@@ -1791,21 +1790,21 @@ export const tracks = [
     art: '/art/enough.webp',
     genre: 'Alternative Rock',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't152',
-    title: 'Five O\'Clock Fire',
-    artist: 'RyFi', 
+    title: "Five O'Clock Fire",
+    artist: 'RyFi',
     album: 'High Gain',
     duration: 152,
     src: 'https://cdn1.suno.ai/319ebdd7-a6ae-4136-a276-0e93ac9d8664.mp3',
     art: '/art/fiveFire.webp',
     genre: 'Nu-Metal',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't153',
     title: 'Haunted Kind of Heartbreak',
     artist: 'RyFi',
@@ -1815,11 +1814,11 @@ export const tracks = [
     art: '/art/hauntedHeartbreak.webp',
     genre: 'Dark Pop',
     bpm: 98,
-   },
+  },
 
-   {
+  {
     id: 't154',
-    title: 'Doin\' Just Fiiine!',
+    title: "Doin' Just Fiiine!",
     artist: 'RyFi',
     album: 'Pulse',
     duration: 149,
@@ -1827,9 +1826,9 @@ export const tracks = [
     art: '/art/doinJustFine.webp',
     genre: 'G-Funk Pop',
     bpm: 115,
-   },
+  },
 
-   {
+  {
     id: 't155',
     title: 'Orbiting The Static',
     artist: 'RyFi',
@@ -1839,9 +1838,9 @@ export const tracks = [
     art: '/art/orbitingTheStatic.webp',
     genre: 'Psychedelic Boom-Bap',
     bpm: null,
-   },
+  },
 
-   {
+  {
     id: 't156',
     title: 'You Got Mail',
     artist: 'RyFi',
@@ -1851,8 +1850,8 @@ export const tracks = [
     art: '/art/gotMail.webp',
     genre: 'Avante-Garde Metal',
     bpm: null,
-   },
-   {
+  },
+  {
     id: 't157',
     title: 'Yummy Yummy',
     artist: 'RyFi & @sonotzen2',
@@ -1862,21 +1861,21 @@ export const tracks = [
     art: '/art/yummyYummy.webp',
     genre: 'Dark Luxury Trap-Drill',
     bpm: 140,
-   },
+  },
 
-   {
+  {
     id: 't158',
     title: 'Bulletproof',
     artist: 'RyFi',
     album: 'Heart & Break',
     duration: 183,
-    src: 'https://cdn1.suno.ai/adbfbffd-0d44-4341-9516-aea7bf802c96.mp3', 
+    src: 'https://cdn1.suno.ai/adbfbffd-0d44-4341-9516-aea7bf802c96.mp3',
     art: '/art/bulletProof.webp',
     genre: 'Neo-Noir Soul',
     bpm: 85,
-   },
+  },
 
-   {
+  {
     id: 't159',
     title: 'You Matter - Suno Songs 4 Love Contest',
     artist: 'RyFi',
@@ -1886,8 +1885,8 @@ export const tracks = [
     art: '/art/youMatterRemix.webp',
     genre: 'Midwest Emo',
     bpm: 110,
-   },
-   {
+  },
+  {
     id: 't160',
     title: 'Just Let Me Fade',
     artist: 'RyFi',
@@ -1897,8 +1896,8 @@ export const tracks = [
     art: '/art/justLetMeFade.webp',
     genre: 'Indie Emo',
     bpm: null,
-   },
-   {
+  },
+  {
     id: 't161',
     title: 'Hijacked Broadcast',
     artist: 'RyFi',
@@ -1908,116 +1907,285 @@ export const tracks = [
     art: '/art/hijackedBroadcast.webp',
     genre: 'Alternative Rock',
     bpm: null,
-   }
-
-
-
-
-
-
-
-
-
-
+  },
+  {
+    id: 't162',
+    title: 'Adolphs - Night Out',
+    artist: 'RyFi',
+    album: 'Flow Lab',
+    duration: 284,
+    src: 'https://cdn1.suno.ai/4ece251e-dd2c-4f33-a7d0-2afa527d10b4.mp3',
+    art: '/art/adolphs.jpeg',
+    genre: 'Southern Hip-Hop',
+    bpm: 140,
+  },
 ];
 
 // Gradient palettes per album (used as cover art fallback)
 export const albumPalettes = {
-  'Flow Lab':           ['#7c3aed', '#4c0870', '#0f0219'],
-  'Dirt Road':          ['#c5c359', '#7f7a1e', '#2c2c00'],
-  'Synergy':            ['#0b8cf5', '#064d8c', '#021519'],
-  'Heart & Break':      ['#db0e07', '#7f0a05', '#2c0000'],
-  'Alt Waves':         ['#36c236', '#1e7a1e', '#051904'],
-  'Pulse':             ['#ff4081', '#c60055', '#2c0014'],
-  'High Gain':         ['#ed6d3a', '#a83f1e', '#2c0f00'],
-  'Silk Sheets':       ['#b642d3', '#6f1e7a', '#1c0519'],
-  'Coffee & Clouds':    ['#f8d359', '#c48e1e', '#2c1400'],
+  'Flow Lab': ['#7c3aed', '#4c0870', '#0f0219'],
+  'Dirt Road': ['#c5c359', '#7f7a1e', '#2c2c00'],
+  Synergy: ['#0b8cf5', '#064d8c', '#021519'],
+  'Heart & Break': ['#db0e07', '#7f0a05', '#2c0000'],
+  'Alt Waves': ['#36c236', '#1e7a1e', '#051904'],
+  Pulse: ['#ff4081', '#c60055', '#2c0014'],
+  'High Gain': ['#ed6d3a', '#a83f1e', '#2c0f00'],
+  'Silk Sheets': ['#b642d3', '#6f1e7a', '#1c0519'],
+  'Coffee & Clouds': ['#f8d359', '#c48e1e', '#2c1400'],
   'Mixtape - All Tracks': ['#00e5ff', '#007a9c', '#05141c'],
 };
-
-
 
 export const playlists = [
   {
     id: 'pl1',
     name: 'Flow Lab',
-    description: 'Trap beats, Boom Bap, and Hardcore Rap to get in the Flow State',
-    trackIds: ['t29','t108', 't1', 't100',  't3', 't10','t96', 't2', 't30', 't34', 't36', 't48', 't53', 't87' , 't88' , 't105', 't98',  't101',  't118'  ],
+    description:
+      'Trap beats, Boom Bap, and Hardcore Rap to get in the Flow State',
+    trackIds: [
+      't29',
+      't108',
+      't1',
+      't100',
+      't3',
+      't10',
+      't96',
+      't2',
+      't30',
+      't34',
+      't36',
+      't48',
+      't53',
+      't87',
+      't88',
+      't105',
+      't98',
+      't101',
+      't118',
+      't162',
+    ],
     color: '#871cdf',
   },
   {
     id: 'pl2',
     name: 'Dirt Road',
-    description: 'Country Trap, Outlaw Country, and Traditional Country for those dusty drives',
-    trackIds: ['t15', 't104', 't90', 't14', 't16', 't27', 't37', 't31', 't50', 't62', 't64', 't68', 't80', 't85', 't103', 't107', 't135', 't124'],
+    description:
+      'Country Trap, Outlaw Country, and Traditional Country for those dusty drives',
+    trackIds: [
+      't15',
+      't104',
+      't90',
+      't14',
+      't16',
+      't27',
+      't37',
+      't31',
+      't50',
+      't62',
+      't64',
+      't68',
+      't80',
+      't85',
+      't103',
+      't107',
+      't135',
+      't124',
+    ],
     color: '#bda26d',
   },
   {
     id: 'pl3',
     name: 'Synergy',
-    description: 'Manifestation, Simulation Theory, and the Power of Your Mind Collide',
-    trackIds: ['t13','t5', 't12', 't7', 't44', 't67', 't43',  't155', 't33', 't46', 't49', 't35', 't63', 't66', 't69', 't71',  't109'],
+    description:
+      'Manifestation, Simulation Theory, and the Power of Your Mind Collide',
+    trackIds: [
+      't13',
+      't5',
+      't12',
+      't7',
+      't44',
+      't67',
+      't43',
+      't155',
+      't33',
+      't46',
+      't49',
+      't35',
+      't63',
+      't66',
+      't69',
+      't71',
+      't109',
+    ],
     color: '#0b8cf5',
   },
   {
     id: 'pl4',
     name: 'Heart & Break',
     description: 'Love, Heartbreak, and Toxic Relationships Explored',
-    trackIds: ['t153', 't83','t28','t79',  't18', 't51', 't112', 't32', 't57', 't60', 't72', 't73',  't114',  't119', 't74', 't137', 't158', 't138',  't17', 't4' ],
+    trackIds: [
+      't153',
+      't83',
+      't28',
+      't79',
+      't18',
+      't51',
+      't112',
+      't32',
+      't57',
+      't60',
+      't72',
+      't73',
+      't114',
+      't119',
+      't74',
+      't137',
+      't158',
+      't138',
+      't17',
+      't4',
+    ],
     color: '#e2231c',
   },
-  {    id: 'pl6',
+  {
+    id: 'pl6',
     name: 'Alt Waves',
-    description: 'Alternative vibes for Late-Night drives and introspective moments',
-    trackIds: ['t61', 't117','t6', 't8', 't9', 't41', 't160', 't75', 't78', 't86', 't147','t92','t151', 't131', 't139', 't134', 't140', 't143', 't150', 't159'],
+    description:
+      'Alternative vibes for Late-Night drives and introspective moments',
+    trackIds: [
+      't61',
+      't117',
+      't6',
+      't8',
+      't9',
+      't41',
+      't160',
+      't75',
+      't78',
+      't86',
+      't147',
+      't92',
+      't151',
+      't131',
+      't139',
+      't134',
+      't140',
+      't143',
+      't150',
+      't159',
+    ],
     color: '#36c236',
   },
   {
     id: 'pl9',
     name: 'Pulse',
     description: 'Pop hits, Electronica, and Energetic vibes for any occasion',
-    trackIds: ['t116','t21', 't20', 't19', 't154',  't128', 't81', 't82', 't89' , 't127', 't93' , 't94', 't125', 't106', 't110', 't126',     't145'],
+    trackIds: [
+      't116',
+      't21',
+      't20',
+      't19',
+      't154',
+      't128',
+      't81',
+      't82',
+      't89',
+      't127',
+      't93',
+      't94',
+      't125',
+      't106',
+      't110',
+      't126',
+      't145',
+    ],
     color: '#ff4081',
   },
   {
     id: 'pl7',
     name: 'High Gain',
-    description: 'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
-    trackIds: ['t22', 't40',  't23', 't133', 't161', 't52','t24', 't102',  't56', 't152', 't76', 't77' , 't156', 't91','t47', 't123', 't130', 't132'],
+    description:
+      'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
+    trackIds: [
+      't22',
+      't40',
+      't23',
+      't133',
+      't161',
+      't52',
+      't24',
+      't102',
+      't56',
+      't152',
+      't76',
+      't77',
+      't156',
+      't91',
+      't47',
+      't123',
+      't130',
+      't132',
+    ],
     color: '#ed6d3a',
   },
 
-    {
+  {
     id: 'pl10',
     name: 'Coffee & Clouds',
-    description: 'LoFi, Mellow, and Emotional vibes for Rainy Days and Good Crys',
-    trackIds: ['t70', 't97', 't38', 't42', 't65', 't45',, 't141', 't111', 't121', 't136', 't122', 't129', 't120', 't142', 't144'],
+    description:
+      'LoFi, Mellow, and Emotional vibes for Rainy Days and Good Crys',
+    trackIds: [
+      't70',
+      't97',
+      't38',
+      't42',
+      't65',
+      't45',
+      ,
+      't141',
+      't111',
+      't121',
+      't136',
+      't122',
+      't129',
+      't120',
+      't142',
+      't144',
+    ],
     color: '#f8d359',
   },
   {
     id: 'pl8',
     name: 'Silk Sheets',
-    description: 'Smooth, sensual, and perfect for After Hours and intimate moments',
-    trackIds: ['t59', 't11','t115',  't25','t146','t26', 't149', 't157', 't39', 't54', 't55', 't58', 't84', 't99', 't148'],
+    description:
+      'Smooth, sensual, and perfect for After Hours and intimate moments',
+    trackIds: [
+      't59',
+      't11',
+      't115',
+      't25',
+      't146',
+      't26',
+      't149',
+      't157',
+      't39',
+      't54',
+      't55',
+      't58',
+      't84',
+      't99',
+      't148',
+    ],
     color: '#b642d3',
   },
-
-
-
-
-
-
-
-
-
-
-
 
   {
     id: 'pl5',
     name: 'Mixtape - All Tracks',
     description: 'Everything in the RyFi universe',
-    trackIds: tracks.sort(() => 0.5 - Math.random()).slice(0, 250).map(t => t.id),
+    trackIds: tracks
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 250)
+      .map((t) => t.id),
     color: '#00e5ff',
   },
 ];
