@@ -7,7 +7,7 @@
 //   4. Suno also gives you a direct CDN link — you can use that URL directly
 // ─────────────────────────────────────────────────────────────────────────────
 
-import { i } from "framer-motion/client";
+import { a, i } from "framer-motion/client";
 
 export const tracks = [
   {
@@ -1810,8 +1810,8 @@ export const tracks = [
     title: 'Haunted Kind of Heartbreak',
     artist: 'RyFi',
     album: 'Heart & Break',
-    duration: 182,
-    src: 'https://cdn1.suno.ai/83453158-9f19-42f7-bb4e-edc812c59e84.mp3',
+    duration: 218,
+    src: 'https://cdn1.suno.ai/0190d4b9-3109-4d56-8593-6fdaa844c6a4.mp3',
     art: '/art/hauntedHeartbreak.webp',
     genre: 'Dark Pop',
     bpm: 98,
@@ -1851,7 +1851,65 @@ export const tracks = [
     art: '/art/gotMail.webp',
     genre: 'Avante-Garde Metal',
     bpm: null,
+   },
+   {
+    id: 't157',
+    title: 'Yummy Yummy',
+    artist: 'RyFi & @sonotzen2',
+    album: 'Silk Sheets',
+    duration: 274,
+    src: 'https://cdn1.suno.ai/757b1133-96c6-4430-a7a7-f0cea8df8d0b.mp3',
+    art: '/art/yummyYummy.webp',
+    genre: 'Dark Luxury Trap-Drill',
+    bpm: 140,
+   },
+
+   {
+    id: 't158',
+    title: 'Bulletproof',
+    artist: 'RyFi',
+    album: 'Heart & Break',
+    duration: 183,
+    src: 'https://cdn1.suno.ai/adbfbffd-0d44-4341-9516-aea7bf802c96.mp3', 
+    art: '/art/bulletProof.webp',
+    genre: 'Neo-Noir Soul',
+    bpm: 85,
+   },
+
+   {
+    id: 't159',
+    title: 'You Matter - Suno Songs 4 Love Contest',
+    artist: 'RyFi',
+    album: 'Alt Waves',
+    duration: 270,
+    src: 'https://cdn1.suno.ai/5e7574ba-0d8d-4f40-8a5a-87581f90a720.mp3',
+    art: '/art/youMatterRemix.webp',
+    genre: 'Midwest Emo',
+    bpm: 110,
+   },
+   {
+    id: 't160',
+    title: 'Just Let Me Fade',
+    artist: 'RyFi',
+    album: 'Alt Waves',
+    duration: 256,
+    src: 'https://cdn1.suno.ai/dc2faa75-ad97-409e-a9e6-ec983735e707.mp3',
+    art: '/art/justLetMeFade.webp',
+    genre: 'Indie Emo',
+    bpm: null,
+   },
+   {
+    id: 't161',
+    title: 'Hijacked Broadcast',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 284,
+    src: 'https://cdn1.suno.ai/1fd52724-f821-44c3-871a-818bd43fb248.mp3',
+    art: '/art/hijackedBroadcast.webp',
+    genre: 'Alternative Rock',
+    bpm: null,
    }
+
 
 
 
@@ -1905,13 +1963,13 @@ export const playlists = [
     id: 'pl4',
     name: 'Heart & Break',
     description: 'Love, Heartbreak, and Toxic Relationships Explored',
-    trackIds: ['t153', 't83','t28','t79',  't18', 't51', 't112', 't32', 't57', 't60', 't72', 't73',  't114',  't119', 't74', 't137', 't138', 't17', 't4' ],
+    trackIds: ['t153', 't83','t28','t79',  't18', 't51', 't112', 't32', 't57', 't60', 't72', 't73',  't114',  't119', 't74', 't137', 't158', 't138',  't17', 't4' ],
     color: '#e2231c',
   },
   {    id: 'pl6',
     name: 'Alt Waves',
     description: 'Alternative vibes for Late-Night drives and introspective moments',
-    trackIds: ['t61', 't117','t6', 't8', 't9', 't41', 't75', 't78', 't86', 't147','t92','t151', 't131', 't139', 't134', 't140', 't143', 't150'],
+    trackIds: ['t61', 't117','t6', 't8', 't9', 't41', 't160', 't75', 't78', 't86', 't147','t92','t151', 't131', 't139', 't134', 't140', 't143', 't150', 't159'],
     color: '#36c236',
   },
   {
@@ -1925,7 +1983,7 @@ export const playlists = [
     id: 'pl7',
     name: 'High Gain',
     description: 'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
-    trackIds: ['t22', 't40',  't23', 't133', 't52','t24', 't102',  't56', 't152', 't76', 't77' , 't156', 't91','t47', 't123', 't130', 't132'],
+    trackIds: ['t22', 't40',  't23', 't133', 't161', 't52','t24', 't102',  't56', 't152', 't76', 't77' , 't156', 't91','t47', 't123', 't130', 't132'],
     color: '#ed6d3a',
   },
 
@@ -1940,10 +1998,9 @@ export const playlists = [
     id: 'pl8',
     name: 'Silk Sheets',
     description: 'Smooth, sensual, and perfect for After Hours and intimate moments',
-    trackIds: ['t59', 't11','t115',  't25','t146','t26', 't149', 't39', 't54', 't55', 't58', 't84', 't99', 't148'],
+    trackIds: ['t59', 't11','t115',  't25','t146','t26', 't149', 't157', 't39', 't54', 't55', 't58', 't84', 't99', 't148'],
     color: '#b642d3',
   },
-
 
 
 
@@ -1960,7 +2017,7 @@ export const playlists = [
     id: 'pl5',
     name: 'Mixtape - All Tracks',
     description: 'Everything in the RyFi universe',
-    trackIds: tracks.sort(() => 0.5 - Math.random()).slice(0, 150).map(t => t.id),
+    trackIds: tracks.sort(() => 0.5 - Math.random()).slice(0, 250).map(t => t.id),
     color: '#00e5ff',
   },
 ];

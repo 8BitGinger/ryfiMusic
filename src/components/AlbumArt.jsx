@@ -14,6 +14,7 @@ export function AlbumArt({ track, size = 48, style = {}, className = '' }) {
         alt={track?.title}
         width={size}
         height={size}
+        loading="lazy"
         style={{ width: size, height: size, objectFit: 'cover', borderRadius: 'inherit', ...style }}
         className={className}
       />
