@@ -40,7 +40,7 @@ export const tracks = [
     duration: 194,
     src: 'https://cdn1.suno.ai/8122412c-fbf7-4362-a21c-30eda18e8e2d.mp3', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/cellosGrudge.webp', // 👈 replace with your cover art path or Suno URL
-    genre: 'Hardcord Lo-Fi',
+    genre: 'Hardcore Lo-Fi',
     bpm: null,
   },
   {
