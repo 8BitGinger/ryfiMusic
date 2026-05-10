@@ -73,7 +73,7 @@ export function Sidebar() {
       <div style={{ height: 1, background: 'var(--border)', margin: '16px 24px' }} />
 
       {/* Playlists */}
-      <div style={{ padding: '0 12px', flex: 1, overflowY: 'auto' }}>
+      <div style={{ padding: '0 12px', flex: 1, overflowY: 'auto', backgroundColor: '#12141f' }}>
         <p style={{
           padding: '0 12px',
           marginBottom: 8,
@@ -83,6 +83,7 @@ export function Sidebar() {
           textTransform: 'uppercase',
           color: 'var(--text-muted)',
           fontFamily: 'var(--font-display)',
+          
         }}>
           Playlists
         </p>
@@ -111,6 +112,7 @@ export function Sidebar() {
               onMouseLeave={e => { if (!active) e.currentTarget.style.background = 'transparent' }}
             >
               <div style={{
+
                 width: 36, height: 36, borderRadius: 6, overflow: 'hidden', flexShrink: 0,
                 boxShadow: active ? `0 0 10px ${pl.color}44` : 'none',
                 border: active ? `1px solid ${pl.color}44` : '1px solid transparent',

@@ -99,11 +99,11 @@ export function HomeView() {
   const recentTracks = tracks.slice(0, 6)
 
   return (
-    <div style={{ height: '100%', overflowY: 'auto', padding: '40px' }}>
+    <div style={{ height: '100%', overflowY: 'auto', padding: '20px' }}>
       {/* Hero */}
       <div className='hero' style={{ marginBottom: 40, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <div className="hero-cover">
-        <img src={logo} alt="RyFi Logo" style={{  height: 350, width: 350, marginBottom: 20 }} />
+        <img src={logo} alt="RyFi Logo"  />
         <h1 style={{
           fontFamily: 'var(--font-display)',
           fontSize: 'clamp(28px, 5vw, 52px)',

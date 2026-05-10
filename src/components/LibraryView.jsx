@@ -8,13 +8,14 @@ export function LibraryView() {
 
   const albums = [...new Set(tracks.map(t => t.album))]
 
+
   return (
     <div style={{ height: '100%', overflowY: 'auto', padding: '40px' }}>
       <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 28, fontWeight: 800, letterSpacing: '-1px', marginBottom: 8 }}>
         Library
       </h1>
       <p style={{ color: 'var(--text-secondary)', marginBottom: 32 }}>
-        {tracks.length} tracks across {albums.length} albums
+        {tracks.length} tracks across {albums.length} playlists
       </p>
 
       {albums.map(album => {
