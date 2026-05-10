@@ -41,10 +41,13 @@ export const usePlayerStore = create((set, get) => ({
   activeView: 'home',        // 'home' | 'playlist' | 'search' | 'library'
   activePlaylistId: null,
   isSidebarOpen: true,
+  isPlayerExpanded: false,
 
   // ── Actions ────────────────────────────────────────────────────────────────
   setActiveView: (view, playlistId = null) =>
     set({ activeView: view, activePlaylistId: playlistId }),
+
+  setPlayerExpanded: (v) => set({ isPlayerExpanded: v }),
 
   playTrack: (track, playlist = null, queueOverride = null) => {
     const state = get()

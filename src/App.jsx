@@ -1,27 +1,33 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
+import { AnimatePresence } from 'framer-motion'
 import { usePlayerStore } from './store/playerStore.js'
 import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts.js'
 import { Sidebar } from './components/Sidebar.jsx'
 import { PlayerBar } from './components/PlayerBar.jsx'
-import { HomeView } from './components/HomeView.jsx'
-import { PlaylistView } from './components/PlaylistView.jsx'
-import { SearchView } from './components/SearchView.jsx'
-import { LibraryView } from './components/LibraryView.jsx'
+import { FullScreenPlayer } from './components/FullScreenPlayer.jsx'
+
+const HomeView = lazy(() => import('./components/HomeView.jsx').then(m => ({ default: m.HomeView })))
+const PlaylistView = lazy(() => import('./components/PlaylistView.jsx').then(m => ({ default: m.PlaylistView })))
+const SearchView = lazy(() => import('./components/SearchView.jsx').then(m => ({ default: m.SearchView })))
+const LibraryView = lazy(() => import('./components/LibraryView.jsx').then(m => ({ default: m.LibraryView })))
 
 function MainContent() {
   const { activeView, activePlaylistId } = usePlayerStore()
 
-  switch (activeView) {
-    case 'home':    return <HomeView />
-    case 'playlist': return <PlaylistView playlistId={activePlaylistId} />
-    case 'search':  return <SearchView />
-    case 'library': return <LibraryView />
-    default:        return <HomeView />
-  }
+  return (
+    <Suspense fallback={<div style={{ height: '100%' }} />}>
+      {activeView === 'home'     && <HomeView />}
+      {activeView === 'playlist' && <PlaylistView playlistId={activePlaylistId} />}
+      {activeView === 'search'   && <SearchView />}
+      {activeView === 'library'  && <LibraryView />}
+      {!['home','playlist','search','library'].includes(activeView) && <HomeView />}
+    </Suspense>
+  )
 }
 
 export default function App() {
   useKeyboardShortcuts()
+  const { isPlayerExpanded, currentTrack } = usePlayerStore()
 
   return (
     <div style={{
@@ -64,6 +70,13 @@ export default function App() {
 
       {/* Bottom: Player */}
       <PlayerBar />
+
+      {/* Full-screen player overlay */}
+      <AnimatePresence>
+        {isPlayerExpanded && currentTrack && (
+          <FullScreenPlayer key="fullscreen-player" />
+        )}
+      </AnimatePresence>
     </div>
   )
 }

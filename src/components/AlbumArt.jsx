@@ -1,11 +1,47 @@
-import React, { useMemo } from 'react'
+import React, { useMemo, useRef, useState, useEffect } from 'react'
 import { albumPalettes } from '../data/library.js'
 
 export function AlbumArt({ track, size = 48, style = {}, className = '' }) {
+  const ref = useRef(null)
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: '300px' } // preload well before scroll reaches it
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
   const palette = useMemo(() => {
     if (!track) return ['#1a1a2e', '#16213e', '#0f3460']
     return albumPalettes[track.album] || ['#1e2435', '#0e1118', '#080a0f']
   }, [track?.album])
+
+  // Placeholder shown until element scrolls near viewport
+  if (!visible) {
+    return (
+      <div
+        ref={ref}
+        style={{
+          width: size, height: size,
+          borderRadius: 'inherit',
+          background: `linear-gradient(135deg, ${palette[1]}, ${palette[2]})`,
+          flexShrink: 0,
+          ...style,
+        }}
+        className={className}
+      />
+    )
+  }
 
   if (track?.art) {
     return (

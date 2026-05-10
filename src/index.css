@@ -255,6 +255,70 @@ body::before {
   }
 }
 
+/* ── Album art expand hint ───────────────────────────────────────────────── */
+.album-art-clickable {
+  cursor: pointer;
+}
+
+.album-expand-hint {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.album-art-clickable:hover .album-expand-hint {
+  opacity: 1;
+}
+
+/* ── Full-screen player layout ───────────────────────────────────────────── */
+.full-player-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.full-player-art-wrap {
+  flex-shrink: 0;
+}
+
+.full-player-art {
+  width: 240px;
+  height: 240px;
+}
+
+.full-player-controls {
+  width: 100%;
+  max-width: 420px;
+}
+
+@media (min-width: 700px) {
+  .full-player-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 16px;
+  }
+
+  .full-player-art {
+    width: 280px;
+    height: 280px;
+  }
+
+  .full-player-controls {
+    max-width: 380px;
+    padding-top: 8px;
+  }
+}
+
 @media (max-width: 768px) {
   .sidebar {
     display: none;

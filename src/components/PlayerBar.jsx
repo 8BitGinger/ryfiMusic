@@ -8,6 +8,7 @@ import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
 import { EqBars } from './EqBars.jsx'
 
+
 function fmt(secs) {
   if (!secs || isNaN(secs)) return '0:00'
   const m = Math.floor(secs / 60)
@@ -145,6 +146,7 @@ export function PlayerBar() {
     volume, isMuted, shuffle, repeat, isLoading,
     togglePlay, skipNext, skipPrev, seekTo,
     setVolume, toggleMute, toggleShuffle, cycleRepeat,
+    setPlayerExpanded,
   } = usePlayerStore()
 
   if (!currentTrack) {
@@ -185,13 +187,18 @@ export function PlayerBar() {
 
       {/* Left: Track info */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, minWidth: 0 }}>
-        <div style={{
-          width: 52, height: 52, borderRadius: 8,
-          overflow: 'hidden', flexShrink: 0,
-          boxShadow: isPlaying ? `0 0 20px var(--accent-glow)` : 'none',
-          transition: 'box-shadow 0.5s',
-          position: 'relative',
-        }}>
+        <div
+          className="album-art-clickable"
+          onClick={() => setPlayerExpanded(true)}
+          title="Expand player"
+          style={{
+            width: 52, height: 52, borderRadius: 8,
+            overflow: 'hidden', flexShrink: 0,
+            boxShadow: isPlaying ? `0 0 20px var(--accent-glow)` : 'none',
+            transition: 'box-shadow 0.5s',
+            position: 'relative',
+          }}
+        >
           <AlbumArt track={currentTrack} size={52} />
           {isPlaying && (
             <div style={{
@@ -202,6 +209,9 @@ export function PlayerBar() {
               pointerEvents: 'none',
             }} />
           )}
+          <div className="album-expand-hint">
+            <ChevronUp size={16} color="#fff" />
+          </div>
         </div>
         <div style={{ minWidth: 0 }}>
           <div className="eq-container">
