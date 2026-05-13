@@ -4,6 +4,7 @@ import {
   Play, Pause, SkipBack, SkipForward,
   Shuffle, Repeat, Repeat1,
   Volume2, VolumeX, ChevronDown,
+  Sparkles, Mic2,
 } from 'lucide-react'
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
@@ -68,21 +69,57 @@ function BigProgressBar({ progress, duration, onSeek }) {
   )
 }
 
+// Parse lyrics (LRC or plain) into lines
+function parseLyrics(raw) {
+  if (!raw) return []
+  const lines = raw.trim().split('\n')
+  const timed = []
+  const plain = []
+  const re = /^\[(\d+):(\d+(?:\.\d+)?)\]\s*(.*)/
+  for (const line of lines) {
+    const m = line.match(re)
+    if (m) timed.push({ time: parseInt(m[1]) * 60 + parseFloat(m[2]), text: m[3] })
+    else if (line.trim()) plain.push({ time: null, text: line.trim() })
+  }
+  if (timed.length > 0) return timed.sort((a, b) => a.time - b.time)
+  return plain
+}
+
+function currentLineIndex(lines, seek) {
+  if (!lines.length || lines[0].time === null) return -1
+  let idx = 0
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].time <= seek) idx = i
+    else break
+  }
+  return idx
+}
+
 export function FullScreenPlayer() {
   const {
     currentTrack, isPlaying, progress, duration,
     volume, isMuted, shuffle, repeat, isLoading,
     togglePlay, skipNext, skipPrev, seekTo,
     setVolume, toggleMute, toggleShuffle, cycleRepeat,
-    setPlayerExpanded,
+    setPlayerExpanded, setZenMode,
   } = usePlayerStore()
 
   const dragControls = useDragControls()
+  const [showLyrics, setShowLyrics] = useState(false)
+  const lyricsRef = useRef(null)
 
   const palette = albumPalettes[currentTrack?.album] || ['#1e2435', '#0e1118', '#080a0f']
   const RepeatIcon = repeat === 'one' ? Repeat1 : Repeat
   const repeatColor = repeat !== 'none' ? 'var(--accent)' : 'rgba(255,255,255,0.45)'
   const shuffleColor = shuffle ? 'var(--accent)' : 'rgba(255,255,255,0.45)'
+
+  const lines = parseLyrics(currentTrack?.lyrics)
+  const seek = progress * (duration || 1)
+  const activeLine = currentLineIndex(lines, seek)
+
+  const displayLines = lines.length > 0 && lines[0].time === null
+    ? lines.map((l, i) => ({ ...l, active: Math.round(progress * lines.length) === i }))
+    : lines.map((l, i) => ({ ...l, active: i === activeLine }))
 
   return (
     <motion.div
@@ -127,7 +164,7 @@ export function FullScreenPlayer() {
       {/* Content */}
       <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', height: '100%' }}>
 
-        {/* Drag handle — touch this area to swipe down and dismiss */}
+        {/* Drag handle */}
         <div
           onPointerDown={(e) => dragControls.start(e)}
           style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '14px 24px 4px', cursor: 'grab', userSelect: 'none' }}
@@ -146,13 +183,35 @@ export function FullScreenPlayer() {
           <span style={{ fontSize: 13, fontWeight: 600, color: 'rgba(255,255,255,0.4)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
             Now Playing
           </span>
-          <div style={{ width: 40 }} />
+          {/* Right-side buttons: lyrics + zen */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+            <button
+              onClick={() => setShowLyrics(v => !v)}
+              title="Lyrics"
+              style={{
+                color: showLyrics ? 'var(--accent)' : 'rgba(255,255,255,0.45)',
+                lineHeight: 0, padding: 8, borderRadius: 8,
+                transition: 'color 0.15s',
+              }}
+            >
+              <Mic2 size={18} />
+            </button>
+            <button
+              onClick={() => setZenMode(true)}
+              title="Zen Mode"
+              style={{ color: 'rgba(255,255,255,0.45)', lineHeight: 0, padding: 8, borderRadius: 8, transition: 'color 0.15s' }}
+              onMouseEnter={e => e.currentTarget.style.color = 'var(--accent)'}
+              onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.45)'}
+            >
+              <Sparkles size={18} />
+            </button>
+          </div>
         </div>
 
-        {/* Main layout: art + controls */}
+        {/* Main layout */}
         <div
           className="full-player-layout"
-          style={{ flex: 1, overflow: 'auto', padding: '8px 32px 32px', alignItems: 'center', display: 'flex', }}
+          style={{ flex: 1, overflow: 'auto', padding: '8px 32px 32px', alignItems: 'center', display: 'flex' }}
         >
           {/* Album art */}
           <div className="full-player-art-wrap">
@@ -208,6 +267,47 @@ export function FullScreenPlayer() {
                 )}
               </div>
             </div>
+
+            {/* Lyrics panel */}
+            {showLyrics && (
+              <div
+                ref={lyricsRef}
+                style={{
+                  maxHeight: 180,
+                  overflowY: 'auto',
+                  borderRadius: 12,
+                  background: 'rgba(255,255,255,0.04)',
+                  border: '1px solid rgba(255,255,255,0.07)',
+                  padding: '14px 18px',
+                  scrollbarWidth: 'none',
+                  maskImage: 'linear-gradient(transparent 0%, black 12%, black 88%, transparent 100%)',
+                  WebkitMaskImage: 'linear-gradient(transparent 0%, black 12%, black 88%, transparent 100%)',
+                }}
+              >
+                {lines.length === 0 ? (
+                  <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.3)', textAlign: 'center', fontStyle: 'italic' }}>
+                    No lyrics — add them via the lyrics field in library.js
+                  </p>
+                ) : (
+                  displayLines.map((line, i) => (
+                    <p
+                      key={i}
+                      data-active={line.active ? 'true' : 'false'}
+                      style={{
+                        fontSize: line.active ? 15 : 13,
+                        fontWeight: line.active ? 600 : 400,
+                        color: line.active ? '#fff' : 'rgba(255,255,255,0.3)',
+                        lineHeight: 1.7,
+                        transition: 'all 0.3s',
+                        marginBottom: 2,
+                      }}
+                    >
+                      {line.text}
+                    </p>
+                  ))
+                )}
+              </div>
+            )}
 
             {/* Progress */}
             <BigProgressBar
@@ -299,6 +399,7 @@ export function FullScreenPlayer() {
                 }} />
               </div>
             </div>
+
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node -e \"const fm = require\\('./node_modules/framer-motion/dist/cjs/index.js'\\); console.log\\('useDragControls:', typeof fm.useDragControls, '| AnimatePresence:', typeof fm.AnimatePresence\\)\")"
+      "Bash(node -e \"const fm = require\\('./node_modules/framer-motion/dist/cjs/index.js'\\); console.log\\('useDragControls:', typeof fm.useDragControls, '| AnimatePresence:', typeof fm.AnimatePresence\\)\")",
+      "Bash(npm run *)",
+      "Bash(grep -v \"^\\\\s*//\")"
     ]
   }
 }

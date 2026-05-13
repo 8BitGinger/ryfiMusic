@@ -27,27 +27,29 @@ export const usePlayerStore = create((set, get) => ({
   currentTrack: null,
   currentPlaylist: null,
   isPlaying: false,
-  progress: 0,       // 0–1
+  progress: 0,
   duration: 0,
   volume: 0.8,
   isMuted: false,
   shuffle: false,
-  repeat: 'none',   // 'none' | 'one' | 'all'
+  repeat: 'none',
   queue: [],
   queueIndex: 0,
   isLoading: false,
 
   // ── UI state ───────────────────────────────────────────────────────────────
-  activeView: 'home',        // 'home' | 'playlist' | 'search' | 'library'
+  activeView: 'home',
   activePlaylistId: null,
   isSidebarOpen: true,
   isPlayerExpanded: false,
+  isZenMode: false,
 
   // ── Actions ────────────────────────────────────────────────────────────────
   setActiveView: (view, playlistId = null) =>
     set({ activeView: view, activePlaylistId: playlistId }),
 
   setPlayerExpanded: (v) => set({ isPlayerExpanded: v }),
+  setZenMode: (v) => set({ isZenMode: v }),
 
   playTrack: (track, playlist = null, queueOverride = null) => {
     const state = get()
@@ -69,7 +71,6 @@ export const usePlayerStore = create((set, get) => ({
         updateMediaSession(track)
       }
     )
-    // If no src, still update UI
     if (!track.src) {
       set({ isLoading: false, isPlaying: false, duration: track.duration || 0, progress: 0 })
     }
@@ -134,7 +135,7 @@ export const usePlayerStore = create((set, get) => ({
   setQueueIndex: (i) => set({ queueIndex: i }),
 
   handleTrackEnd: () => {
-    const { repeat, queue, queueIndex, shuffle } = get()
+    const { repeat } = get()
     if (repeat === 'one') { howl && howl.seek(0); howl && howl.play(); return }
     get().skipNext()
   },

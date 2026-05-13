@@ -9,7 +9,7 @@ const navItems = [
   { icon: Home, label: 'Home', view: 'home' },
   { icon: Search, label: 'Search', view: 'search' },
   { icon: Library, label: 'Library', view: 'library' },
-  // { icon: Music2, label: 'About', view: 'about' },
+  { icon: Music2, label: 'Artists', view: 'artists' },
 ]
 
 export function Sidebar() {
