@@ -6,6 +6,7 @@ import { Sidebar } from './components/Sidebar.jsx'
 import { PlayerBar } from './components/PlayerBar.jsx'
 import { FullScreenPlayer } from './components/FullScreenPlayer.jsx'
 import { ZenMode } from './components/ZenMode.jsx'
+import { MobileNav } from './components/MobileNav.jsx'
 
 const HomeView = lazy(() => import('./components/HomeView.jsx').then(m => ({ default: m.HomeView })))
 const PlaylistView = lazy(() => import('./components/PlaylistView.jsx').then(m => ({ default: m.PlaylistView })))
@@ -42,6 +43,7 @@ export default function App() {
       {/* Top: Sidebar + Main */}
       <div style={{ display: 'flex', flex: 1, overflow: 'hidden' }}>
         <Sidebar />
+        <MobileNav />
         <main style={{
           flex: 1,
           overflow: 'hidden',

@@ -265,7 +265,7 @@ export function ZenMode() {
         </div>
 
         {/* Lyrics panel */}
-        {lines.length > 0 && (
+        {/* {lines.length > 0 && (
           <div
             ref={lyricsRef}
             style={{
@@ -302,7 +302,6 @@ export function ZenMode() {
           </div>
         )}
 
-        {/* No lyrics placeholder */}
         {lines.length === 0 && (
           <p style={{
             position: 'relative',
@@ -311,7 +310,7 @@ export function ZenMode() {
           }}>
             No lyrics — add them in library.js
           </p>
-        )}
+        )} */}
       </div>
 
       {/* Bottom controls */}

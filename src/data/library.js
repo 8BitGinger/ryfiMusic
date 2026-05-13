@@ -2287,58 +2287,38 @@ export const playlists = [
     color: '#ff4081',
   },
 
-  {
-    id: 'pl11',
-    name: 'Liquid Gold',
-    description: 'Smooth and Slick cross-genre Hits for vibing',
-    trackIds: [
-'t154',
-       
-      't94',
-      't47',
-      't48',
-      't1',
-      't88',
-    't118',
-    't75',
-    't176',
-    't131',
-    't174',
-    't120',
-    't177',
-    't50',
-    't163',
-    ],
-    color: '#f8d359',
-
-    },
-    
     {
-    id: 'pl3',
-    name: 'Synergy',
+    id: 'pl10',
+    name: 'Coffee & Clouds',
     description:
-      'Manifestation, Simulation Theory, and the Metaphysical collide',
+      'LoFi, Mellow, and Emotional vibes for Rainy Days',
     trackIds: [
-      't13',
-      't5',
-      't12',
-      't7',
-      't44',
-      't67',
-      't43',
-      't155',
-      't33',
-      't46',
-      't49',
-      't35',
-      't63',
-      't66',
-      't69',
-      't71',
-      't109',
+        't180',
+      't70',
+      't97',
+      't38',
+    
+      't164',
+      't42',
+      't65',
+      't45',
+      't141',
+      't169',
+      't111',
+      't121',
+      't178',
+      't136',
+      't122',
+      't129',
+      't142',
+      't144',
     ],
-    color: '#0b8cf5',
+    color: '#00e5ff',
   },
+
+
+    
+
 
   {
     id: 'pl4',
@@ -2368,37 +2348,61 @@ export const playlists = [
     color: '#e2231c',
   },
 
-
-
-
   {
-    id: 'pl10',
-    name: 'Coffee & Clouds',
-    description:
-      'LoFi, Mellow, and Emotional vibes for Rainy Days',
+    id: 'pl11',
+    name: 'Liquid Gold',
+    description: 'Smooth and Slick cross-genre Hits for vibing',
     trackIds: [
-        't180',
-      't70',
-      't97',
-      't38',
-    
-      't164',
-      't42',
-      't65',
-      't45',
-      't141',
-      't169',
-      't111',
-      't121',
-      't178',
-      't136',
-      't122',
-      't129',
-      't142',
-      't144',
+'t154',
+       
+      't94',
+      't47',
+      't48',
+      't1',
+      't88',
+    't118',
+    't75',
+    't176',
+    't131',
+    't174',
+    't120',
+    't177',
+    't50',
+    't163',
     ],
-    color: '#00e5ff',
+    color: '#f8d359',
+
+    },
+
+        {
+    id: 'pl3',
+    name: 'Synergy',
+    description:
+      'Manifestation, Simulation Theory, and the Metaphysical collide',
+    trackIds: [
+      't13',
+      't5',
+      't12',
+      't7',
+      't44',
+      't67',
+      't43',
+      't155',
+      't33',
+      't46',
+      't49',
+      't35',
+      't63',
+      't66',
+      't69',
+      't71',
+      't109',
+    ],
+    color: '#0b8cf5',
   },
+
+
+
   {
     id: 'pl8',
     name: 'Silk Sheets',
