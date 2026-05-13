@@ -22,6 +22,13 @@ export const collaborators = [
     sunoUrl: 'https://suno.com/@arvynofficial',
     collab: 'Hard2Move - RyFi Remix',
   },
+    {
+    id: 'otf',
+    name: 'OTF',
+    image: '/otf.jpeg',
+    sunoUrl: 'https://suno.com/@onthefence',
+    collab: 'Gravity Chips - RyFi Remix',
+  },
   {
     id: 'sonotzen2',
     name: 'ZEN',
@@ -36,11 +43,5 @@ export const collaborators = [
   //   sunoUrl: 'https://suno.com/@not8DJ',
   //   collab: 'Contained',
   // },
-  {
-    id: 'otf',
-    name: 'OTF',
-    image: '/otf.jpeg',
-    sunoUrl: 'https://suno.com/@onthefence',
-    collab: 'Gravity Chips - RyFi Remix',
-  },
+
 ]

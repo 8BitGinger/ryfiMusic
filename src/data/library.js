@@ -19,7 +19,7 @@ export const tracks = [
     genre: 'Noir Country-Trap',
     bpm: 145,
     lyrics: `
-      
+
     `
   },
   {
@@ -2083,7 +2083,7 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Liquid Gold',
     duration: 246,
-    src: 'https://cdn1.suno.ai/0c8e7b9c-5a3d-4f1b-9a2e-8c3a1f0e5d9b.mp3',
+    src: 'https://cdn1.suno.ai/473e8219-fdb8-47fc-9797-e60a82e5d54a.mp3',
     art: '/art/returnOfTheMan.webp',
     genre: '90s Remix',
     bpm: 98,
@@ -2107,7 +2107,7 @@ export const tracks = [
     artist: 'RyFi',
     album: 'Alt Drives',
     duration: 307,
-    src: 'https://cdn1.suno.ai/8c9e5b0a-7c3d-4f1e-9b8a-2d9f1a5c6e4b.mp3',
+    src: 'https://cdn1.suno.ai/9d1ebd56-a990-4128-9fe8-b2aeca7e766f.mp3',
     art: '/art/onlyRoadIKnow.webp',
     genre: 'Emo Rock',
     bpm: 76,
