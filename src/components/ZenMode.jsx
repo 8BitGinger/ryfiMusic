@@ -245,7 +245,7 @@ export function ZenMode() {
           overflow: 'hidden',
           boxShadow: `0 0 60px ${palette[0]}55, 0 0 0 1px rgba(255,255,255,0.08)`,
           flexShrink: 0,
-          animation: isPlaying ? 'growAndShrink 1.5s linear infinite' : 'none',
+          animation: isPlaying ? 'bass-bounce-5-steps 5s linear infinite' : 'none',
         }}>
           <AlbumArt track={currentTrack} size={220} style={{ width: '100%', height: '100%', display: 'block' }} />
         </div>

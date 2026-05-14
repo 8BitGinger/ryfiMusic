@@ -170,9 +170,9 @@ export function Artists() {
             width: 'fit-content',
           }}>
             <StatBadge value={featuredArtist.stats.tracks} label="Tracks" />
-            {/* <div style={{ width: 1, background: 'var(--border)' }} />
-            <StatBadge value={featuredArtist.stats.playlists} label="Playlists" />
             <div style={{ width: 1, background: 'var(--border)' }} />
+            <StatBadge value={featuredArtist.stats.streams} label="Streams" />
+            {/* <div style={{ width: 1, background: 'var(--border)' }} />
             <StatBadge value={featuredArtist.stats.genres} label="Genres" /> */}
           </div>
 

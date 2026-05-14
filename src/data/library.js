@@ -7,6 +7,8 @@
 //   4. Suno also gives you a direct CDN link — you can use that URL directly
 // ─────────────────────────────────────────────────────────────────────────────
 
+import { title } from "framer-motion/client";
+
 export const tracks = [
   {
     id: 't1',
@@ -1267,6 +1269,103 @@ export const tracks = [
     art: '/art/x.webp',
     genre: 'Dirty South Trap',
     bpm: 94,
+    lyrics: `
+You know what's elementary?
+This.
+
+I keep a grid in my head nine squares total
+Every negative energy gets a box and a role
+And the role is simple you already know
+I don't negotiate I don't explain I just
+(stop) X (stop) And go
+This ain't complicated this is elementary school
+Same game every child knows got the same set of rules
+You either vibe or you don't you either real or you're not
+Every fake one in my circle gets a square and a dot
+(stop)
+Then an X over the dot
+I been playing this game since before you knew the board
+Every O in my life got exactly what they scored
+Which is nothing which is out which is X and goodbye
+Don't need an explanation don't need a reason why
+You already knew what you was bringing to my grid
+
+It ain't personal (stop) it's just math
+You add negative to positive and the positive gets half
+So I'm doing simple arithmetic
+X you out the equation watch the whole sum get rich
+Elementary
+
+X's only in my grid no O's allowed
+X's only in my circle no room for that cloud
+Of negative energy draining what I built
+X's only moving forward O's can keep the guilt
+(stop) X (stop) Just X (stop) X's only
+
+See the O thinks it's different thinks it got a case
+Thinks if it explains enough it can earn back its space
+But the X already landed and the X never healed
+Back into an O that's not how the game feels
+Once I mark the square everybody knows
+That square is done that chapter closed that door
+Slow final no drama no noise
+Just the X and the quiet that comes after a choice
+Elementary didn't even need to study for this one
+
+It ain't personal (stop) it's just math
+You add negative to positive and the positive gets half
+X you out the equation watch the whole sum get rich
+Elementary
+
+X's only in my grid no O's allowed
+X's only in my circle no room for that cloud
+Of negative energy draining what I built
+X's only moving forward O's can keep the guilt
+(stop) X (stop) Just X (stop) X's only
+
+I kept the wrong ones close for longer than I should
+Told myself their darkness was just misunderstood
+Gave them every square on my grid and watched them fill
+Every box with something that was slowly making me ill
+I was the one explaining I was the one defending
+I was the one who stayed long past every ending
+Signal they were sending that said get out get out
+(stop)
+And I stayed
+One day I woke up drew the grid looked at every square
+Every single one had an O sitting there
+So I picked up the X and went square by square
+Didn't explain didn't prepare them for it
+Because they already knew what they were bringing
+(stop) X (stop) X (stop) X
+All nine squares game over my board now
+
+You saw it coming.
+I saw it coming.
+The only difference is I did something about it.
+(pause) X. (pause) Next square.
+
+Clock me in X's only no O's in my atmosphere
+Every negative presence got a square and disappeared
+Tic-tac-toe elementary that's the whole point of the frame
+You been playing complicated I been playing the same
+Simple game since day one just with higher stakes
+Every X I put down was a boundary I make
+Permanent and final no discussion no debate
+Built for X's only real ones only genuine
+
+X's only in my grid...
+No O's allowed X's only in my circle
+No room for that cloud draining what I built
+O's can keep the guilt
+ X
+ ...just X...
+ X's only
+
+Elementary.
+Next square.
+
+    `
   },
 
   {
@@ -2124,7 +2223,30 @@ export const tracks = [
     genre: 'Acoustic Trap',
     bpm: null,
 
-  }
+  },
+
+  {
+    id: 't181',
+    title: 'Southern Solace',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 282,
+    src: 'https://cdn1.suno.ai/bd329bd3-7910-4896-b46a-eaa42d9ccfde.mp3',
+    art: '/art/southernSolace.webp',
+    genre: 'Dark Southern Rock',
+    bpm: 82,
+  },
+  {
+    id: 't182',
+    title: 'Stalking the Feed',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 146,
+    src: 'https://cdn1.suno.ai/91a2be1b-3cb0-403e-8b83-094af345c0af.mp3',
+    art: '/art/stalkingTheFeed.webp',
+    genre: 'Atmospheric Phonk',
+    bpm: 140,
+  },
 
 
 
@@ -2251,6 +2373,7 @@ export const playlists = [
       't56',
       't152',
       't76',
+      't181',
       't77',
       't156',
       't91',
@@ -2359,6 +2482,7 @@ export const playlists = [
       't47',
       't48',
       't1',
+      't182',
       't88',
     't118',
     't75',

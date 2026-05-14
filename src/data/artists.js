@@ -10,10 +10,17 @@ export const featuredArtist = {
   bio: 'Genre-bending AI-assisted music producer crafting soundscapes that live at the intersection of human emotion and machine creativity. From dark trap to spiritual hip-hop, country to nu-metal — every track is an experiment in what music can feel like when the rules don\'t apply.',
   portfolioUrl: 'https://8bitginger.com',  // ← update with your portfolio URL
   sunoUrl: 'https://suno.com/@8bitginger', // ← if you have a Suno profile, add the URL here
-  stats: { tracks: '365+', playlists: '10', genres: '50+' },
+  stats: { tracks: '181+', streams: '13k', genres: '50+' },
 }
 
 export const collaborators = [
+  {
+    id: 'timbaland',
+    name: 'Timbaland',
+    image: '/timbaland.webp',
+    sunoUrl: 'https://suno.com/@timbaland',
+    collab: 'Remix Contest - Let\'s Get High',
+  },
   
   {
     id: 'arvyn',

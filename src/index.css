@@ -156,9 +156,12 @@ body::before {
   
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border: 1px double rgba(143, 142, 142, 0.4);
-  max-width: 80%;
+  max-width: 100%;
   overflow: hidden;
   margin-bottom: -250px;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+
 }
 
 .hero-cover {
@@ -183,7 +186,8 @@ body::before {
     width: fit-content;
     height: 300px;
     width: 300px;
-    animation: spin 13s linear infinite;
+    animation: spin 10s linear infinite;
+    filter: drop-shadow(0 0 4px var(--black));
   }
 
   .nav-logo {
@@ -206,6 +210,15 @@ body::before {
   color: white !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+@keyframes bass-bounce-5-steps {
+  0% { transform: scale(0.9); }
+  20% { transform: scale(1); }
+  40% { transform: scale(0.95); }
+  60% { transform: scale(0.85); }
+  80% { transform: scale(1); }
+  100% { transform: scale(0.9); }
 }
 
 @keyframes eq-bounce {
@@ -271,6 +284,11 @@ body::before {
   100% {
     transform: scale(1);
   }
+}
+
+@keyframes fadeTransition {
+  0%, 100% { opacity: 0; } /* Start and end transparent */
+  50% { opacity: 1; }      /* Fully visible in the middle */
 }
 
 /* ── Album art expand hint ───────────────────────────────────────────────── */
@@ -346,7 +364,7 @@ body::before {
   position: fixed;
   top: 14px;
   right: 16px;
-  z-index: 10100;
+  z-index: 10000;
   width: 40px;
   height: 40px;
   border-radius: var(--radius-md);
