@@ -129,7 +129,7 @@ export function Sidebar() {
                   whiteSpace: 'nowrap',
                   fontFamily: 'var(--font-body)',
                 }}>
-                  {pl.name}
+                  {pl.name} <span className='emoji'>{pl.icon}</span>
                 </div>
                 <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
                   {pl.trackIds.length} tracks

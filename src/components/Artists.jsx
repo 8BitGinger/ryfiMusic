@@ -65,11 +65,12 @@ function CollabCard({ artist }) {
       onMouseLeave={e => {
         e.currentTarget.style.background = 'var(--bg-surface)'
         e.currentTarget.style.borderColor = 'var(--border)'
-        e.currentTarget.style.transform = 'translateY(0)'
+        e.currentTarget.style.transform = 'translateY(0)'        
+
       }}
     >
       {artist.image
-        ? <img src={artist.image} alt={artist.name} style={{ width: 56, height: 56, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
+        ? <img src={artist.image} alt={artist.name} style={{ width: 56, filter: 'brightness(1.3)', border: '1px solid rgba(255,255,255,0.3)', height: 56, borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }} />
         : <AvatarPlaceholder name={artist.name} size={56} />
       }
       <div style={{ flex: 1, minWidth: 0 }}>
@@ -107,7 +108,7 @@ export function Artists() {
           backgroundImage: `url(${featuredArtist.image})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
-          filter: 'brightness(0.35) saturate(0.8)',
+          filter: 'brightness(0.45) saturate(0.8)',
         }} />
         {/* Gradient overlay */}
         <div style={{

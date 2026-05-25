@@ -48,14 +48,14 @@ export const tracks = [
   },
   {
     id: 't4',
-    title: 'Your Last Song - Bagpipe Breakdown',
+    title: 'Your Last Song - Bagpipe Bootleg',
     artist: 'RyFi',
     album: 'Static Heart',
-    duration: 312,
-    src: 'https://cdn1.suno.ai/6b3e6388-e996-4dd0-986c-5e35435c67ea.mp3', 
-    art: '/art/yourLastSong.webp', 
-    genre: 'Dark Celtic Trap',
-    bpm: 72,
+    duration: 307,
+    src: 'https://cdn1.suno.ai/9848338d-d85c-4f5f-8714-9191f2d09273.mp3', 
+    art: '/art/yourLastSong.jpeg', 
+    genre: 'Irish Folk Drill',
+    bpm: 110,
   },
   {
     id: 't5',
@@ -170,7 +170,7 @@ export const tracks = [
   },
   {
     id: 't15',
-    title: 'The Whiskey Isn/t Well',
+    title: 'The Whiskey Isn\'t Well',
     artist: 'RyFi',
     album: 'Dirt Road',
     duration: 214,
@@ -443,17 +443,17 @@ export const tracks = [
     bpm: 85,
   },
 
-  {
-    id: 't39',
-    title: 'In Love with a Burlesque Queen',
-    artist: 'RyFi',
-    album: 'Silk Sheets',
-    duration: 259,
-    src: 'https://cdn1.suno.ai/00bb8dce-7cd8-4432-9568-a6415561a552.mp3',
-    art: '/art/burlesqueQueen.webp',
-    genre: 'R&B',
-    bpm: 70,
-  },
+  // {
+  //   id: 't39',
+  //   title: 'In Love with a Burlesque Queen',
+  //   artist: 'RyFi',
+  //   album: 'Silk Sheets',
+  //   duration: 259,
+  //   src: 'https://cdn1.suno.ai/00bb8dce-7cd8-4432-9568-a6415561a552.mp3',
+  //   art: '/art/burlesqueQueen.webp',
+  //   genre: 'R&B',
+  //   bpm: 70,
+  // },
 
   {
     id: 't40',
@@ -574,17 +574,17 @@ export const tracks = [
     bpm: null,
   },
 
-  {
-    id: 't50',
-    title: 'The Phoenix Rises',
-    artist: 'RyFi',
-    album: 'Liquid Gold',
-    duration: 193,
-    src: 'https://cdn1.suno.ai/7152721e-7d84-4fa4-9f10-6a6937682035.mp3',
-    art: '/art/thePhoenix.webp',
-    genre: 'Country Trap',
-    bpm: null,
-  },
+  // {
+  //   id: 't50',
+  //   title: 'The Phoenix Rises',
+  //   artist: 'RyFi',
+  //   album: 'Liquid Gold',
+  //   duration: 193,
+  //   src: 'https://cdn1.suno.ai/7152721e-7d84-4fa4-9f10-6a6937682035.mp3',
+  //   art: '/art/thePhoenix.webp',
+  //   genre: 'Country Trap',
+  //   bpm: null,
+  // },
 
   {
     id: 't51',
@@ -610,17 +610,17 @@ export const tracks = [
     bpm: null,
   },
 
-  {
-    id: 't53',
-    title: 'Hyper-Focus',
-    artist: 'RyFi',
-    album: 'Flow State',
-    duration: 194,
-    src: 'https://cdn1.suno.ai/9007005c-3e58-4059-81de-22e8ec76a4c4.mp3',
-    art: '/art/hyperFocus.webp',
-    genre: 'Dark Boom Bap',
-    bpm: 92,
-  },
+  // {
+  //   id: 't53',
+  //   title: 'Hyper-Focus',
+  //   artist: 'RyFi',
+  //   album: 'Flow State',
+  //   duration: 194,
+  //   src: 'https://cdn1.suno.ai/9007005c-3e58-4059-81de-22e8ec76a4c4.mp3',
+  //   art: '/art/hyperFocus.webp',
+  //   genre: 'Dark Boom Bap',
+  //   bpm: 92,
+  // },
 
   {
     id: 't54',
@@ -634,17 +634,17 @@ export const tracks = [
     bpm: 130,
   },
 
-  {
-    id: 't55',
-    title: 'Dis Bitch - Drill Demo',
-    artist: 'RyFi',
-    album: 'Silk Sheets',
-    duration: 145,
-    src: 'https://cdn1.suno.ai/9a4621f1-57d9-4f9d-ab62-883a6a7b76a9.mp3',
-    art: '/art/disBitch.webp',
-    genre: 'Drill',
-    bpm: 140,
-  },
+  // {
+  //   id: 't55',
+  //   title: 'Dis Bitch - Drill Demo',
+  //   artist: 'RyFi',
+  //   album: 'Silk Sheets',
+  //   duration: 145,
+  //   src: 'https://cdn1.suno.ai/9a4621f1-57d9-4f9d-ab62-883a6a7b76a9.mp3',
+  //   art: '/art/disBitch.webp',
+  //   genre: 'Drill',
+  //   bpm: 140,
+  // },
 
   {
     id: 't56',
@@ -742,17 +742,17 @@ export const tracks = [
     bpm: 140,
   },
 
-  {
-    id: 't64',
-    title: 'West Texas Wind',
-    artist: 'RyFi',
-    album: 'Dirt Road',
-    duration: 310,
-    src: 'https://cdn1.suno.ai/ca79ec67-645d-4ed9-a405-ee80c87afb82.mp3',
-    art: '/art/westTexasWind.webp',
-    genre: 'Outlaw Country',
-    bpm: 145,
-  },
+  // {
+  //   id: 't64',
+  //   title: 'West Texas Wind',
+  //   artist: 'RyFi',
+  //   album: 'Dirt Road',
+  //   duration: 310,
+  //   src: 'https://cdn1.suno.ai/ca79ec67-645d-4ed9-a405-ee80c87afb82.mp3',
+  //   art: '/art/westTexasWind.webp',
+  //   genre: 'Outlaw Country',
+  //   bpm: 145,
+  // },
 
   {
     id: 't65',
@@ -934,17 +934,17 @@ export const tracks = [
     bpm: 90,
   },
 
-  {
-    id: 't80',
-    title: 'Brothers',
-    artist: 'RyFi',
-    album: 'Dirt Road',
-    duration: 166,
-    src: 'https://cdn1.suno.ai/0006e9ab-57ee-40b6-8f00-89919e0b2947.mp3',
-    art: '/art/brothers.webp',
-    genre: 'Rock Country',
-    bpm: 95,
-  },
+  // {
+  //   id: 't80',
+  //   title: 'Brothers',
+  //   artist: 'RyFi',
+  //   album: 'Dirt Road',
+  //   duration: 166,
+  //   src: 'https://cdn1.suno.ai/0006e9ab-57ee-40b6-8f00-89919e0b2947.mp3',
+  //   art: '/art/brothers.webp',
+  //   genre: 'Rock Country',
+  //   bpm: 95,
+  // },
 
   {
     id: 't81',
@@ -982,17 +982,17 @@ export const tracks = [
     bpm: 90,
   },
 
-  {
-    id: 't84',
-    title: 'Don\t Do It',
-    artist: 'RyFi & @korean_hamin',
-    album: 'Silk Sheets',
-    duration: 218,
-    src: 'https://cdn1.suno.ai/d81ea87c-5181-497b-bd52-120902db0df7.mp3',
-    art: '/art/dontDoIt.webp',
-    genre: 'K-POP',
-    bpm: 95,
-  },
+  // {
+  //   id: 't84',
+  //   title: 'Don\t Do It',
+  //   artist: 'RyFi & @korean_hamin',
+  //   album: 'Silk Sheets',
+  //   duration: 218,
+  //   src: 'https://cdn1.suno.ai/d81ea87c-5181-497b-bd52-120902db0df7.mp3',
+  //   art: '/art/dontDoIt.webp',
+  //   genre: 'K-POP',
+  //   bpm: 95,
+  // },
 
   {
     id: 't85',
@@ -1022,7 +1022,7 @@ export const tracks = [
     id: 't87',
     title: 'West Coast Beat',
     artist: 'RyFi',
-    album: 'Flow State',
+    album: 'Liquid Gold',
     duration: 155,
     src: 'https://cdn1.suno.ai/2a1cecf2-545b-4805-8656-1f513e41b064.mp3',
     art: '/art/westCoastBeat.webp',
@@ -1042,17 +1042,17 @@ export const tracks = [
     bpm: 90,
   },
 
-  {
-    id: 't89',
-    title: 'Modern High',
-    artist: 'RyFi',
-    album: 'Pulse',
-    duration: 177,
-    src: 'https://cdn1.suno.ai/7635a168-10da-4247-83dd-9d21497c8525.mp3',
-    art: '/art/modernHigh.webp',
-    genre: 'Power-Pop Punk',
-    bpm: 105,
-  },
+  // {
+  //   id: 't89',
+  //   title: 'Modern High',
+  //   artist: 'RyFi',
+  //   album: 'Pulse',
+  //   duration: 177,
+  //   src: 'https://cdn1.suno.ai/7635a168-10da-4247-83dd-9d21497c8525.mp3',
+  //   art: '/art/modernHigh.webp',
+  //   genre: 'Power-Pop Punk',
+  //   bpm: 105,
+  // },
 
   {
     id: 't90',
@@ -1102,17 +1102,17 @@ export const tracks = [
     bpm: null,
   },
 
-  {
-    id: 't94',
-    title: 'Top Shelf Dreams',
-    artist: 'RyFi',
-    album: 'Liquid Gold',
-    duration: 214,
-    src: 'https://cdn1.suno.ai/8cf859fe-432f-46db-899b-3fb072a9e6d1.mp3',
-    art: '/art/topShelfDreams.webp',
-    genre: 'Soulful R&B',
-    bpm: null,
-  },
+  // {
+  //   id: 't94',
+  //   title: 'Top Shelf Dreams',
+  //   artist: 'RyFi',
+  //   album: 'Liquid Gold',
+  //   duration: 214,
+  //   src: 'https://cdn1.suno.ai/8cf859fe-432f-46db-899b-3fb072a9e6d1.mp3',
+  //   art: '/art/topShelfDreams.webp',
+  //   genre: 'Soulful R&B',
+  //   bpm: null,
+  // },
 
   {
     id: 't95',
@@ -1153,12 +1153,12 @@ export const tracks = [
 
   {
     id: 't99',
-    title: 'Midnight Matrix',
+    title: 'Midnight Mantra',
     artist: 'RyFi',
     album: 'Silk Sheets',
-    duration: 193,
+    duration: 319,
     src: 'https://cdn1.suno.ai/5c06df52-26ca-45ea-a04e-84c1c52956a7.mp3',
-    art: '/art/midnightMatrix.webp',
+    art: '/art/midnightMantra.webp',
     genre: 'New Genre',
     bpm: 130,
   },
@@ -1175,41 +1175,41 @@ export const tracks = [
     bpm: 92,
   },
 
-  {
-    id: 't101',
-    title: 'Fatality - Diss Track',
-    artist: 'RyFi',
-    album: 'Flow State',
-    duration: 275,
-    src: 'https://cdn1.suno.ai/5e41be39-efb5-4724-98c5-f478f0b48cc5.mp3',
-    art: '/art/fatality.webp',
-    genre: 'Battle Rap',
-    bpm: 140,
-  },
+  // {
+  //   id: 't101',
+  //   title: 'Fatality - Diss Track',
+  //   artist: 'RyFi',
+  //   album: 'Flow State',
+  //   duration: 275,
+  //   src: 'https://cdn1.suno.ai/5e41be39-efb5-4724-98c5-f478f0b48cc5.mp3',
+  //   art: '/art/fatality.webp',
+  //   genre: 'Battle Rap',
+  //   bpm: 140,
+  // },
 
-  {
-    id: 't102',
-    title: 'Null',
-    artist: 'RyFi',
-    album: 'High Gain',
-    duration: 128,
-    src: 'https://cdn1.suno.ai/8aa5e5ed-b846-4b69-afe9-cdf4e3172b56.mp3',
-    art: '/art/null.webp',
-    genre: 'Noir Rock',
-    bpm: 88,
-  },
+  // {
+  //   id: 't102',
+  //   title: 'Null',
+  //   artist: 'RyFi',
+  //   album: 'High Gain',
+  //   duration: 128,
+  //   src: 'https://cdn1.suno.ai/8aa5e5ed-b846-4b69-afe9-cdf4e3172b56.mp3',
+  //   art: '/art/null.webp',
+  //   genre: 'Noir Rock',
+  //   bpm: 88,
+  // },
 
-  {
-    id: 't103',
-    title: 'Hallowed Ground',
-    artist: 'RyFi',
-    album: 'Dirt Road',
-    duration: 266,
-    src: 'https://cdn1.suno.ai/3a42d34b-df96-4d6d-98f4-b45bfdcc9ca4.mp3',
-    art: '/art/hallowedGround.webp',
-    genre: 'Swamp Blues Country',
-    bpm: 80,
-  },
+  // {
+  //   id: 't103',
+  //   title: 'Hallowed Ground',
+  //   artist: 'RyFi',
+  //   album: 'Dirt Road',
+  //   duration: 266,
+  //   src: 'https://cdn1.suno.ai/3a42d34b-df96-4d6d-98f4-b45bfdcc9ca4.mp3',
+  //   art: '/art/hallowedGround.webp',
+  //   genre: 'Swamp Blues Country',
+  //   bpm: 80,
+  // },
 
   {
     id: 't104',
@@ -1261,101 +1261,104 @@ export const tracks = [
 
   {
     id: 't108',
-    title: "X's Only (It's Elementary)",
+    title: "X's Only",
     artist: 'RyFi',
     album: 'Flow State',
-    duration: 272,
-    src: 'https://cdn1.suno.ai/6b735d2a-3ca1-4347-a30d-3595b3b4abaf.mp3',
+    duration: 280,
+    src: 'https://cdn1.suno.ai/becaa5bf-090e-482d-a53f-a487221c2377.mp3',
     art: '/art/x.webp',
     genre: 'Dirty South Trap',
     bpm: 94,
     lyrics: `
 You know what's elementary?
+(pause)
 This.
 
-I keep a grid in my head nine squares total
+I keep a grid in my head, nine squares total
 Every negative energy gets a box and a role
-And the role is simple you already know
-I don't negotiate I don't explain I just
+And the role is simple, you already know
+I don't negotiate, I don't explain, I just
 (stop) X (stop) And go
-This ain't complicated this is elementary school
-Same game every child knows got the same set of rules
-You either vibe or you don't you either real or you're not
+This ain't complicated, this is elementary school
+Same game every child knows, got the same set of rules
+You either vibe or you don't, you either real or you're not
 Every fake one in my circle gets a square and a dot
 (stop)
 Then an X over the dot
-I been playing this game since before you knew the board
-Every O in my life got exactly what they scored
-Which is nothing which is out which is X and goodbye
-Don't need an explanation don't need a reason why
-You already knew what you was bringing to my grid
+Every O in my life acting up for a show
+Wanting pieces of my crown, but they nothing but hoes
+They bring zero to the table, got exactly what they scored
+Which is nothing, they out, hit the X at the door
+Don't need an explanation, don't need a reason why
+You already knew what you was bringing to my grid, bye
 
 It ain't personal (stop) it's just math
 You add negative to positive and the positive gets half
 So I'm doing simple arithmetic
-X you out the equation watch the whole sum get rich
+X you out the equation, watch the whole sum get rich
 Elementary
 
-X's only in my grid no O's allowed
-X's only in my circle no room for that cloud
-Of negative energy draining what I built
-X's only moving forward O's can keep the guilt
+X's only in my grid, no O's allowed
+X's only in my circle, no room for that cloud
+Of toxic energy draining what I built
+X's only moving forward, O's can keep the guilt
 (stop) X (stop) Just X (stop) X's only
 
-See the O thinks it's different thinks it got a case
-Thinks if it explains enough it can earn back its space
+See these O's think they different, trying to build up a case
+Thinks if they talk enough they can stay in my space
 But the X already landed and the X never healed
-Back into an O that's not how the game feels
-Once I mark the square everybody knows
-That square is done that chapter closed that door
-Slow final no drama no noise
+Back into an O, that's not how the game feels
+Once I mark the square, everybody knows
+Cut the fakes, cut the flakes, and the clout-chasing hoes
+Slow, final, no drama, no noise
 Just the X and the quiet that comes after a choice
-Elementary didn't even need to study for this one
+Elementary... didn't even need to study for this one
 
 It ain't personal (stop) it's just math
 You add negative to positive and the positive gets half
-X you out the equation watch the whole sum get rich
+X you out the equation, watch the whole sum get rich
 Elementary
 
-X's only in my grid no O's allowed
-X's only in my circle no room for that cloud
-Of negative energy draining what I built
-X's only moving forward O's can keep the guilt
+X's only in my grid, no O's allowed
+X's only in my circle, no room for that cloud
+Of toxic energy draining what I built
+X's only moving forward, O's can keep the guilt
 (stop) X (stop) Just X (stop) X's only
 
 I kept the wrong ones close for longer than I should
 Told myself their darkness was just misunderstood
-Gave them every square on my grid and watched them fill
-Every box with something that was slowly making me ill
-I was the one explaining I was the one defending
+Chasing shadows and hoes, letting my energy spill
+Every box with a toxin that was making me ill
+I was the one explaining, I was the one defending
 I was the one who stayed long past every ending
-Signal they were sending that said get out get out
+Signal they were sending that said get out, get out
 (stop)
 And I stayed
-One day I woke up drew the grid looked at every square
-Every single one had an O sitting there
+One day I woke up, drew the grid, cleared the air
+Saw the fakes and the users and the O's sitting there
 So I picked up the X and went square by square
-Didn't explain didn't prepare them for it
+Didn't explain, didn't prepare them for it
 Because they already knew what they were bringing
 (stop) X (stop) X (stop) X
-All nine squares game over my board now
+All nine squares, game over, my board now
 
+(single 808 pulse)
 You saw it coming.
 I saw it coming.
 The only difference is I did something about it.
 (pause) X. (pause) Next square.
 
-Clock me in X's only no O's in my atmosphere
-Every negative presence got a square and disappeared
-Tic-tac-toe elementary that's the whole point of the frame
-You been playing complicated I been playing the same
-Simple game since day one just with higher stakes
-Every X I put down was a boundary I make
-Permanent and final no discussion no debate
-Built for X's only real ones only genuine
+Clock me in, X's only, no O's in my atmosphere
+Cut the parasites out, watch 'em all disappear
+Tic-tac-toe elementary, protecting the frame
+You been playing it complex, I'm mastering the game
+Simple rules from day one, just with higher stakes
+Every X I put down is a boundary I make
+Permanent and final, no discussion, no debate
+Built for X's only, real ones only, genuine inside the gate
 
 X's only in my grid...
-No O's allowed X's only in my circle
+No O's allowed, X's only in my circle
 No room for that cloud draining what I built
 O's can keep the guilt
  X
@@ -1364,7 +1367,6 @@ O's can keep the guilt
 
 Elementary.
 Next square.
-
     `
   },
 
@@ -1416,29 +1418,29 @@ Next square.
     bpm: 95,
   },
 
-  {
-    id: 't113',
-    title: 'JUST LISTEN (Poetic Justice)',
-    artist: 'RyFi & @poeticjustice',
-    album: 'Flow State',
-    duration: 466,
-    src: 'https://cdn1.suno.ai/201c0df8-2e17-4c61-9b46-68dc261a7333.mp3',
-    art: '/art/justListen.webp',
-    genre: 'Emo Trap',
-    bpm: 90,
-  },
+  // {
+  //   id: 't113',
+  //   title: 'JUST LISTEN (Poetic Justice)',
+  //   artist: 'RyFi & @poeticjustice',
+  //   album: 'Flow State',
+  //   duration: 466,
+  //   src: 'https://cdn1.suno.ai/201c0df8-2e17-4c61-9b46-68dc261a7333.mp3',
+  //   art: '/art/justListen.webp',
+  //   genre: 'Emo Trap',
+  //   bpm: 90,
+  // },
 
-  {
-    id: 't114',
-    title: 'Just Listen (Poetic Justice)',
-    artist: 'RyFi & @Poetic Justice',
-    album: 'Static Heart',
-    duration: 466,
-    src: 'https://cdn1.suno.ai/201c0df8-2e17-4c61-9b46-68dc261a7333.mp3',
-    art: '/art/justListen.webp',
-    genre: 'Pyschedelic Trap',
-    bpm: 78,
-  },
+  // {
+  //   id: 't114',
+  //   title: 'Just Listen (Poetic Justice)',
+  //   artist: 'RyFi & @Poetic Justice',
+  //   album: 'Static Heart',
+  //   duration: 466,
+  //   src: 'https://cdn1.suno.ai/201c0df8-2e17-4c61-9b46-68dc261a7333.mp3',
+  //   art: '/art/justListen.webp',
+  //   genre: 'Pyschedelic Trap',
+  //   bpm: 78,
+  // },
 
   {
     id: 't115',
@@ -1488,17 +1490,17 @@ Next square.
     bpm: 84,
   },
 
-  {
-    id: 't119',
-    title: 'Sea of Love',
-    artist: 'RyFi',
-    album: 'Static Heart',
-    duration: 350,
-    src: 'https://cdn1.suno.ai/7e075078-ef45-48c7-8d91-2ed2c9eede8d.mp3',
-    art: '/art/seaOfLove.webp',
-    genre: 'Pop Rap',
-    bpm: 92,
-  },
+  // {
+  //   id: 't119',
+  //   title: 'Sea of Love',
+  //   artist: 'RyFi',
+  //   album: 'Static Heart',
+  //   duration: 350,
+  //   src: 'https://cdn1.suno.ai/7e075078-ef45-48c7-8d91-2ed2c9eede8d.mp3',
+  //   art: '/art/seaOfLove.webp',
+  //   genre: 'Pop Rap',
+  //   bpm: 92,
+  // },
 
   {
     id: 't120',
@@ -1607,17 +1609,17 @@ Next square.
     bpm: 78,
   },
 
-  {
-    id: 't129',
-    title: 'Chasing the Echo',
-    artist: 'RyFi',
-    album: 'Coffee & Clouds',
-    duration: 184,
-    src: 'https://cdn1.suno.ai/b6dfe695-90e2-4f9b-96be-541273c2fc6e.mp3',
-    art: '/art/chasingTheEcho.webp',
-    genre: 'Trap Soul',
-    bpm: 78,
-  },
+  // {
+  //   id: 't129',
+  //   title: 'Chasing the Echo',
+  //   artist: 'RyFi',
+  //   album: 'Coffee & Clouds',
+  //   duration: 184,
+  //   src: 'https://cdn1.suno.ai/b6dfe695-90e2-4f9b-96be-541273c2fc6e.mp3',
+  //   art: '/art/chasingTheEcho.webp',
+  //   genre: 'Trap Soul',
+  //   bpm: 78,
+  // },
 
   {
     id: 't130',
@@ -1630,29 +1632,29 @@ Next square.
     genre: 'Industrial Trap Rock',
     bpm: 140,
   },
-  {
-    id: 't131',
-    title: 'The Great Escape',
-    artist: 'RyFi',
-    album: 'Liquid Gold',
-    duration: 222,
-    src: 'https://cdn1.suno.ai/306a3294-7537-44b6-81f6-cd216bae12c6.mp3',
-    art: '/art/greatEscape.webp',
-    genre: 'Folk Hop',
-    bpm: 90,
-  },
+  // {
+  //   id: 't131',
+  //   title: 'The Great Escape',
+  //   artist: 'RyFi',
+  //   album: 'Liquid Gold',
+  //   duration: 222,
+  //   src: 'https://cdn1.suno.ai/306a3294-7537-44b6-81f6-cd216bae12c6.mp3',
+  //   art: '/art/greatEscape.webp',
+  //   genre: 'Folk Hop',
+  //   bpm: 90,
+  // },
 
-  {
-    id: 't132',
-    title: 'Pointless',
-    artist: 'RyFi',
-    album: 'High Gain',
-    duration: 319,
-    src: 'https://cdn1.suno.ai/a9f7d1d1-ee75-4ba4-9947-4fe7a21bac20.mp3',
-    art: '/art/pointless.webp',
-    genre: 'Post-Hardcore',
-    bpm: null,
-  },
+  // {
+  //   id: 't132',
+  //   title: 'Pointless',
+  //   artist: 'RyFi',
+  //   album: 'High Gain',
+  //   duration: 319,
+  //   src: 'https://cdn1.suno.ai/a9f7d1d1-ee75-4ba4-9947-4fe7a21bac20.mp3',
+  //   art: '/art/pointless.webp',
+  //   genre: 'Post-Hardcore',
+  //   bpm: null,
+  // },
 
   {
     id: 't133',
@@ -1666,29 +1668,29 @@ Next square.
     bpm: null,
   },
 
-  {
-    id: 't134',
-    title: 'Velvet & Glass',
-    artist: 'RyFi',
-    album: 'Alt Drives',
-    duration: 192,
-    src: 'https://cdn1.suno.ai/b449b538-c8d2-488a-983f-94338b57f306.mp3',
-    art: '/art/velvetGlass.webp',
-    genre: 'Glitch Soul',
-    bpm: 135,
-  },
+  // {
+  //   id: 't134',
+  //   title: 'Velvet & Glass',
+  //   artist: 'RyFi',
+  //   album: 'Alt Drives',
+  //   duration: 192,
+  //   src: 'https://cdn1.suno.ai/b449b538-c8d2-488a-983f-94338b57f306.mp3',
+  //   art: '/art/velvetGlass.webp',
+  //   genre: 'Glitch Soul',
+  //   bpm: 135,
+  // },
 
-  {
-    id: 't135',
-    title: "Must've Been",
-    artist: 'RyFi',
-    album: 'Dirt Road',
-    duration: 292,
-    src: 'https://cdn1.suno.ai/6685d07d-ca5e-4b8b-b20d-70237b3931d1.mp3',
-    art: '/art/mustveBeen.webp',
-    genre: 'Traditional Country',
-    bpm: 92,
-  },
+  // {
+  //   id: 't135',
+  //   title: "Must've Been",
+  //   artist: 'RyFi',
+  //   album: 'Dirt Road',
+  //   duration: 292,
+  //   src: 'https://cdn1.suno.ai/6685d07d-ca5e-4b8b-b20d-70237b3931d1.mp3',
+  //   art: '/art/mustveBeen.webp',
+  //   genre: 'Traditional Country',
+  //   bpm: 92,
+  // },
 
   {
     id: 't136',
@@ -1726,29 +1728,29 @@ Next square.
     bpm: 82,
   },
 
-  {
-    id: 't139',
-    title: "We're Home",
-    artist: 'RyFi',
-    album: 'Alt Drives',
-    duration: 232,
-    src: 'https://cdn1.suno.ai/e8565f49-49ab-40ab-8bd6-01524b46b17c.mp3',
-    art: '/art/wereHome.webp',
-    genre: 'Alternative Rock',
-    bpm: 140,
-  },
+  // {
+  //   id: 't139',
+  //   title: "We're Home",
+  //   artist: 'RyFi',
+  //   album: 'Alt Drives',
+  //   duration: 232,
+  //   src: 'https://cdn1.suno.ai/e8565f49-49ab-40ab-8bd6-01524b46b17c.mp3',
+  //   art: '/art/wereHome.webp',
+  //   genre: 'Alternative Rock',
+  //   bpm: 140,
+  // },
 
-  {
-    id: 't140',
-    title: 'Gravel Throne',
-    artist: 'RyFi',
-    album: 'Alt Drives',
-    duration: 193,
-    src: 'https://cdn1.suno.ai/c0a4cd91-f54d-45fd-bb82-b2db2b052b4a.mp3',
-    art: '/art/gravelThrone.webp',
-    genre: 'Alternative Country/Rock',
-    bpm: 70,
-  },
+  // {
+  //   id: 't140',
+  //   title: 'Gravel Throne',
+  //   artist: 'RyFi',
+  //   album: 'Alt Drives',
+  //   duration: 193,
+  //   src: 'https://cdn1.suno.ai/c0a4cd91-f54d-45fd-bb82-b2db2b052b4a.mp3',
+  //   art: '/art/gravelThrone.webp',
+  //   genre: 'Alternative Country/Rock',
+  //   bpm: 70,
+  // },
 
   {
     id: 't141',
@@ -1766,7 +1768,7 @@ Next square.
     id: 't142',
     title: 'Always Been You',
     artist: 'RyFi',
-    album: 'Coffee & Clouds',
+    album: 'Pulse',
     duration: 223,
     src: 'https://cdn1.suno.ai/ffcda7a1-7aa2-4d84-bc54-18eeca881fbc.mp3',
     art: '/art/alwaysBeenYou.webp',
@@ -1798,17 +1800,17 @@ Next square.
     bpm: 60,
   },
 
-  {
-    id: 't145',
-    title: 'Glass Singing',
-    artist: 'RyFi',
-    album: 'Pulse',
-    duration: 288,
-    src: 'https://cdn1.suno.ai/1a3fa410-df48-4646-ad52-ce5286a6ebfc.mp3',
-    art: '/art/glassSinging.webp',
-    genre: 'Exerimental Synth Pop',
-    bpm: null,
-  },
+  // {
+  //   id: 't145',
+  //   title: 'Glass Singing',
+  //   artist: 'RyFi',
+  //   album: 'Pulse',
+  //   duration: 288,
+  //   src: 'https://cdn1.suno.ai/1a3fa410-df48-4646-ad52-ce5286a6ebfc.mp3',
+  //   art: '/art/glassSinging.webp',
+  //   genre: 'Exerimental Synth Pop',
+  //   bpm: null,
+  // },
 
   {
     id: 't146',
@@ -1822,29 +1824,29 @@ Next square.
     bpm: 108,
   },
 
-  {
-    id: 't147',
-    title: 'Shadowmaster',
-    artist: 'RyFi',
-    album: 'Alt Drives',
-    duration: 339,
-    src: 'https://cdn1.suno.ai/5f435d9b-ea29-4b90-bf43-77da515e91e0.mp3',
-    art: '/art/shadowmaster.webp',
-    genre: 'Alternative Rock',
-    bpm: 98,
-  },
+  // {
+  //   id: 't147',
+  //   title: 'Shadowmaster',
+  //   artist: 'RyFi',
+  //   album: 'Alt Drives',
+  //   duration: 339,
+  //   src: 'https://cdn1.suno.ai/5f435d9b-ea29-4b90-bf43-77da515e91e0.mp3',
+  //   art: '/art/shadowmaster.webp',
+  //   genre: 'Alternative Rock',
+  //   bpm: 98,
+  // },
 
-  {
-    id: 't148',
-    title: 'The Misses',
-    artist: 'RyFi',
-    album: 'Silk Sheets',
-    duration: 237,
-    src: 'https://cdn1.suno.ai/a527b917-2f62-41ea-a45a-733f5cdb925c.mp3',
-    art: '/art/theMisses.webp',
-    genre: '70s Groove',
-    bpm: null,
-  },
+  // {
+  //   id: 't148',
+  //   title: 'The Misses',
+  //   artist: 'RyFi',
+  //   album: 'Silk Sheets',
+  //   duration: 237,
+  //   src: 'https://cdn1.suno.ai/a527b917-2f62-41ea-a45a-733f5cdb925c.mp3',
+  //   art: '/art/theMisses.webp',
+  //   genre: '70s Groove',
+  //   bpm: null,
+  // },
 
   {
     id: 't149',
@@ -1964,17 +1966,17 @@ Next square.
     bpm: 85,
   },
 
-  {
-    id: 't159',
-    title: 'You Matter - Suno Songs 4 Love Contest',
-    artist: 'RyFi',
-    album: 'Alt Drives',
-    duration: 270,
-    src: 'https://cdn1.suno.ai/5e7574ba-0d8d-4f40-8a5a-87581f90a720.mp3',
-    art: '/art/youMatterRemix.webp',
-    genre: 'Midwest Emo',
-    bpm: 110,
-  },
+  // {
+  //   id: 't159',
+  //   title: 'You Matter - Suno Songs 4 Love Contest',
+  //   artist: 'RyFi',
+  //   album: 'Alt Drives',
+  //   duration: 270,
+  //   src: 'https://cdn1.suno.ai/5e7574ba-0d8d-4f40-8a5a-87581f90a720.mp3',
+  //   art: '/art/youMatterRemix.webp',
+  //   genre: 'Midwest Emo',
+  //   bpm: 110,
+  // },
   {
     id: 't160',
     title: 'Just Let Me Fade',
@@ -1986,28 +1988,28 @@ Next square.
     genre: 'Indie Emo',
     bpm: null,
   },
-  {
-    id: 't161',
-    title: 'Hijacked Broadcast',
-    artist: 'RyFi',
-    album: 'High Gain',
-    duration: 284,
-    src: 'https://cdn1.suno.ai/1fd52724-f821-44c3-871a-818bd43fb248.mp3',
-    art: '/art/hijackedBroadcast.webp',
-    genre: 'Alternative Rock',
-    bpm: null,
-  },
-  {
-    id: 't162',
-    title: 'Watch Me Slide',
-    artist: 'RyFi',
-    album: 'Flow State',
-    duration: 197,
-    src: 'https://cdn1.suno.ai/4ece251e-dd2c-4f33-a7d0-2afa527d10b4.mp3',
-    art: '/art/watchMeSlide.webp',
-    genre: 'Southern Hip-Hop',
-    bpm: 140,
-  },
+  // {
+  //   id: 't161',
+  //   title: 'Hijacked Broadcast',
+  //   artist: 'RyFi',
+  //   album: 'High Gain',
+  //   duration: 284,
+  //   src: 'https://cdn1.suno.ai/1fd52724-f821-44c3-871a-818bd43fb248.mp3',
+  //   art: '/art/hijackedBroadcast.webp',
+  //   genre: 'Alternative Rock',
+  //   bpm: null,
+  // },
+  // {
+  //   id: 't162',
+  //   title: 'Watch Me Slide',
+  //   artist: 'RyFi',
+  //   album: 'Flow State',
+  //   duration: 197,
+  //   src: 'https://cdn1.suno.ai/4ece251e-dd2c-4f33-a7d0-2afa527d10b4.mp3',
+  //   art: '/art/watchMeSlide.webp',
+  //   genre: 'Southern Hip-Hop',
+  //   bpm: 140,
+  // },
 
   {
     id: 't163',
@@ -2056,17 +2058,17 @@ Next square.
     bpm: 85,
   },
 
-  {
-    id: 't167',
-    title: 'Lez Bee Friends (Yum Remix)',
-    artist: 'RyFi',
-    album: 'Silk Sheets',
-    duration: 283,
-    src: 'https://cdn1.suno.ai/6119beb4-8eda-4083-901e-8e535ec99802.mp3',
-    art: '/art/lezBeeFriends.webp',
-    genre: 'Trap Pop',
-    bpm: null,
-  },
+  // {
+  //   id: 't167',
+  //   title: 'Lez Bee Friends (Yum Remix)',
+  //   artist: 'RyFi',
+  //   album: 'Silk Sheets',
+  //   duration: 283,
+  //   src: 'https://cdn1.suno.ai/6119beb4-8eda-4083-901e-8e535ec99802.mp3',
+  //   art: '/art/lezBeeFriends.webp',
+  //   genre: 'Trap Pop',
+  //   bpm: null,
+  // },
 
   {
     id: 't168',
@@ -2104,17 +2106,17 @@ Next square.
     bpm: 115,
   },
    
-  {
-    id: 't171',
-    title: 'The Dark',
-    artist: 'RyFi',
-    album: 'Alt Drives',
-    duration: 348,
-    src: 'https://cdn1.suno.ai/c7cefb91-e061-40b2-98ec-e9c85996fa37.mp3',
-    art: '/art/theDark.webp',
-    genre: 'Dark Alternative Rock',
-    bpm: 90,
-  },
+  // {
+  //   id: 't171',
+  //   title: 'The Dark',
+  //   artist: 'RyFi',
+  //   album: 'Alt Drives',
+  //   duration: 348,
+  //   src: 'https://cdn1.suno.ai/c7cefb91-e061-40b2-98ec-e9c85996fa37.mp3',
+  //   art: '/art/theDark.webp',
+  //   genre: 'Dark Alternative Rock',
+  //   bpm: 90,
+  // },
 
   {
     id: 't172',
@@ -2152,23 +2154,23 @@ Next square.
     bpm: 110,
   },
 
-  {
-    id: 't175',
-    title: 'Boom B!tch - Diss Track',
-    artist: 'RyFi',
-    album: 'Flow State',
-    duration: 321,
-    src: 'https://cdn1.suno.ai/287d1420-9f7e-46c1-8882-fbaec8aff0c9.mp3',
-    art: '/art/boomBitch.webp',
-    genre: 'Battle Rap',
-    bpm: 115,
-  },
+  // {
+  //   id: 't175',
+  //   title: 'Boom B!tch - Diss Track',
+  //   artist: 'RyFi',
+  //   album: 'Flow State',
+  //   duration: 321,
+  //   src: 'https://cdn1.suno.ai/287d1420-9f7e-46c1-8882-fbaec8aff0c9.mp3',
+  //   art: '/art/boomBitch.webp',
+  //   genre: 'Battle Rap',
+  //   bpm: 115,
+  // },
 
   {
     id: 't176',
     title: 'Happy',
     artist: 'RyFi',
-    album: 'Liquid Gold',
+    album: 'Coffee & Clouds',
     duration: 258,
     src: 'https://cdn1.suno.ai/62a9f38e-c531-457d-84e8-92ec96bfa7da.mp3',
     art: '/art/happy.webp',
@@ -2176,17 +2178,17 @@ Next square.
     bpm: null,
   },
 
-  {
-    id: 't177',
-    title: 'Return of the Man',
-    artist: 'RyFi',
-    album: 'Liquid Gold',
-    duration: 246,
-    src: 'https://cdn1.suno.ai/473e8219-fdb8-47fc-9797-e60a82e5d54a.mp3',
-    art: '/art/returnOfTheMan.webp',
-    genre: '90s Remix',
-    bpm: 98,
-  },
+  // {
+  //   id: 't177',
+  //   title: 'Return of the Man',
+  //   artist: 'RyFi',
+  //   album: 'Liquid Gold',
+  //   duration: 246,
+  //   src: 'https://cdn1.suno.ai/473e8219-fdb8-47fc-9797-e60a82e5d54a.mp3',
+  //   art: '/art/returnOfTheMan.webp',
+  //   genre: '90s Remix',
+  //   bpm: 98,
+  // },
 
   {
     id: 't178',
@@ -2236,17 +2238,133 @@ Next square.
     genre: 'Dark Southern Rock',
     bpm: 82,
   },
+  // {
+  //   id: 't182',
+  //   title: 'Stalking the Feed',
+  //   artist: 'RyFi',
+  //   album: 'Liquid Gold',
+  //   duration: 146,
+  //   src: 'https://cdn1.suno.ai/91a2be1b-3cb0-403e-8b83-094af345c0af.mp3',
+  //   art: '/art/stalkingTheFeed.webp',
+  //   genre: 'Atmospheric Phonk',
+  //   bpm: 140,
+  // },
+
   {
-    id: 't182',
-    title: 'Stalking the Feed',
+    id: 't183',
+    title: 'Speak.',
+    artist: 'RyFi',
+    album: 'Pulse',
+    duration: 231,
+    src: 'https://cdn1.suno.ai/d9edf2c4-9cf9-4195-8368-c630707ebdd0.mp3',
+    // art: '/art/speak.webp',
+    genre: 'Electro-Swing Trap',
+    bpm: 128,
+  },
+  {
+    id: 't184',
+    title: 'Moth',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 210,
+    src: 'https://cdn1.suno.ai/e862deb5-689b-4f2b-816f-b4e3fe86ca39.mp3',
+    // art: '/art/moth.webp',
+    genre: 'Industrial Metal',
+    bpm: null,
+  },
+
+  {
+    id: 't185',
+    title: 'Just Drive',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 309,
+    src: 'https://cdn1.suno.ai/918c1459-88e1-4747-ace5-b158f67b3474.mp3',
+    // art: '/art/justDrive.webp',
+    genre: 'Americana Folk Rock',
+    bpm: 75,
+  },
+
+  {
+    id: 't186',
+    title: 'Type Shii',
     artist: 'RyFi',
     album: 'Liquid Gold',
-    duration: 146,
-    src: 'https://cdn1.suno.ai/91a2be1b-3cb0-403e-8b83-094af345c0af.mp3',
-    art: '/art/stalkingTheFeed.webp',
-    genre: 'Atmospheric Phonk',
-    bpm: 140,
+    duration: 228,
+    src: 'https://cdn1.suno.ai/e9990f84-2794-4e9f-890e-69564189a8b9.mp3',
+    // art: '/art/typeShii.webp',
+    genre: 'Trap',
+    bpm: 148,
   },
+
+  {
+    id: 't187',
+    title: 'Mardi Gras Mud',
+    artist: 'RyFi',
+    album: 'Silk Sheets',
+    duration: 251,
+    src: 'https://cdn1.suno.ai/d3a613ed-51f8-49d3-87a0-6cbed82b3af8.mp3',
+    // art: '/art/mardiGrasMud.webp',
+    genre: 'Chopped & Screwed',
+    bpm: null,
+  },
+
+  {
+    id: 't188',
+    title: 'That\'s Just What Snakes Do',
+    artist: 'RyFi',
+    album: 'Static Heart',
+    duration: 266,
+    src: 'https://cdn1.suno.ai/659c0562-f8be-4fe5-a07f-15bfe5361942.mp3',
+    // art: '/art/thatsJustWhatSnakesDo.webp',
+    genre: 'Louisiana Trap',
+    bpm: 128,
+  },
+
+  {
+    id: 't189',
+    title: 'Code Red',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 225,
+    src: 'https://cdn1.suno.ai/13803367-43b6-4a76-9701-445041b5b16b.mp3',
+    // art: '/art/codeRed.webp',
+    genre: 'Hardcore Trap',
+    bpm: 150,
+  },
+
+  {
+    id: 't190',
+    title: 'Green Glass Canopy',
+    artist: 'RyFi',
+    duration: 283,
+    src: 'https://cdn1.suno.ai/8bbfbe4a-5c0e-43ca-95e4-7ee90b603d3d.mp3',
+    // art: '/art/greenGlassCanopy.webp',
+    genre: 'Darkwave Indie Rock',
+    bpm: 115,
+  },
+
+  {
+    id: 't192',
+    title:'Irish Garden',
+    artist: 'RyFi',
+    duration: 201,
+    src: 'https://cdn1.suno.ai/4ff4985f-34f9-4f3c-9584-332edf71b511.mp3',
+    // art: '/art/irishGarden.webp',
+    genre: 'Irish Drill',
+    bpm: 110,
+  },
+
+  {
+    id: 't191',
+    title:'The Last Time',
+
+  }
+
+
+
+
+
 
 
 
@@ -2274,10 +2392,12 @@ export const albumPalettes = {
 export const playlists = [
   {
     id: 'pl1',
+    icon: '🎙️',
     name: 'Flow State',
     description:
       'Trap, Boom Bap, and Hardcore Rap for letting the words flow',
     trackIds: [
+      't2',
       't29',
       't108',
       't100',
@@ -2285,21 +2405,22 @@ export const playlists = [
       't10',
       't60',
       't96',
-      't2',
+      
       't30',
       't34',
       't36',
-      't53',
-      't87',
+      't189',
+
       't105',
-      't101',
-      't175',
-      't162',
+      
+ 
+      
     ],
     color: '#871cdf',
   },
   {
     id: 'pl2',
+    icon: '🍺',
     name: 'Dirt Road',
     description:
       'Country Trap, Outlaw Country, and Traditional Country for dusty drives',
@@ -2315,13 +2436,13 @@ export const playlists = [
       't172',
       't31',
       't62',
-      't64',
+      't185',
       't68',
-      't80',
+      
       't85',
-      't103',
+    
       't107',
-      't135',
+     
       't124',
     ],
     color: '#bda26d',
@@ -2329,6 +2450,7 @@ export const playlists = [
 
     {
     id: 'pl6',
+    icon: '🚦',
     name: 'Alt Drives',
     description:
       'Late-night Alternative for introspective moments and existential crises',
@@ -2342,22 +2464,23 @@ export const playlists = [
       't41',
       't78',
       't86',
-      't171',
-      't147',
+      
+      
       't92',
       't179',
       't151',
-      't139',
-      't134',
-      't140',
+      't190',
+     
+      
       't143',
       't150',
-      't159',
+      
     ],
     color: '#36c236',
   },
     {
     id: 'pl7',
+    icon: '🎸',
     name: 'High Gain',
     description:
       'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
@@ -2366,10 +2489,10 @@ export const playlists = [
       't40',
       't23',
       't133',
-      't161',
+     
       't52',
       't24',
-      't102',
+      't184',
       't56',
       't152',
       't76',
@@ -2379,12 +2502,13 @@ export const playlists = [
       't91',
       't123',
       't130',
-      't132',
+      
     ],
     color: '#ed6d3a',
   },
       {
     id: 'pl9',
+    icon: '⚡',
     name: 'Pulse',
     description: 'Pop hits, Electronica, and High-Energy Hits for any occasion',
     trackIds: [
@@ -2395,7 +2519,7 @@ export const playlists = [
       't128',
       't81',
       't82',
-      't89',
+      't183',
       't127',
       't93',
       't125',
@@ -2404,7 +2528,7 @@ export const playlists = [
       't110',
       't126',
       't173',
-      't145',
+      't142',
       
     ],
     color: '#ff4081',
@@ -2412,6 +2536,7 @@ export const playlists = [
 
     {
     id: 'pl10',
+    icon: '☕',
     name: 'Coffee & Clouds',
     description:
       'LoFi, Mellow, and Emotional vibes for Rainy Days',
@@ -2419,7 +2544,7 @@ export const playlists = [
         't180',
       't70',
       't97',
-      't38',
+    
     
       't164',
       't42',
@@ -2428,12 +2553,12 @@ export const playlists = [
       't141',
       't169',
       't111',
-      't121',
+      't176',
       't178',
       't136',
       't122',
-      't129',
-      't142',
+     
+  
       't144',
     ],
     color: '#00e5ff',
@@ -2445,6 +2570,7 @@ export const playlists = [
 
   {
     id: 'pl4',
+    icon: '🫀',
     name: 'Static Heart',
     description: 'Love, Heartbreak, and Toxic cycles explored',
     trackIds: [
@@ -2459,11 +2585,11 @@ export const playlists = [
       't32',
       't57',
       't72',
-      't73',
-      't114',
-      't119',
+      
+
       't74',
       't137',
+      't188',
       't158',
       't138',
       't4',
@@ -2473,25 +2599,26 @@ export const playlists = [
 
   {
     id: 'pl11',
+    icon: '🫠',
     name: 'Liquid Gold',
     description: 'Smooth and Slick cross-genre Hits for vibing',
     trackIds: [
 't154',
        
-      't94',
+      't186',
       't47',
       't48',
       't1',
-      't182',
+      't87',
       't88',
     't118',
     't75',
-    't176',
-    't131',
+  
+  
     't174',
     't120',
-    't177',
-    't50',
+   
+ 
     't163',
     ],
     color: '#f8d359',
@@ -2500,6 +2627,7 @@ export const playlists = [
 
         {
     id: 'pl3',
+    icon: '♾️',
     name: 'Synergy',
     description:
       'Manifestation, Simulation Theory, and the Metaphysical collide',
@@ -2508,6 +2636,7 @@ export const playlists = [
       't5',
       't12',
       't7',
+      't38',
       't44',
       't67',
       't43',
@@ -2529,6 +2658,7 @@ export const playlists = [
 
   {
     id: 'pl8',
+    icon: '🫦',
     name: 'Silk Sheets',
     description:
       'Smooth, Sensual, and perfect for those After Hours intimate moments',
@@ -2536,29 +2666,32 @@ export const playlists = [
       't59',
       't11',
       't115',
+      't192',
       't25',
       't146',
       't166',
       't26',
       't149',
       't157',
+      't187',
       't168',
       't95',
       't54',
-      't55',
+     
       't58',
-      't84',
+      
       't99',
-      't39',
+     
       't148',
-      't167',
+      
     ],
     color: '#b642d3',
   },
 
   {
     id: 'pl5',
-    name: 'Mixtape - All Tracks',
+    icon: '🔀',
+    name: 'Mixtape - ALL',
     description: 'Everything in the RyFi universe',
     trackIds: tracks
       .sort(() => 0.5 - Math.random())
