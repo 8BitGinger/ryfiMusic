@@ -1999,17 +1999,17 @@ Next square.
   //   genre: 'Alternative Rock',
   //   bpm: null,
   // },
-  // {
-  //   id: 't162',
-  //   title: 'Watch Me Slide',
-  //   artist: 'RyFi',
-  //   album: 'Flow State',
-  //   duration: 197,
-  //   src: 'https://cdn1.suno.ai/4ece251e-dd2c-4f33-a7d0-2afa527d10b4.mp3',
-  //   art: '/art/watchMeSlide.webp',
-  //   genre: 'Southern Hip-Hop',
-  //   bpm: 140,
-  // },
+  {
+    id: 't162',
+    title: 'Watch Me Slide',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 197,
+    src: 'https://cdn1.suno.ai/4ece251e-dd2c-4f33-a7d0-2afa527d10b4.mp3',
+    art: '/art/watchMeSlide.webp',
+    genre: 'Southern Hip-Hop',
+    bpm: 140,
+  },
 
   {
     id: 't163',
@@ -2337,6 +2337,7 @@ Next square.
     id: 't190',
     title: 'Green Glass Canopy',
     artist: 'RyFi',
+    album: 'Alt Drives',
     duration: 283,
     src: 'https://cdn1.suno.ai/8bbfbe4a-5c0e-43ca-95e4-7ee90b603d3d.mp3',
     // art: '/art/greenGlassCanopy.webp',
@@ -2348,7 +2349,8 @@ Next square.
     id: 't192',
     title:'Irish Garden',
     artist: 'RyFi',
-    duration: 201,
+    album: 'Silk Sheets',
+    duration: 281,
     src: 'https://cdn1.suno.ai/4ff4985f-34f9-4f3c-9584-332edf71b511.mp3',
     // art: '/art/irishGarden.webp',
     genre: 'Irish Drill',
@@ -2357,9 +2359,258 @@ Next square.
 
   {
     id: 't191',
-    title:'The Last Time',
+    title:'The Rust',
+    artist: 'RyFi',
+    album: 'Alt Drives',
+    duration: 224,
+    src: 'https://cdn1.suno.ai/3865741f-e2c1-483c-ae96-272791abcc0e.mp3',
+    // art: '/art/theRust.webp',
+    genre: 'Post-Grunge Industrial Rock',
+    bpm: 78,
+  },
 
-  }
+  {
+    id: 't193',
+    title: 'Outgrew It - RyFi Remix',
+    artist: 'RyFi & @DeltasGirl',
+    album: 'Alt Drives',
+    duration: 235,
+    src: 'https://cdn1.suno.ai/f728b5de-6a91-433a-88df-30d12ffe4c1c.mp3',
+    // art: '/art/outgrewIt.webp',
+    genre: 'Indie Pop',
+    bpm: 120,
+
+  },
+  {
+    id: 't194',
+    title: 'Basic',
+    artist: 'RyFi',
+    album: 'Static Heart',
+    duration: 317,
+    src: 'https://cdn1.suno.ai/773a965a-1a05-4067-afee-5095eb32f482.mp3',
+    // art: '/art/basic.webp',
+    genre: 'Neo-Soul',
+    bpm: 74,
+  },
+
+  {
+    id: 't195',
+    title: 'After Dark',
+    artist: 'RyFi',
+    album: 'Pulse',
+    duration: 210,
+    src: 'https://cdn1.suno.ai/a9b651f2-bf77-4610-a5d1-dc36ff11f7fb.mp3',
+    // art: '/art/afterDark.webp',
+    genre: '80s Synthwave',
+    bpm: null,
+  },
+
+  {
+    id: 't196',
+    title: '90\'s Green',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 271,
+    src: 'https://cdn1.suno.ai/d453a043-d70f-4c36-8c09-24087b824643.mp3',
+    // art: '/art/90sGreen.webp',
+    genre: '90s Hip-Hop',
+    bpm: 92,
+  },
+
+  {
+    id: 't197',
+    title: 'Still Up Here',
+    artist: 'RyFi',
+    album: 'Coffee & Clouds',
+    duration: 202,
+    src: 'https://cdn1.suno.ai/2ca7c8ae-97b0-41f0-b3e1-3103f3b42c9d.mp3',
+    // art: '/art/stillUpHere.webp',
+    genre: 'Chillhop',
+    bpm: 130,
+  },
+
+  {
+    id: 't198',
+    title: 'West Texas Witch',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 264,
+    src: 'https://cdn1.suno.ai/295c65d4-5887-428f-8155-bca656f904f2.mp3',
+    // art: '/art/westTexasWitch.webp',
+    genre: 'Dirty South Trap',
+    bpm: 140,
+  },
+
+  {
+    id: 't199',
+    title: 'Crazy Shii',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 218,
+    src: 'https://cdn1.suno.ai/a93defd1-fe1f-4050-88be-022afea95a0a.mp3',
+    // art: '/art/crazyShii.webp',
+    genre: 'Chill Trap',
+    bpm: null,
+  },
+
+  {
+    id: 't200',
+    title: 'Bored',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 219,
+    src: 'https://cdn1.suno.ai/f86b4d21-f2bb-4b43-a7dc-c79e3828c343.mp3',
+    // art: '/art/bored.webp',
+    genre: 'LoFi Chillhop',
+    bpm: null,
+  },
+   {
+    id: 't201',
+    title: 'Lie 2 Me ft ARVYN',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 275,
+    src: 'https://cdn1.suno.ai/81ef825a-d75e-4fcd-b6c0-ad3e9fd3e5b7.mp3',
+    // art: '/art/lie2Me.webp',
+    genre: 'Slow-Burn Trap Rock',
+    bpm: 78,
+   },
+
+   {
+    id: 't202',
+    title: 'Ledger of Scars',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 235,
+    src: 'https://cdn1.suno.ai/74aefb8f-458e-4059-ae2b-18520295dda1.mp3',
+    // art: '/art/ledgerOfScars.webp',
+    genre: 'Dark G-Funk',
+    bpm: 98,
+   },
+
+   {
+    id: 't203',
+    title: 'Ghost Tracks',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 248,
+    src: 'https://cdn1.suno.ai/6052faba-e748-4f4c-9452-14acdd54a63e.mp3',
+    // art: '/art/ghostTracks.webp',
+    genre: 'Dark Country Pop',
+    bpm: 72,
+   },
+
+   {
+    id: 't204',
+    title: 'Liquid Velvet',
+    artist: 'RyFi',
+    album: 'Silk Sheets',
+    src: 'https://cdn1.suno.ai/be1461f5-3007-4d24-a765-6244e8150fda.mp3',
+    duration: 208,
+    // art: '/art/liquidVelvet.webp',
+    genre: 'Dark Trap',
+    bpm: 115,
+   },
+
+   {
+    id: 't205',
+    title: 'Heavy Normal',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 236,
+    src: 'https://cdn1.suno.ai/b90943ba-ed79-4df0-b7c1-fc1880865c63.mp3',
+    // art: '/art/heavyNormal.webp',
+    genre: 'Dark G-Funk',
+    bpm: 96,
+   },
+
+   {
+    id: 't206',
+    title: 'Apathy of Anarchy',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 266,
+    src: 'https://cdn1.suno.ai/92919224-fb8d-459e-b01d-849a4681e3f6.mp3',
+    // art: '/art/apathyOfAnarchy.webp',
+    genre: 'Dirty South Trap',
+    bpm: 90,
+   },
+
+   {
+    id: 't207',
+    title: 'Lyrical Miracle',
+    artist: 'RyFi',
+    album: 'Flow State',
+    duration: 151,
+    src: 'https://cdn1.suno.ai/14403a97-a102-4cf2-9a03-43d17d1f9e1b.mp3',
+    // art: '/art/lyricalMiracle.webp',
+    genre: 'Freestyle Rap',
+    bpm: 78,
+   },
+
+   {
+    id: 't208',
+    title: 'Holy Water',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 305,
+    src: 'https://cdn1.suno.ai/4ac54db3-d177-401b-ac7c-b8a04ee89af9.mp3',
+    // art: '/art/holyWater.webp',
+    genre: 'Dark Folk-Hop',
+    bpm: 88,
+   },
+
+   {
+    id: 't209',
+    title: 'We\'re Messed Up',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 297,
+    src: 'https://cdn1.suno.ai/f92fe932-2fb5-4e50-a1d7-a165edd2bfdb.mp3',
+    // art: '/art/wereMessedUp.webp',
+    genre: 'Darkwave Neo-Noir',
+    bpm: 110,
+   },
+
+   {
+    id: 't210',
+    title: 'Steady State',
+    artist: 'RyFi',
+    album: 'Clouds & Coffee',
+    duration: 166,
+    src: 'https://cdn1.suno.ai/e73f15c0-1578-4d2b-a49f-49a57030b081.mp3',
+    // art: '/art/steadyState.webp',
+    genre: 'LoFi Hip-Hop',
+    bpm: null,
+   },
+
+   {
+    id: 't211',
+    title: 'Diddy Oil - RyFi Remix',
+    artist: 'RyFi & @Ricdog266',
+    album: 'Silk Sheets',
+    duration: 179,
+    src: 'https://cdn1.suno.ai/8a6cbc67-35fb-4e44-a84b-8c31352a7b4b.mp3',
+    // art: '/art/diddyOilRemix.webp',
+    genre: 'Dark Trap-Soul',
+    bpm: 130,
+   },
+
+   {
+    id: 't212',
+    title: 'The Static Between',
+    artist: 'RyFi',
+    album: 'Clouds & Coffee',
+    duration: 198,
+    src: 'https://cdn1.suno.ai/71f8442c-94c1-498e-bd17-5781ab6e7500.mp3',
+    // art: '/art/theStaticBetween.webp',
+    genre: 'Ambient Trip-Hop',
+    bpm: null,
+   },
+
+
+
+
 
 
 
@@ -2373,6 +2624,7 @@ Next square.
 
 
 ];
+
 
 // Gradient palettes per album (used as cover art fallback)
 export const albumPalettes = {
@@ -2405,22 +2657,23 @@ export const playlists = [
       't10',
       't60',
       't96',
-      
+      't206',
+      't196',
+      't205',
+      't162',
       't30',
       't34',
       't36',
       't189',
-
       't105',
-      
- 
-      
+      't207',
+      't198',
     ],
     color: '#871cdf',
   },
   {
     id: 'pl2',
-    icon: '🍺',
+    icon: '🛞',
     name: 'Dirt Road',
     description:
       'Country Trap, Outlaw Country, and Traditional Country for dusty drives',
@@ -2436,9 +2689,10 @@ export const playlists = [
       't172',
       't31',
       't62',
+      't203',
       't185',
       't68',
-      
+      't208',
       't85',
     
       't107',
@@ -2465,11 +2719,13 @@ export const playlists = [
       't78',
       't86',
       
-      
+      't190',
       't92',
       't179',
       't151',
-      't190',
+      
+      't193',
+      't191',
      
       
       't143',
@@ -2489,7 +2745,7 @@ export const playlists = [
       't40',
       't23',
       't133',
-     
+      
       't52',
       't24',
       't184',
@@ -2502,7 +2758,7 @@ export const playlists = [
       't91',
       't123',
       't130',
-      
+      't209',
     ],
     color: '#ed6d3a',
   },
@@ -2529,6 +2785,7 @@ export const playlists = [
       't126',
       't173',
       't142',
+      't195',
       
     ],
     color: '#ff4081',
@@ -2541,12 +2798,13 @@ export const playlists = [
     description:
       'LoFi, Mellow, and Emotional vibes for Rainy Days',
     trackIds: [
-        't180',
+      't180',
       't70',
+      't197',
       't97',
-    
-    
       't164',
+      't212',
+      't210',
       't42',
       't65',
       't45',
@@ -2557,8 +2815,6 @@ export const playlists = [
       't178',
       't136',
       't122',
-     
-  
       't144',
     ],
     color: '#00e5ff',
@@ -2586,7 +2842,7 @@ export const playlists = [
       't57',
       't72',
       
-
+      't194',
       't74',
       't137',
       't188',
@@ -2607,11 +2863,15 @@ export const playlists = [
        
       't186',
       't47',
+      't199',
       't48',
       't1',
+      't201',
+      't202',
       't87',
       't88',
     't118',
+    't200',
     't75',
   
   
@@ -2665,6 +2925,7 @@ export const playlists = [
     trackIds: [
       't59',
       't11',
+      't204',
       't115',
       't192',
       't25',
@@ -2675,6 +2936,7 @@ export const playlists = [
       't157',
       't187',
       't168',
+      't211',
       't95',
       't54',
      
@@ -2682,7 +2944,7 @@ export const playlists = [
       
       't99',
      
-      't148',
+
       
     ],
     color: '#b642d3',
