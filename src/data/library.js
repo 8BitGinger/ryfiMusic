@@ -2791,8 +2791,19 @@ Next square.
     art: '/art/looking4Krazy.webp',
     genre: 'Trap Pop',
     bpm: 100,
-   }
+   },
 
+   {
+    id: 't229',
+    title: 'Neon Ache',
+    artist: 'RyFi',
+    duration: 362,
+    album: 'Liquid Gold',
+    src: 'https://cdn1.suno.ai/0c16177f-cf81-443c-adae-7e1ff55475a8.mp3',
+    art: '/art/neonAche.webp',
+    genre: 'Synthwave Blues',
+    bpm: 110,
+   },
 
 
 
@@ -3079,6 +3090,7 @@ export const playlists = [
     't200',
     't75',
       't216',
+      't229',
   
     't174',
     't120',
