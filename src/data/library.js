@@ -459,7 +459,7 @@ export const tracks = [
     id: 't40',
     title: 'Lackluster',
     artist: 'RyFi',
-    album: 'High Gain',
+    album: 'Alt Drives',
     duration: 259,
     src: 'https://cdn1.suno.ai/5295c0e6-28a1-40f3-9805-6b6b73d001e1.mp3',
     art: '/art/lackluster.webp',
@@ -2361,7 +2361,7 @@ Next square.
     id: 't191',
     title:'The Rust',
     artist: 'RyFi',
-    album: 'Alt Drives',
+    album: 'High Gain',
     duration: 224,
     src: 'https://cdn1.suno.ai/3865741f-e2c1-483c-ae96-272791abcc0e.mp3',
     // art: '/art/theRust.webp',
@@ -2608,6 +2608,182 @@ Next square.
     bpm: null,
    },
 
+   {
+    id: 't213',
+    title: 'Drama',
+    artist: 'RyFi',
+    album: 'Coffee & Clouds',
+    duration: 272,
+    src: 'https://cdn1.suno.ai/300acd71-4e9b-4816-87bb-08e1e7559b8b.mp3',
+    // art: '/art/drama.webp',
+    genre: 'Phonk LoFi',
+    bpm: 140,
+   },
+   {
+    id: 't214',
+    title: 'Fractured Throne',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 279,
+    src: 'https://cdn1.suno.ai/1d16fda7-3328-45a3-b7ba-c225c5565ff3.mp3',
+    // art: '/art/fracturedThrone.webp',
+    genre: 'Modern Alternative Metal',
+    bpm: 90,
+   },
+
+   {
+    id: 't215',
+    title: 'Bourbon Bandit',
+    artist: 'RyFi',
+    album: 'Coffee & Clouds',
+    duration: 224,
+    src: 'https://cdn1.suno.ai/9ae590b1-d46e-42ab-8c2d-9ecdbb4205d9.mp3',
+    // art: '/art/bourbonBandit.webp',
+    genre: 'Chillhop',
+    bpm: null,
+   },
+
+   {
+    id: 't216',
+    title: 'Silver Lining',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 210,
+    src: 'https://cdn1.suno.ai/76a1ac3c-9903-49f3-9757-fb37d5d73bf9.mp3',
+    // art: '/art/silverLining.webp',
+    genre: 'Dark Trap',
+    bpm: 115,
+   },
+
+   {
+    id: 't217',
+    title: 'Beautiful Sin',
+    artist: 'RyFi',
+    album: 'Liquid Gold',
+    duration: 255,
+    src: 'https://cdn1.suno.ai/2b5a0c03-fc85-4ea2-993f-0c0b57a219dd.mp3',
+    // art: '/art/beautifulSin.webp',
+    genre: 'Cinematic Soul',
+    bpm: 90,
+   },
+
+   {
+    id: 't218',
+    title: 'Both Strings',
+    artist: 'RyFi',
+    album: 'High Gain',
+    duration: 466,
+    src: 'https://cdn1.suno.ai/568679ce-381f-4588-83d7-97ceeff98f79.mp3',
+    // art: '/art/bothStrings.webp',
+    genre: 'Blues Rock',
+    bpm: 72,
+   },
+
+
+   {
+    id: 't219',
+    title: 'Like Damn...',
+    artist: 'RyFi',
+    album: 'Silk Sheets',
+    duration: 229,
+    src: 'https://cdn1.suno.ai/e3036d4e-52d1-46b2-b192-62646f51ad3b.mp3',
+    // art: '/art/likeDamn.webp',
+    genre: 'Midwestern Trap',
+    bpm: 130,
+   },
+
+   {
+    id: 't220',
+    title: 'Still Standing',
+    artist: 'RyFi',
+    album: 'Alt Drives',
+    duration: 288,
+    src: 'https://cdn1.suno.ai/cf92f983-f187-4985-b777-f31084bdc350.mp3',
+    // art: '/art/stillStanding.webp',
+    genre: 'Alt Rock',
+    bpm: 105,
+   },
+
+   {
+    id: 't221',
+    title: 'Missed Calls',
+    artist: 'RyFi',
+    album: 'Static Heart',
+    duration: 215,
+    src: 'https://cdn1.suno.ai/b7bfd5fd-bf86-42ea-8d77-b0b50996a2a5.mp3',
+    // art: '/art/missedCalls.webp',
+    genre: 'Tra[',
+    bpm: 132,
+   },
+
+   {
+    id: 't222',
+    title: 'Hollow Roads',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 282,
+    src: 'https://cdn1.suno.ai/1ddc949b-7a43-44bc-a9be-6271ea90def9.mp3',
+    // art: '/art/hollowRoads.webp',
+    genre: 'Country Trap',
+    bpm: 82,
+   },
+
+   {
+    id: 't223',
+    title: 'Drowning in the Dark',
+    artist: 'RyFi',
+    album: 'Static Heart',
+    duration: 289,
+    src: 'https://cdn1.suno.ai/86d55423-7d28-4d3c-8e0a-bd0b1591f791.mp3',
+    // art: '/art/drowningInTheDark.webp',
+    genre: 'Dark Trapsoul',
+    bpm: 130,
+   },
+
+
+   {
+    id: 't224',
+    title: 'Just Drive',
+    artist: 'RyFi',
+    album: 'Dirt Road',
+    duration: 309,
+    src: 'https://cdn1.suno.ai/918c1459-88e1-4747-ace5-b158f67b3474.mp3',
+    // art: '/art/justDrive.webp',
+    genre: 'Americana Folk Rock',
+    bpm: 75,
+   },
+
+   {
+    id: 't225',
+    title: 'Dank Til I Sank',
+    artist: 'RyFi',
+    duration: 222,
+    album: 'Flow State',
+    src: 'https://cdn1.suno.ai/7ac2f1bf-30fb-46f0-ac6b-7f08f24ebab8.mp3',
+    // art: '/art/dankTilISank.webp',
+    genre: 'Phonk Rap',
+    bpm: 120,
+   },
+
+
+   {
+    id: 't226',
+    title: 'Water',
+    artist: 'RyFi',
+    duration: 207,
+    album: 'Flow State',
+    src: 'https://cdn1.suno.ai/8d33dffd-4db0-44cb-8ecf-6ce26fe2d5fe.mp3',
+    // art: '/art/water.webp',
+    genre: 'Memphis Trap',
+    bpm: 135,
+   }
+
+
+
+
+
+
+
 
 
 
@@ -2644,7 +2820,7 @@ export const albumPalettes = {
 export const playlists = [
   {
     id: 'pl1',
-    icon: '🎙️',
+    icon: 'MicVocal',
     name: 'Flow State',
     description:
       'Trap, Boom Bap, and Hardcore Rap for letting the words flow',
@@ -2658,6 +2834,7 @@ export const playlists = [
       't60',
       't96',
       't206',
+      't225',
       't196',
       't205',
       't162',
@@ -2667,24 +2844,27 @@ export const playlists = [
       't189',
       't105',
       't207',
+      't226',
       't198',
     ],
     color: '#871cdf',
   },
   {
     id: 'pl2',
-    icon: '🛞',
+    icon: 'Guitar',
     name: 'Dirt Road',
     description:
-      'Country Trap, Outlaw Country, and Traditional Country for dusty drives',
+      'Country Trap, Outlaw Country, and Trad Country for those dusty roads',
     trackIds: [
       't15',
+      't222',
       't104',
       't90',
       't14',
       't165',
       't16',
       't27',
+      
       't37',
       't172',
       't31',
@@ -2704,7 +2884,7 @@ export const playlists = [
 
     {
     id: 'pl6',
-    icon: '🚦',
+    icon: 'CarFront',
     name: 'Alt Drives',
     description:
       'Late-night Alternative for introspective moments and existential crises',
@@ -2715,8 +2895,10 @@ export const playlists = [
       't6',
       't8',
       't9',
+      't40',
       't41',
       't78',
+      't220',
       't86',
       
       't190',
@@ -2725,7 +2907,7 @@ export const playlists = [
       't151',
       
       't193',
-      't191',
+      
      
       
       't143',
@@ -2736,15 +2918,16 @@ export const playlists = [
   },
     {
     id: 'pl7',
-    icon: '🎸',
+    icon: 'HandMetal',
     name: 'High Gain',
     description:
       'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
     trackIds: [
       't22',
-      't40',
+      't191',
       't23',
-      't133',
+      
+      
       
       't52',
       't24',
@@ -2753,18 +2936,23 @@ export const playlists = [
       't152',
       't76',
       't181',
+      't218',
+      't209',
+      't214',
+      
       't77',
+      't133',
       't156',
       't91',
       't123',
       't130',
-      't209',
+      
     ],
     color: '#ed6d3a',
   },
       {
     id: 'pl9',
-    icon: '⚡',
+    icon: 'Zap',
     name: 'Pulse',
     description: 'Pop hits, Electronica, and High-Energy Hits for any occasion',
     trackIds: [
@@ -2793,7 +2981,7 @@ export const playlists = [
 
     {
     id: 'pl10',
-    icon: '☕',
+    icon: 'Coffee',
     name: 'Coffee & Clouds',
     description:
       'LoFi, Mellow, and Emotional vibes for Rainy Days',
@@ -2803,6 +2991,7 @@ export const playlists = [
       't197',
       't97',
       't164',
+      't213',
       't212',
       't210',
       't42',
@@ -2815,6 +3004,7 @@ export const playlists = [
       't178',
       't136',
       't122',
+      't215',
       't144',
     ],
     color: '#00e5ff',
@@ -2826,7 +3016,7 @@ export const playlists = [
 
   {
     id: 'pl4',
-    icon: '🫀',
+    icon: 'Heart',
     name: 'Static Heart',
     description: 'Love, Heartbreak, and Toxic cycles explored',
     trackIds: [
@@ -2843,11 +3033,13 @@ export const playlists = [
       't72',
       
       't194',
+      't223',
       't74',
       't137',
       't188',
       't158',
       't138',
+      't221',
       't4',
     ],
     color: '#e2231c',
@@ -2855,7 +3047,7 @@ export const playlists = [
 
   {
     id: 'pl11',
-    icon: '🫠',
+    icon: 'Droplet',
     name: 'Liquid Gold',
     description: 'Smooth and Slick cross-genre Hits for vibing',
     trackIds: [
@@ -2867,13 +3059,14 @@ export const playlists = [
       't48',
       't1',
       't201',
+      't217',
       't202',
       't87',
       't88',
     't118',
     't200',
     't75',
-  
+      't216',
   
     't174',
     't120',
@@ -2887,7 +3080,7 @@ export const playlists = [
 
         {
     id: 'pl3',
-    icon: '♾️',
+    icon: 'Infinity',
     name: 'Synergy',
     description:
       'Manifestation, Simulation Theory, and the Metaphysical collide',
@@ -2918,13 +3111,14 @@ export const playlists = [
 
   {
     id: 'pl8',
-    icon: '🫦',
+    icon: 'BedDouble',
     name: 'Silk Sheets',
     description:
       'Smooth, Sensual, and perfect for those After Hours intimate moments',
     trackIds: [
       't59',
       't11',
+      't219',
       't204',
       't115',
       't192',
@@ -2952,7 +3146,7 @@ export const playlists = [
 
   {
     id: 'pl5',
-    icon: '🔀',
+    icon: 'Shuffle',
     name: 'Mixtape - ALL',
     description: 'Everything in the RyFi universe',
     trackIds: tracks

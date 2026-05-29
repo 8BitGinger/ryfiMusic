@@ -1,5 +1,5 @@
 import React from 'react'
-import { Play, Shuffle, MoreHorizontal } from 'lucide-react'
+import { Play, Pause, Shuffle, MoreHorizontal, Clock } from 'lucide-react'
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
 import { TrackRow } from './TrackRow.jsx'
@@ -98,7 +98,7 @@ export function PlaylistView({ playlistId }) {
             onMouseDown={e => e.currentTarget.style.transform = 'scale(0.97)'}
             onMouseUp={e => e.currentTarget.style.transform = 'scale(1)'}
           >
-            {isThisPlaying ? '⏸' : <Play size={16} fill="#000" />}
+            {isThisPlaying ? <Pause size={16} fill="#000" /> : <Play size={16} fill="#000" />}
             &nbsp;{isThisPlaying ? 'Pause' : 'Play'}
           </button>
 
@@ -125,7 +125,7 @@ export function PlaylistView({ playlistId }) {
           <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>TITLE</span>
           <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>GENRE</span>
           <span></span>
-          <span style={{ fontSize: 11, color: 'var(--text-muted)', textAlign: 'right' }}>⏱</span>
+          <span style={{ fontSize: 11, color: 'var(--text-muted)', textAlign: 'right' }}><Clock size={11} /></span>
         </div>
         {playlistTracks.map((track, i) => (
           <TrackRow key={track.id} track={track} index={i} playlist={playlist} />

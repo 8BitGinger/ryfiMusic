@@ -161,7 +161,7 @@ export function PlayerBar() {
         flexShrink: 0,
       }}>
         <p style={{ color: 'var(--text-muted)', fontSize: 13 }}>
-          Select a track to begin ✦
+          Select a track to begin
         </p>
       </div>
     )

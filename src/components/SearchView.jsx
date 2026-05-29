@@ -65,7 +65,7 @@ export function SearchView() {
           </div>
         ) : (
           <div style={{ textAlign: 'center', color: 'var(--text-muted)', paddingTop: 60 }}>
-            <p style={{ fontSize: 32, marginBottom: 8 }}>🔍</p>
+            <SearchIcon size={32} style={{ margin: '0 auto 8px', display: 'block', color: 'var(--text-muted)' }} />
             <p style={{ fontSize: 16 }}>No results for "{query}"</p>
           </div>
         )

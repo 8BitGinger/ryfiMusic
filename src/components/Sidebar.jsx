@@ -1,5 +1,12 @@
 import React from 'react'
-import { Home, Search, Library, Radio, Music2, ChevronRight } from 'lucide-react'
+import {
+  Home, Search, Library, Radio, Music2, ChevronRight,
+  MicVocal, Guitar, CarFront, HandMetal, Zap, Coffee, Heart, Droplet, Infinity, BedDouble, Shuffle,
+} from 'lucide-react'
+
+const PLAYLIST_ICONS = {
+  MicVocal, Guitar, CarFront, HandMetal, Zap, Coffee, Heart, Droplet, Infinity, BedDouble, Shuffle,
+}
 import { usePlayerStore } from '../store/playerStore.js'
 import { AlbumArt } from './AlbumArt.jsx'
 
@@ -61,7 +68,7 @@ export function Sidebar() {
               onMouseEnter={e => { if (!active) e.currentTarget.style.background = 'var(--bg-hover)'; e.currentTarget.style.color = 'var(--text-primary)' }}
               onMouseLeave={e => { if (!active) e.currentTarget.style.background = 'transparent'; if (!active) e.currentTarget.style.color = 'var(--text-secondary)' }}
             >
-              <Icon size={18} strokeWidth={active ? 2.5 : 1.8} />
+              <Icon size={18}  strokeWidth={active ? 2.5 : 1.8} />
               {label}
               {active && <ChevronRight size={12} style={{ marginLeft: 'auto', opacity: 0.5 }} />}
             </button>
@@ -128,8 +135,9 @@ export function Sidebar() {
                   textOverflow: 'ellipsis',
                   whiteSpace: 'nowrap',
                   fontFamily: 'var(--font-body)',
+               
                 }}>
-                  {pl.name} <span className='emoji'>{pl.icon}</span>
+                  {pl.name} {(() => { const Icon = PLAYLIST_ICONS[pl.icon]; return Icon ? <Icon size={13} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: 3, marginBottom: 2,  }} /> : null })()}
                 </div>
                 <div style={{ fontSize: 11, color: 'var(--text-muted)' }}>
                   {pl.trackIds.length} tracks
