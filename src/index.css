@@ -149,7 +149,7 @@ body::before {
 
 .hero {
   margin: auto;
-  background: url(../public/hero.png) center/cover no-repeat;
+  background: url(../public/hero.webp) center/cover no-repeat;
   border-radius: var(--radius-xl);
   border-top-left-radius: 35%;
   border-top-right-radius: 35%;
@@ -157,6 +157,7 @@ body::before {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   border: 1px double rgba(143, 142, 142, 0.4);
   max-width: 100%;
+  
   overflow: hidden;
   margin-bottom: -250px;
   -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
