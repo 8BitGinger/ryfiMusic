@@ -10,17 +10,41 @@ export const featuredArtist = {
   bio: 'Genre-bending AI-assisted music producer crafting soundscapes that live at the intersection of human emotion and machine creativity. From dark trap to spiritual hip-hop, country to nu-metal — every track is an experiment in what music can feel like when the rules don\'t apply.',
   portfolioUrl: 'https://8bitginger.com',  // ← update with your portfolio URL
   sunoUrl: 'https://suno.com/@8bitginger', // ← if you have a Suno profile, add the URL here
-  stats: { tracks: '349+', streams: '14k', genres: '50+' },
+  stats: { tracks: '361+', streams: '16k' },
 }
 
 export const collaborators = [
-  // {
-  //   id: 'timbaland',
-  //   name: 'Timbaland',
-  //   image: '/timbaland.webp',
-  //   sunoUrl: 'https://suno.com/@timbaland',
-  //   collab: 'Remix Contest - Let\'s Get High',
-  // },
+  {
+    id: 'timbaland',
+    name: 'Timbaland',
+    image: '/timbaland.webp',
+    sunoUrl: 'https://suno.com/@timbaland',
+    collab: 'Remix Contest - Let\'s Get High',
+  },
+
+    {
+    id: 'vndal',
+    name: 'VNDAL',
+    image: '/VNDAL.webp',
+    sunoUrl: 'https://music.apple.com/us/artist/vndal/6775072343',
+    collab: 'Dank Til I Sank',
+  },
+
+  {
+    id: 'cashharlan',
+    name: 'Cash Harlan',
+    image: '/cashHarlan.webp',
+    sunoUrl: 'https://music.apple.com/us/artist/cash-harlan/6779032164',
+    collab: 'Hollow Roads',
+  },
+
+  {
+    id: 'auraveil',
+    name: 'Auraveil',
+    image: '/auraveil.webp',
+    sunoUrl: 'https://music.apple.com/us/artist/auraveil/6776076042',
+    collab: 'Let Me Fade',
+  },
   
   {
     id: 'arvyn',
@@ -38,9 +62,9 @@ export const collaborators = [
   },
   {
     id: 'sonotzen2',
-    name: 'ZEN',
+    name: 'Sonotzen',
     image: '/zen.webp',
-    sunoUrl: 'https://suno.com/@sonotzen2',
+    sunoUrl: 'https://music.apple.com/us/artist/sonotzen/1875517537',
     collab: 'Back in Blood - RyFi Remix',
   },
   // {
@@ -50,5 +74,7 @@ export const collaborators = [
   //   sunoUrl: 'https://suno.com/@not8DJ',
   //   collab: 'Contained',
   // },
+
+
 
 ]
