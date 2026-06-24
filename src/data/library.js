@@ -160,13 +160,13 @@ export const tracks = [
   {
     id: 't14',
     title: 'Certified Pyscho',
-    artist: 'RyFi',
+    artist: 'Cash Harlan',
     album: 'Dirt Road',
-    duration: 172,
-    src: 'https://cdn1.suno.ai/525c512b-a967-48d8-a43f-04136f6cc9c7.mp3',
-    art: '/art/certifiedPyscho.webp',
+    duration: 201,
+    src: 'https://cdn1.suno.ai/ca250c3a-a6c2-48d0-8e2f-cbd942749891.mp3',
+    art: '/art/certPsycho.jpg',
     genre: 'Contemporary Country',
-    bpm: 85,
+    bpm: 72,
   },
   {
     id: 't15',
@@ -1957,11 +1957,11 @@ Next square.
   {
     id: 't158',
     title: 'Bulletproof',
-    artist: 'RyFi',
+    artist: 'Blacklist Dahlia',
     album: 'Static Heart',
     duration: 183,
-    src: 'https://cdn1.suno.ai/adbfbffd-0d44-4341-9516-aea7bf802c96.mp3',
-    art: '/art/bulletProof.webp',
+    src: 'https://cdn1.suno.ai/73716169-dfbf-485e-8eb5-5fddb6ca902e.mp3',
+    art: '/art/blacklistDahliaCover.jpg',
     genre: 'Neo-Noir Soul',
     bpm: 85,
   },
@@ -3045,7 +3045,9 @@ export const playlists = [
     name: 'Static Heart',
     description: 'Love, Heartbreak, and Toxic cycles explored',
     trackIds: [
+      't158',
       't153',
+      
       't83',
       't170',
       't79',
@@ -3062,7 +3064,7 @@ export const playlists = [
       't74',
       't137',
       't188',
-      't158',
+      
       't138',
       't221',
       't4',

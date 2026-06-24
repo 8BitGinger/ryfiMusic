@@ -1,6 +1,6 @@
 import React from 'react'
 import { ExternalLink, Music, Users, Disc } from 'lucide-react'
-import { featuredArtist, collaborators } from '../data/artists.js'
+import { featuredArtist, collaborators, artistList } from '../data/artists.js'
 import { usePlayerStore } from '../store/playerStore.js'
 
 function StatBadge({ value, label }) {
@@ -225,6 +225,26 @@ export function Artists() {
               Suno Profile
             </a> */}
           </div>
+        </div>
+      </div>
+
+       {/* ── Artists ─────────────────────────────────────────────────── */}
+      <div style={{ padding: '40px 40px 0' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
+          <Users size={18} style={{ color: 'var(--accent)' }} />
+          <h2 style={{
+            fontSize: 18, fontWeight: 700,
+            fontFamily: 'var(--font-display)',
+            color: 'var(--text-primary)',
+          }}>
+            Artists
+          </h2>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 12 }}>
+          {artistList.map(artist => (
+            <CollabCard key={artist.id} artist={artist} />
+          ))}
         </div>
       </div>
 

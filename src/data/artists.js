@@ -22,29 +22,7 @@ export const collaborators = [
     collab: 'Remix Contest - Let\'s Get High',
   },
 
-    {
-    id: 'vndal',
-    name: 'VNDAL',
-    image: '/VNDAL.webp',
-    sunoUrl: 'https://music.apple.com/us/artist/vndal/6775072343',
-    collab: 'Dank Til I Sank',
-  },
 
-  {
-    id: 'cashharlan',
-    name: 'Cash Harlan',
-    image: '/cashHarlan.webp',
-    sunoUrl: 'https://music.apple.com/us/artist/cash-harlan/6779032164',
-    collab: 'Hollow Roads',
-  },
-
-  {
-    id: 'auraveil',
-    name: 'Auraveil',
-    image: '/auraveil.webp',
-    sunoUrl: 'https://music.apple.com/us/artist/auraveil/6776076042',
-    collab: 'Let Me Fade',
-  },
   
   {
     id: 'arvyn',
@@ -77,4 +55,38 @@ export const collaborators = [
 
 
 
+]
+
+export const artistList = [
+      {
+    id: 'vndal',
+    name: 'VNDAL',
+    image: '/VNDAL.webp',
+    sunoUrl: 'https://music.apple.com/us/artist/vndal/6775072343',
+    collab: 'Dank Til I Sank',
+  },
+
+  {
+    id: 'cashharlan',
+    name: 'Cash Harlan',
+    image: '/cashHarlan.webp',
+    sunoUrl: 'https://music.apple.com/us/artist/cash-harlan/6779032164',
+    collab: 'Hollow Roads',
+  },
+
+  {
+    id: 'auraveil',
+    name: 'Auraveil',
+    image: '/auraveil.webp',
+    sunoUrl: 'https://music.apple.com/us/artist/auraveil/6776076042',
+    collab: 'Let Me Fade',
+  },
+
+  {
+    id: 'blacklistdahlia',
+    name: 'Blacklist Dahlia',
+    image: '/blacklistDahlia.png',
+    sunoUrl: ' ',
+    collab: 'Bulletproof',
+  },
 ]
