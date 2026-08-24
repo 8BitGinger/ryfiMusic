@@ -1298,12 +1298,12 @@ export const tracks = [
 
   {
     id: 't111',
-    title: 'Weekend Spirit',
-    artist: '8BitGinger',
+    title: 'Bored',
+    artist: 'Auraveil',
     album: 'Coffee & Clouds',
-    duration: 156,
+    duration: 199,
     src: 'https://cdn1.suno.ai/e2ab9004-bd19-4146-add1-e79957536085.mp3',
-    art: '/art/weekendSpirit.webp',
+    art: null,
     genre: 'Folk Soul',
     bpm: 78,
   },
@@ -1656,14 +1656,14 @@ export const tracks = [
 
   {
     id: 't141',
-    title: 'Empty Chair',
-    artist: '8BitGinger',
+    title: 'Mister Bad Guy (RyFi Remix)',
+    artist: '8BitGinger ft. sonotzen2',
     album: 'Coffee & Clouds',
     duration: 359,
-    src: 'https://cdn1.suno.ai/a4ff3a7a-fc8f-4e64-9d0b-1e38625b4140.mp3',
-    art: '/art/emptyChair.webp',
-    genre: 'Neo Soul',
-    bpm: 62,
+    src: 'https://cdn1.suno.ai/553166d2-308d-4174-8da6-af22afe8263d.mp3',
+    art: null,
+    genre: 'LoFi',
+    bpm: 82,
   },
 
   {
@@ -1692,14 +1692,14 @@ export const tracks = [
 
   {
     id: 't144',
-    title: '60Hz Lullaby',
+    title: 'Point of No Return',
     artist: '8BitGinger',
     album: 'Coffee & Clouds',
-    duration: 308,
-    src: 'https://cdn1.suno.ai/6f567829-63a7-4b51-8f3c-beb6664a5914.mp3',
-    art: '/art/60Hz.webp',
+    duration: 199,
+    src: 'https://cdn1.suno.ai/915b912f-c09e-49b7-925e-c5918354b4fa.mp3',
+    art: null,
     genre: 'LoFi',
-    bpm: 60,
+    bpm: 140,
   },
 
   // {
@@ -2094,14 +2094,14 @@ export const tracks = [
 
   {
     id: 't178',
-    title: 'Compass',
+    title: 'Stacked Too High',
     artist: '8BitGinger',
     album: 'Coffee & Clouds',
-    duration: 286,
-    src: 'https://cdn1.suno.ai/5b9e7474-4e6a-4724-9a29-5b990dda9067.mp3',
-    art: '/art/compass.webp',
-    genre: 'Neo Soul',
-    bpm: 86,
+    duration: 204,
+    src: 'https://cdn1.suno.ai/9eb11626-e276-49ef-a450-535c2caaac99.mp3',
+    art: null,
+    genre: 'LoFi Hip-Hop',
+    bpm: 74,
   },
 
   {
@@ -2535,14 +2535,14 @@ export const tracks = [
 
    {
     id: 't215',
-    title: 'Bourbon Bandit',
+    title: 'We Endure',
     artist: '8BitGinger',
     album: 'Coffee & Clouds',
     duration: 224,
-    src: 'https://cdn1.suno.ai/9ae590b1-d46e-42ab-8c2d-9ecdbb4205d9.mp3',
-    art: '/art/bourbonBandit.webp',
-    genre: 'Chillhop',
-    bpm: null,
+    src: 'https://cdn1.suno.ai/43218168-9a5d-42ce-b79b-d2141691a171.mp3',
+    art: null,
+    genre: 'Neo-Soul',
+    bpm: 72,
    },
 
    {
