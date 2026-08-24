@@ -4,13 +4,13 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const featuredArtist = {
-  name: 'RyFi',
+  name: '8BitGinger',
   image: '/ryan.jpeg',       // swap for a profile photo in /public/
   logo: '/recordLogo.png',
   bio: 'Genre-bending AI-assisted music producer crafting soundscapes that live at the intersection of human emotion and machine creativity. From dark trap to spiritual hip-hop, country to nu-metal — every track is an experiment in what music can feel like when the rules don\'t apply.',
   portfolioUrl: 'https://8bitginger.com',  // ← update with your portfolio URL
   sunoUrl: 'https://suno.com/@8bitginger', // ← if you have a Suno profile, add the URL here
-  stats: { tracks: '361+', streams: '16k' },
+  stats: { tracks: '425+', streams: '20k' },
 }
 
 export const collaborators = [
@@ -45,13 +45,7 @@ export const collaborators = [
     sunoUrl: 'https://music.apple.com/us/artist/sonotzen/1875517537',
     collab: 'Back in Blood - RyFi Remix',
   },
-  // {
-  //   id: 'not8DJ',
-  //   name: 'NOT8DJ',
-  //   image: '/not8dj.webp',
-  //   sunoUrl: 'https://suno.com/@not8DJ',
-  //   collab: 'Contained',
-  // },
+
 
 
 
