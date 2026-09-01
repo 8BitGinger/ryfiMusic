@@ -8,9 +8,9 @@ export const featuredArtist = {
   image: '/ryan.jpeg',       // swap for a profile photo in /public/
   logo: '/recordLogo.png',
   bio: 'Genre-bending AI-assisted music producer crafting soundscapes that live at the intersection of human emotion and machine creativity. From dark trap to spiritual hip-hop, country to nu-metal — every track is an experiment in what music can feel like when the rules don\'t apply.',
-  portfolioUrl: 'https://8bitginger.com',  // ← update with your portfolio URL
+  portfolioUrl: 'https://music.apple.com/us/artist/8bitginger/6790270313',  // ← update with your portfolio URL
   sunoUrl: 'https://suno.com/@8bitginger', // ← if you have a Suno profile, add the URL here
-  stats: { tracks: '425+', streams: '20k' },
+  stats: { tracks: '431+', streams: '21k' },
 }
 
 export const collaborators = [

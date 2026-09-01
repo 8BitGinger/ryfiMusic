@@ -149,7 +149,7 @@ body::before {
 
 .hero {
   margin: auto;
-  background: url(../ryfiHero.png) center/cover no-repeat;
+  background: url(../hero.webp) center/cover no-repeat;
   border-radius: var(--radius-xl);
   border-top-left-radius: 35%;
   border-top-right-radius: 35%;

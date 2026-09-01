@@ -199,7 +199,7 @@ export function Artists() {
               onMouseLeave={e => { e.currentTarget.style.filter = 'brightness(1)'; e.currentTarget.style.transform = 'scale(1)' }}
             >
               <ExternalLink size={14} />
-              Portfolio
+              Apple Music
             </a>
             {/* <a
               href={featuredArtist.sunoUrl}
