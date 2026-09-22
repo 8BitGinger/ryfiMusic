@@ -88,7 +88,7 @@ function CollabCard({ artist }) {
 
 export function Artists() {
   const { tracks, playTrack } = usePlayerStore()
-  const ryfiTracks = tracks.filter(t => t.artist === featuredArtist.name || t.artist.startsWith(featuredArtist.name))
+  const ryfiTracks = tracks.filter(t => t.artist === featuredArtist.name || t.artist?.startsWith(featuredArtist.name))
 
   return (
     <div style={{ height: '100%', overflowY: 'auto', padding: '0 0 40px' }}>

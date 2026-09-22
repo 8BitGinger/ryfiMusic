@@ -5,12 +5,12 @@
 
 export const featuredArtist = {
   name: '8BitGinger',
-  image: '/ryan.jpeg',       // swap for a profile photo in /public/
+  image: '/ryan2.jpg',       // swap for a profile photo in /public/
   logo: '/recordLogo.png',
   bio: 'Genre-bending AI-assisted music producer crafting soundscapes that live at the intersection of human emotion and machine creativity. From dark trap to spiritual hip-hop, country to nu-metal — every track is an experiment in what music can feel like when the rules don\'t apply.',
   portfolioUrl: 'https://music.apple.com/us/artist/8bitginger/6790270313',  // ← update with your portfolio URL
   sunoUrl: 'https://suno.com/@8bitginger', // ← if you have a Suno profile, add the URL here
-  stats: { tracks: '431+', streams: '21k' },
+  stats: { tracks: '453+', streams: '23k' },
 }
 
 export const collaborators = [
@@ -55,7 +55,7 @@ export const artistList = [
       {
     id: 'vndal',
     name: 'VNDAL',
-    image: '/VNDAL.webp',
+    image: '/VNDAL.jpg',
     sunoUrl: 'https://music.apple.com/us/artist/vndal/6775072343',
     collab: 'Dank Til I Sank',
   },
@@ -71,7 +71,7 @@ export const artistList = [
   {
     id: 'auraveil',
     name: 'Auraveil',
-    image: '/auraveil.webp',
+    image: '/auraveil.png',
     sunoUrl: 'https://music.apple.com/us/artist/auraveil/6776076042',
     collab: 'Let Me Fade',
   },
@@ -79,7 +79,7 @@ export const artistList = [
   {
     id: 'blacklistdahlia',
     name: 'Blacklist Dahlia',
-    image: '/blacklistDahlia.png',
+    image: '/blacklistDahlia.jpg',
     sunoUrl: ' ',
     collab: 'Bulletproof',
   },

@@ -118,7 +118,7 @@ export function HomeView() {
           {getGreeting()}.
         </h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: 16 }}>
-          Welcome to the RyFi universe — all original, all mine.
+          Welcome to the RyFi Records universe
         </p>
         </div>
       </div>

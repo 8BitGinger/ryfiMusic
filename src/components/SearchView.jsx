@@ -12,9 +12,9 @@ export function SearchView() {
     const q = query.toLowerCase()
     return tracks.filter(t =>
       t.title.toLowerCase().includes(q) ||
-      t.artist.toLowerCase().includes(q) ||
-      t.album.toLowerCase().includes(q) ||
-      t.genre.toLowerCase().includes(q)
+      t.artist?.toLowerCase().includes(q) ||
+      t.album?.toLowerCase().includes(q) ||
+      t.genre?.toLowerCase().includes(q)
     )
   }, [query, tracks])
 

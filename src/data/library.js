@@ -14,7 +14,7 @@ export const tracks = [
     id: 't1',
     title: 'Ghost Frequency',
     artist: '8BitGinger',
-    album: 'Liquid Gold',
+    album: 'Coffee & Clouds',
     duration: 228,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Ghost%20Frequency.wav?alt=media', // 👈 replace with your .mp3 path or Suno URL
     art: '/art/ghostFrequency.webp', // 👈 replace with your cover art path or Suno URL
@@ -40,9 +40,9 @@ export const tracks = [
     title: "Cello's Grudge",
     artist: '8BitGinger',
     album: 'Flow State',
-    duration: 194,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Cello\'s%20Grudge.wav?alt=media', 
-    art: '/art/cellosGrudge.webp', 
+    duration: 186,
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Cello\'s%20Grudge%20-%20CORRECTED.wav?alt=media', 
+    art: '/art/cellosGrudge.jfif', 
     genre: 'Hardcore Lo-Fi',
     bpm: null,
   },
@@ -60,11 +60,11 @@ export const tracks = [
   {
     id: 't8',
     title: 'Trust Fall',
-    artist: '8BitGinger',
+    artist: 'Auraveil',
     album: 'Alt Drives',
     duration: 224,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Trust%20Fall%20-%20Studio%20Mix.wav?alt=media',
-    art: '/art/trustfall.webp',
+    art: '/art/trustFall.jfif',
     genre: 'Midwest Emo',
     bpm: 140,
   },
@@ -76,7 +76,7 @@ export const tracks = [
     duration: 215,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Burn%20the%20Blueprint%20-%20Auraveil%20(Remastered).wav?alt=media',
     art: '/art/burntheBlueprint.webp',
-    genre: 'Chillwave',
+    genre: 'Alternative',
     bpm: 140,
   },
   {
@@ -90,27 +90,17 @@ export const tracks = [
     genre: 'Dark Soul Trap',
     bpm: 138,
   },
-  // {
-  //   id: 't11',
-  //   title: 'Slow Burn',
-  //   artist: '8BitGinger',
-  //   album: 'Silk Sheets',
-  //   duration: 275,
-  //   src: 'https://cdn1.suno.ai/1a30ba32-847b-4c81-99e1-43b5712f37b4.mp3',
-  //   art: '/art/slowburn.webp',
-  //   genre: 'Dark Soul Trap',
-  //   bpm: 92,
-  // },
+
 
   {
     id: 't14',
-    title: 'Certified Pyscho',
-    artist: 'Cash Harlan',
+    title: 'Certified Pyscho - Irish Coast Cover',
+    artist: '8BitGinger',
     album: 'Dirt Road',
     duration: 201,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Certified%20Psycho%20-%20Irish%20Coast%20Cover.wav?alt=media',
-    art: '/art/certPsycho.jpg',
-    genre: 'Contemporary Country',
+    art: '/art/certifiedPyscho.webp',
+    genre: 'Folk',
     bpm: 72,
   },
   {
@@ -132,7 +122,7 @@ export const tracks = [
     id: 't32',
     title: 'Everything You Asked For',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'High Gain',
     duration: 219,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Everything%20You%20Asked%20For.wav?alt=media',
     art: '/art/everythingYouAskedFor.webp',
@@ -168,17 +158,7 @@ export const tracks = [
   },
 
 
-  // {
-  //   id: 't39',
-  //   title: 'In Love with a Burlesque Queen',
-  //   artist: '8BitGinger',
-  //   album: 'Silk Sheets',
-  //   duration: 259,
-  //   src: 'https://cdn1.suno.ai/00bb8dce-7cd8-4432-9568-a6415561a552.mp3',
-  //   art: '/art/burlesqueQueen.webp',
-  //   genre: 'R&B',
-  //   bpm: 70,
-  // },
+
 
 
 
@@ -218,70 +198,37 @@ export const tracks = [
     duration: 269,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Transcendence%20-%20Vibe%20Cover.wav?alt=media',
     art: '/art/transcendence.webp',
-    genre: '432hz Synthwave Trap',
+    genre: 'Synthwave Trap',
     bpm: null,
   },
 
-  // {
-  //   id: 't50',
-  //   title: 'The Phoenix Rises',
-  //   artist: '8BitGinger',
-  //   album: 'Liquid Gold',
-  //   duration: 193,
-  //   src: 'https://cdn1.suno.ai/7152721e-7d84-4fa4-9f10-6a6937682035.mp3',
-  //   art: '/art/thePhoenix.webp',
-  //   genre: 'Country Trap',
-  //   bpm: null,
-  // },
+
 
   {
     id: 't51',
     title: 'One Last Rose',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'Coffee & Clouds',
     duration: 273,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/ONE%20LAST%20ROSE%20-%208BitBanger(NAH%20-%20REMIX).wav?alt=media',
-    art: null,
-    genre: 'Acoustic Soul',
+    art: '/art/oneLastRose.jfif',
+    genre: 'LoFi Trap',
     bpm: 96,
   },
 
   {
     id: 't52',
     title: 'Chemical Bond',
-    artist: '8BitGinger',
+    artist: 'Blacklist Dahlia',
     album: 'High Gain',
     duration: 206,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Chemical%20Bond-%20Blacklist%20Dahlia%20Beat.wav?alt=media',
-    art: '/art/chemicalBond.webp',
+    art: '/art/chemicalBond.jpg',
     genre: 'Cinematic Emo Rock',
     bpm: null,
   },
 
-  // {
-  //   id: 't53',
-  //   title: 'Hyper-Focus',
-  //   artist: '8BitGinger',
-  //   album: 'Flow State',
-  //   duration: 194,
-  //   src: 'https://cdn1.suno.ai/9007005c-3e58-4059-81de-22e8ec76a4c4.mp3',
-  //   art: '/art/hyperFocus.webp',
-  //   genre: 'Dark Boom Bap',
-  //   bpm: 92,
-  // },
 
-
-  // {
-  //   id: 't55',
-  //   title: 'Dis Bitch - Drill Demo',
-  //   artist: '8BitGinger',
-  //   album: 'Silk Sheets',
-  //   duration: 145,
-  //   src: 'https://cdn1.suno.ai/9a4621f1-57d9-4f9d-ab62-883a6a7b76a9.mp3',
-  //   art: '/art/disBitch.webp',
-  //   genre: 'Drill',
-  //   bpm: 140,
-  // },
 
 
 
@@ -292,7 +239,7 @@ export const tracks = [
     album: 'Silk Sheets',
     duration: 273,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Skin%20%26%20Soul%20_%20Deephouse%20Demo.wav?alt=media',
-    art: '/art/skinSoul.webp',
+    art: '/art/skinSoul.jfif',
     genre: 'Chillstep',
     bpm: 115,
   },
@@ -311,30 +258,16 @@ export const tracks = [
 
   {
     id: 't60',
-    title: 'Villian Era - 3am Remix',
+    title: 'Lowkey Villian',
     artist: '8BitGinger',
     album: 'Flow State',
     duration: 253,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Lowkey%20Villian%20-%20Villian%20Era%20Remix%20(1).wav?alt=media',
-    art: '/art/villianEra.webp',
+    art: '/art/villianEra.png',
     genre: 'Trap-Phonk',
     bpm: 140,
   },
 
-
-
-
-  // {
-  //   id: 't64',
-  //   title: 'West Texas Wind',
-  //   artist: '8BitGinger',
-  //   album: 'Dirt Road',
-  //   duration: 310,
-  //   src: 'https://cdn1.suno.ai/ca79ec67-645d-4ed9-a405-ee80c87afb82.mp3',
-  //   art: '/art/westTexasWind.webp',
-  //   genre: 'Outlaw Country',
-  //   bpm: 145,
-  // },
 
 
 
@@ -365,38 +298,15 @@ export const tracks = [
     id: 't79',
     title: 'Through the Smoke',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'Coffee & Clouds',
     duration: 208,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Through%20the%20Smoke.wav?alt=media',
-    art: null,
+    art: '/art/throughSmoke.jfif',
     genre: 'Trap Soul',
     bpm: 88,
   },
 
-  // {
-  //   id: 't80',
-  //   title: 'Brothers',
-  //   artist: '8BitGinger',
-  //   album: 'Dirt Road',
-  //   duration: 166,
-  //   src: 'https://cdn1.suno.ai/0006e9ab-57ee-40b6-8f00-89919e0b2947.mp3',
-  //   art: '/art/brothers.webp',
-  //   genre: 'Rock Country',
-  //   bpm: 95,
-  // },
 
-
-  // {
-  //   id: 't82',
-  //   title: 'First Date Vibes',
-  //   artist: '8BitGinger',
-  //   album: 'Pulse',
-  //   duration: 210,
-  //   src: 'https://cdn1.suno.ai/53ccea43-9bea-45cf-aa27-d07c5fe1eb4f.mp3',
-  //   art: '/art/firstDate.webp',
-  //   genre: 'Pop-Infused Hip-Hop',
-  //   bpm: 160,
-  // },
 
 
   {
@@ -422,29 +332,18 @@ export const tracks = [
 
 
 
-  {
-    id: 't96',
-    title: 'Your Ex is a Bish',
-    artist: '8BitGinger',
-    album: 'Flow State',
-    duration: 312,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Your%20Ex%20is%20a%20Bish%20-%20VNDAL%20Version.wav?alt=media',
-    art: '/art/yourExIsABish.webp',
-    genre: 'Murder Rap',
-    bpm: 140,
-  },
+  // {
+  //   id: 't96',
+  //   title: 'Your Ex is a Bish',
+  //   artist: '8BitGinger',
+  //   album: 'Flow State',
+  //   duration: 312,
+  //   src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Your%20Ex%20is%20a%20Bish%20-%20VNDAL%20Version.wav?alt=media',
+  //   art: '/art/yourExIsABish.webp',
+  //   genre: 'Murder Rap',
+  //   bpm: 140,
+  // },
 
-  {
-    id: 't97',
-    title: 'Beautiful Friction',
-    artist: '8BitGinger',
-    album: 'Coffee & Clouds',
-    duration: 169,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Beautiful%20Friction.wav?alt=media',
-    art: '/art/beautifulFriction.webp',
-    genre: 'LoFi',
-    bpm: 85,
-  },
 
 
   {
@@ -460,56 +359,12 @@ export const tracks = [
   },
 
 
-  // {
-  //   id: 't101',
-  //   title: 'Fatality - Diss Track',
-  //   artist: '8BitGinger',
-  //   album: 'Flow State',
-  //   duration: 275,
-  //   src: 'https://cdn1.suno.ai/5e41be39-efb5-4724-98c5-f478f0b48cc5.mp3',
-  //   art: '/art/fatality.webp',
-  //   genre: 'Battle Rap',
-  //   bpm: 140,
-  // },
 
 
-  // {
-  //   id: 't103',
-  //   title: 'Hallowed Ground',
-  //   artist: '8BitGinger',
-  //   album: 'Dirt Road',
-  //   duration: 266,
-  //   src: 'https://cdn1.suno.ai/3a42d34b-df96-4d6d-98f4-b45bfdcc9ca4.mp3',
-  //   art: '/art/hallowedGround.webp',
-  //   genre: 'Swamp Blues Country',
-  //   bpm: 80,
-  // },
 
 
-  {
-    id: 't105',
-    title: 'Alien',
-    artist: '8BitGinger',
-    album: 'Flow State',
-    duration: 234,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/%F0%9F%91%BD%20ALIEN.wav?alt=media',
-    art: '/art/alien.webp',
-    genre: 'Futuristic Trap',
-    bpm: 145,
-  },
 
 
-  {
-    id: 't107',
-    title: 'Where the Wild Things Run',
-    artist: 'Cash Harlan',
-    album: 'Dirt Road',
-    duration: 217,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Where%20the%20Wild%20Things%20Run%20-%20Cash%20Harlan%20(Remastered).wav?alt=media',
-    art: null,
-    genre: 'Dark Country',
-    bpm: 72,
-  },
 
 
   {
@@ -519,48 +374,14 @@ export const tracks = [
     album: 'Pulse',
     duration: 218,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Nothing%20Matters%20(I%20Choose%20Me%20Mix).wav?alt=media',
-    art: null,
-    genre: 'LoFi Trap',
+    art: '/art/nothingMatters.jpeg',
+    genre: 'Darkwave Pop',
     bpm: 96,
   },
 
 
-  {
-    id: 't111',
-    title: 'Bored',
-    artist: 'Auraveil',
-    album: 'Coffee & Clouds',
-    duration: 199,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Bored%20-%20Auraveil%20(Remastered).wav?alt=media',
-    art: null,
-    genre: 'Folk Soul',
-    bpm: 78,
-  },
 
 
-  // {
-  //   id: 't113',
-  //   title: 'JUST LISTEN (Poetic Justice)',
-  //   artist: 'RyFi & @poeticjustice',
-  //   album: 'Flow State',
-  //   duration: 466,
-  //   src: 'https://cdn1.suno.ai/201c0df8-2e17-4c61-9b46-68dc261a7333.mp3',
-  //   art: '/art/justListen.webp',
-  //   genre: 'Emo Trap',
-  //   bpm: 90,
-  // },
-
-  // {
-  //   id: 't114',
-  //   title: 'Just Listen (Poetic Justice)',
-  //   artist: 'RyFi & @Poetic Justice',
-  //   album: 'Static Heart',
-  //   duration: 466,
-  //   src: 'https://cdn1.suno.ai/201c0df8-2e17-4c61-9b46-68dc261a7333.mp3',
-  //   art: '/art/justListen.webp',
-  //   genre: 'Pyschedelic Trap',
-  //   bpm: 78,
-  // },
 
 
 
@@ -569,7 +390,7 @@ export const tracks = [
     id: 't118',
     title: 'Dopamine Ghost',
     artist: '8BitGinger',
-    album: 'Liquid Gold',
+    album: 'High Gain',
     duration: 192,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Dopamine%20Ghost%20-%20Studio%20Mix.wav?alt=media',
     art: '/art/dopamineGhost.webp',
@@ -577,30 +398,7 @@ export const tracks = [
     bpm: 84,
   },
 
-  // {
-  //   id: 't119',
-  //   title: 'Sea of Love',
-  //   artist: '8BitGinger',
-  //   album: 'Static Heart',
-  //   duration: 350,
-  //   src: 'https://cdn1.suno.ai/7e075078-ef45-48c7-8d91-2ed2c9eede8d.mp3',
-  //   art: '/art/seaOfLove.webp',
-  //   genre: 'Pop Rap',
-  //   bpm: 92,
-  // },
 
-
-  // {
-  //   id: 't121',
-  //   title: 'Already Whole',
-  //   artist: '8BitGinger',
-  //   album: 'Coffee & Clouds',
-  //   duration: 322,
-  //   src: 'https://cdn1.suno.ai/89f90306-361e-46b8-bd83-133f4ee78598.mp3',
-  //   art: '/art/alreadyWhole.webp',
-  //   genre: 'Spiritual Chillstep',
-  //   bpm: 85,
-  // },
 
   {
     id: 't122',
@@ -617,30 +415,9 @@ export const tracks = [
 
 
 
-  {
-    id: 't127',
-    title: 'The Return',
-    artist: '8BitGinger',
-    album: 'Pulse',
-    duration: 181,
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Return%20of%20the%20Man%20(Sample%20Remix).wav?alt=media',
-    art: '/art/theReturn.webp',
-    genre: '90s New Jack Swing',
-    bpm: 100,
-  },
 
 
-  // {
-  //   id: 't129',
-  //   title: 'Chasing the Echo',
-  //   artist: '8BitGinger',
-  //   album: 'Coffee & Clouds',
-  //   duration: 184,
-  //   src: 'https://cdn1.suno.ai/b6dfe695-90e2-4f9b-96be-541273c2fc6e.mp3',
-  //   art: '/art/chasingTheEcho.webp',
-  //   genre: 'Trap Soul',
-  //   bpm: 78,
-  // },
+
 
   {
     id: 't130',
@@ -653,61 +430,14 @@ export const tracks = [
     genre: 'Industrial Trap Rock',
     bpm: 140,
   },
-  // {
-  //   id: 't131',
-  //   title: 'The Great Escape',
-  //   artist: '8BitGinger',
-  //   album: 'Liquid Gold',
-  //   duration: 222,
-  //   src: 'https://cdn1.suno.ai/306a3294-7537-44b6-81f6-cd216bae12c6.mp3',
-  //   art: '/art/greatEscape.webp',
-  //   genre: 'Folk Hop',
-  //   bpm: 90,
-  // },
 
-  // {
-  //   id: 't132',
-  //   title: 'Pointless',
-  //   artist: '8BitGinger',
-  //   album: 'High Gain',
-  //   duration: 319,
-  //   src: 'https://cdn1.suno.ai/a9f7d1d1-ee75-4ba4-9947-4fe7a21bac20.mp3',
-  //   art: '/art/pointless.webp',
-  //   genre: 'Post-Hardcore',
-  //   bpm: null,
-  // },
-
-
-  // {
-  //   id: 't134',
-  //   title: 'Velvet & Glass',
-  //   artist: '8BitGinger',
-  //   album: 'Alt Drives',
-  //   duration: 192,
-  //   src: 'https://cdn1.suno.ai/b449b538-c8d2-488a-983f-94338b57f306.mp3',
-  //   art: '/art/velvetGlass.webp',
-  //   genre: 'Glitch Soul',
-  //   bpm: 135,
-  // },
-
-  // {
-  //   id: 't135',
-  //   title: "Must've Been",
-  //   artist: '8BitGinger',
-  //   album: 'Dirt Road',
-  //   duration: 292,
-  //   src: 'https://cdn1.suno.ai/6685d07d-ca5e-4b8b-b20d-70237b3931d1.mp3',
-  //   art: '/art/mustveBeen.webp',
-  //   genre: 'Traditional Country',
-  //   bpm: 92,
-  // },
 
 
   {
     id: 't137',
     title: 'Obsessed',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'High Gain',
     duration: 217,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Obsessed%20-%20Shadow%20Single.wav?alt=media',
     art: '/art/obsessed.webp',
@@ -716,70 +446,6 @@ export const tracks = [
   },
 
 
-  // {
-  //   id: 't139',
-  //   title: "We're Home",
-  //   artist: '8BitGinger',
-  //   album: 'Alt Drives',
-  //   duration: 232,
-  //   src: 'https://cdn1.suno.ai/e8565f49-49ab-40ab-8bd6-01524b46b17c.mp3',
-  //   art: '/art/wereHome.webp',
-  //   genre: 'Alternative Rock',
-  //   bpm: 140,
-  // },
-
-  // {
-  //   id: 't140',
-  //   title: 'Gravel Throne',
-  //   artist: '8BitGinger',
-  //   album: 'Alt Drives',
-  //   duration: 193,
-  //   src: 'https://cdn1.suno.ai/c0a4cd91-f54d-45fd-bb82-b2db2b052b4a.mp3',
-  //   art: '/art/gravelThrone.webp',
-  //   genre: 'Alternative Country/Rock',
-  //   bpm: 70,
-  // },
-
-
-
-
-
-  // {
-  //   id: 't145',
-  //   title: 'Glass Singing',
-  //   artist: '8BitGinger',
-  //   album: 'Pulse',
-  //   duration: 288,
-  //   src: 'https://cdn1.suno.ai/1a3fa410-df48-4646-ad52-ce5286a6ebfc.mp3',
-  //   art: '/art/glassSinging.webp',
-  //   genre: 'Exerimental Synth Pop',
-  //   bpm: null,
-  // },
-
-
-  // {
-  //   id: 't147',
-  //   title: 'Shadowmaster',
-  //   artist: '8BitGinger',
-  //   album: 'Alt Drives',
-  //   duration: 339,
-  //   src: 'https://cdn1.suno.ai/5f435d9b-ea29-4b90-bf43-77da515e91e0.mp3',
-  //   art: '/art/shadowmaster.webp',
-  //   genre: 'Alternative Rock',
-  //   bpm: 98,
-  // },
-
-  // {
-  //   id: 't148',
-  //   title: 'The Misses',
-  //   artist: '8BitGinger',
-  //   album: 'Silk Sheets',
-  //   duration: 237,
-  //   src: 'https://cdn1.suno.ai/a527b917-2f62-41ea-a45a-733f5cdb925c.mp3',
-  //   art: '/art/theMisses.webp',
-  //   genre: '70s Groove',
-  //   bpm: null,
-  // },
 
   {
     id: 't149',
@@ -825,7 +491,7 @@ export const tracks = [
     id: 't158',
     title: 'Bulletproof',
     artist: 'Blacklist Dahlia',
-    album: 'Static Heart',
+    album: 'High Gain',
     duration: 183,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Bulletproof%20(Remastered).wav?alt=media',
     art: '/art/blacklistDahliaCover.jpg',
@@ -833,28 +499,7 @@ export const tracks = [
     bpm: 85,
   },
 
-  // {
-  //   id: 't159',
-  //   title: 'You Matter - Suno Songs 4 Love Contest',
-  //   artist: '8BitGinger',
-  //   album: 'Alt Drives',
-  //   duration: 270,
-  //   src: 'https://cdn1.suno.ai/5e7574ba-0d8d-4f40-8a5a-87581f90a720.mp3',
-  //   art: '/art/youMatterRemix.webp',
-  //   genre: 'Midwest Emo',
-  //   bpm: 110,
-  // },
-  // {
-  //   id: 't161',
-  //   title: 'Hijacked Broadcast',
-  //   artist: '8BitGinger',
-  //   album: 'High Gain',
-  //   duration: 284,
-  //   src: 'https://cdn1.suno.ai/1fd52724-f821-44c3-871a-818bd43fb248.mp3',
-  //   art: '/art/hijackedBroadcast.webp',
-  //   genre: 'Alternative Rock',
-  //   bpm: null,
-  // },
+ 
 
 
 
@@ -874,56 +519,92 @@ export const tracks = [
 
 
    
-  // {
-  //   id: 't171',
-  //   title: 'The Dark',
-  //   artist: '8BitGinger',
-  //   album: 'Alt Drives',
-  //   duration: 348,
-  //   src: 'https://cdn1.suno.ai/c7cefb91-e061-40b2-98ec-e9c85996fa37.mp3',
-  //   art: '/art/theDark.webp',
-  //   genre: 'Dark Alternative Rock',
-  //   bpm: 90,
-  // },
-
-
-
-
-  // {
-  //   id: 't175',
-  //   title: 'Boom B!tch - Diss Track',
-  //   artist: '8BitGinger',
-  //   album: 'Flow State',
-  //   duration: 321,
-  //   src: 'https://cdn1.suno.ai/287d1420-9f7e-46c1-8882-fbaec8aff0c9.mp3',
-  //   art: '/art/boomBitch.webp',
-  //   genre: 'Battle Rap',
-  //   bpm: 115,
-  // },
-
+  
   {
     id: 't176',
     title: 'Happy',
-    artist: '8BitGinger',
-    album: 'Coffee & Clouds',
+    artist: 'Auraveil',
+    album: 'Alt Drives',
     duration: 258,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Happy%20-%20Auraveil%20(Remastered).wav?alt=media',
     art: '/art/happy.webp',
     genre: 'LoFi Chillhop',
     bpm: null,
+    lyrics: `
+    [Verse 1]
+Let them build their towers to the sky
+Let them carve their names in heavy stone
+They speak of legacies before they die
+Terrified of leaving here unknown
+They break their backs to buy a bit of time
+Selling off their days for a polished floor
+It’s a steep and bloody mountain left to climb
+Just to find out they are empty at the door
+
+[Pre-Chorus]
+I have seen the way the empires fall
+The ivy overtakes the highest wall
+I don’t want to carry all that weight
+Battering my body at the golden gate
+
+[Chorus]
+I don’t want the world upon a string
+I don’t need a choir of angels to sing my praises
+Keep your grand designs and your heavy crowns
+I just want to plant my feet on quiet ground
+Let the rivers run, let the madness cease
+Lord, all I’m asking for is a sliver of peace...
+(Music drops back to just the acoustic guitar)
+Just let me be happy.
+
+[Verse 2]
+They’re chasing down a ghost they’ll never catch
+Setting fire to the woods to find a spark
+I’m just looking for a simple little patch
+Where I don’t have to tremble in the dark
+There's a sickness in always wanting more
+A hunger that a mountain couldn't feed
+I’m leaving all my armor by the door
+I’m stripping down to only what I need
+
+[Pre-Chorus]
+(Drum beat kicks in, stomping and clapping)
+'Cause I have seen the way the rich men starve
+For a gentle touch and a quiet heart
+I don’t want to carry all that weight
+Battering my body at the golden gate
+
+[Chorus]
+I don’t want the world upon a string
+I don’t need a choir of angels to sing my praises
+Keep your grand designs and your heavy crowns
+I just want to plant my feet on quiet ground
+Let the rivers run, let the madness cease
+Lord, all I’m asking for is a sliver of peace...
+Just let me be happy.
+
+[Bridge]
+Take the glory! Take the fame!
+Take the monuments and take the name!
+Give me sunlight through the trees!
+Give me something I can actually keep!
+(Choir: Give me something I can keep!)
+Take the hustle, take the grind!
+Take the demons that it leaves behind!
+I surrender, I resign!
+I just want a little peace of mind!
+
+[Outro]
+Just a quiet room.
+Just a steady breath.
+A little bit of joy before the rest.
+Let them have the world.
+
+Just let me be happy.
+    `
   },
 
-  // {
-  //   id: 't177',
-  //   title: 'Return of the Man',
-  //   artist: '8BitGinger',
-  //   album: 'Liquid Gold',
-  //   duration: 246,
-  //   src: 'https://cdn1.suno.ai/473e8219-fdb8-47fc-9797-e60a82e5d54a.mp3',
-  //   art: '/art/returnOfTheMan.webp',
-  //   genre: '90s Remix',
-  //   bpm: 98,
-  // },
+
 
   {
     id: 't178',
@@ -932,9 +613,32 @@ export const tracks = [
     album: 'Coffee & Clouds',
     duration: 204,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Stacked%20Too%20High%20ft%20A.R.V.Y.N..wav?alt=media',
-    art: null,
+    art: '/art/stacked2High.png',
     genre: 'LoFi Hip-Hop',
     bpm: 74,
+    lyrics: `
+The screen is glowing in a crowded room I stack the blocks until they touch the sky They praise the tower and they watch it bloom But never see the way the timbers sigh
+
+The applause is loud but I can hear the crack One tiny tilt will break the camel's back
+
+ Stacked up way too high Staring at the sky One breath from the floor Can't take any more Stacked up way too high
+
+
+The calendar is bleeding down the wall Five different engines running at top speed They call me brilliant and I take the call While trying not to let the margins bleed
+
+
+The applause is loud but I can hear the crack One tiny tilt will break the camel's back
+
+
+Stacked up way too high Staring at the sky One breath from the floor Can't take any more Stacked up way too high
+
+
+Maybe I built it all to watch it break To see if they would notice my mistake They only see the gold upon the crown They don't see that it's all tumbling down
+
+
+Ready to fall Stacked too high Watch it all fall Way too high
+
+`,
   },
 
 
@@ -942,25 +646,15 @@ export const tracks = [
   {
     id: 't181',
     title: 'Southern Solace',
-    artist: '8BitGinger',
+    artist: 'Blacklist Dahlia',
     album: 'High Gain',
     duration: 282,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Southern%20Solace%20-%20Blacklist%20Dahlia%20Cover.wav?alt=media',
-    art: '/art/southernSolace.webp',
+    art: '/art/southernSolace.jpg',
     genre: 'Dark Southern Rock',
-    bpm: 82,
+    bpm: 74,
   },
-  // {
-  //   id: 't182',
-  //   title: 'Stalking the Feed',
-  //   artist: '8BitGinger',
-  //   album: 'Liquid Gold',
-  //   duration: 146,
-  //   src: 'https://cdn1.suno.ai/91a2be1b-3cb0-403e-8b83-094af345c0af.mp3',
-  //   art: '/art/stalkingTheFeed.webp',
-  //   genre: 'Atmospheric Phonk',
-  //   bpm: 140,
-  // },
+
 
 
 
@@ -981,7 +675,7 @@ export const tracks = [
     id: 't188',
     title: 'That\'s Just What Snakes Do',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'Flow State',
     duration: 266,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/That\'s%20Just%20What%20Snakes%20Do.wav?alt=media',
     art: '/art/thatsJustWhatSnakesDo.webp',
@@ -1008,7 +702,7 @@ export const tracks = [
     id: 't194',
     title: 'Basic',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'Coffee & Clouds',
     duration: 317,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Basic.wav?alt=media',
     art: '/art/basic.webp',
@@ -1048,7 +742,7 @@ export const tracks = [
     album: 'Flow State',
     duration: 192,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Tangled%20Ties%20-%20VNDAL%20Version%20(Remastered).wav?alt=media',
-    art: null,
+    art: '/art/tangledTies.jpg',
     genre: 'LoFi Trap',
     bpm: 96,
   },
@@ -1081,7 +775,7 @@ export const tracks = [
     id: 't202',
     title: 'Ledger of Scars',
     artist: '8BitGinger',
-    album: 'Flow Lab',
+    album: 'Flow State',
     duration: 235,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Ledger%20of%20Scars%20-%20Sample%20Solo.wav?alt=media',
     art: '/art/ledgerOfScars.webp',
@@ -1140,7 +834,7 @@ export const tracks = [
     album: 'Coffee & Clouds',
     duration: 224,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/We%20Endure.wav?alt=media',
-    art: null,
+    art: '/art/weEndure.png',
     genre: 'Neo-Soul',
     bpm: 72,
    },
@@ -1150,7 +844,7 @@ export const tracks = [
     id: 't217',
     title: 'Beautiful Sin',
     artist: '8BitGinger',
-    album: 'Liquid Gold',
+    album: 'Silk Sheets',
     duration: 255,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Beautiful%20Sin.wav?alt=media',
     art: '/art/beautifulSin.webp',
@@ -1177,10 +871,10 @@ export const tracks = [
     id: 't221',
     title: 'Irish It Worked Out',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'Pulse',
     duration: 220,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Irish%20it%20Worked%20Out.wav?alt=media',
-    art: null,
+    art: '/art/irishItWorkedOut.jpg',
     genre: 'LoFi Trap',
     bpm: 110,
    },
@@ -1190,7 +884,7 @@ export const tracks = [
     id: 't223',
     title: 'Why Is He So Crazy?',
     artist: '8BitGinger',
-    album: 'Static Heart',
+    album: 'Pulse',
     duration: 301,
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Why%20is%20he%20so%20crazy_%20-%20Blacklist%20Dahlia%20(Remastered).wav?alt=media',
     art: '/art/whyIsHeSoCrazy.webp',
@@ -1221,7 +915,7 @@ export const tracks = [
     duration: 222,
     album: 'Flow State',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/I\'m%20on%20Fire%20-%20VNDAL%20Original%20-%20Corrected%202.wav?alt=media',
-    art: null,
+    art: '/art/imOnFire.png',
     genre: 'Memphis Trap',
     bpm: 142,
    },
@@ -1251,36 +945,25 @@ export const tracks = [
     bpm: 100,
    },
   {
-    id: 't281',
-    title: 'Ain\'t Worth The Trauma',
-    artist: '8BitGinger',
-    duration: 155,
-    album: 'Static Heart',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Ain\'t%20Worth%20The%20Trauma.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
     id: 't230',
-    title: 'Beautiful Death - Auraveil Original',
+    title: 'Beautiful Death',
     artist: 'Auraveil',
     duration: 238,
     album: 'Alt Drives',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Beautiful%20Death%20-%20%20Auraveil%20Original.wav?alt=media',
-    art: null,
+    art: '/art/beautifulDeath.png',
     genre: null,
     bpm: null,
   },
   {
     id: 't231',
-    title: 'Beautiful Friction - VNDAL Version',
+    title: 'Beautiful Friction',
     artist: 'VNDAL',
     duration: 143,
-    album: 'Flow State',
+    album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Beautiful%20Friction%20-%20VNDAL%20Version.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/beautifulFriction.webp',
+    genre: 'Hardcord LoFi',
     bpm: null,
   },
   {
@@ -1290,8 +973,8 @@ export const tracks = [
     duration: 260,
     album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Bleeding%20Bytes%203am%20Remix%20-%208BitGinger.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/bleedingBytes.jpg',
+    genre: 'Cloudrap',
     bpm: null,
   },
   {
@@ -1299,76 +982,118 @@ export const tracks = [
     title: 'Bleeding Bytes',
     artist: '8BitGinger',
     duration: 268,
-    album: 'Static Heart',
+    album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Bleeding%20Bytes.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/bleedingBytes.jpg',
+    genre: 'LoFi',
     bpm: null,
   },
   {
     id: 't235',
-    title: 'Carry My Heart - 8BitGinger',
+    title: 'Carry My Heart',
     artist: '8BitGinger',
     duration: 202,
     album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Carry%20My%20Heart%20-%208BitGinger.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/carryMyHeart.png',
+    genre: 'Folk Pop',
     bpm: null,
   },
   {
     id: 't236',
-    title: 'Chasin\' Dopamine (Vibe Mix)',
+    title: 'Chasin\' Dopamine',
     artist: '8BitGinger',
     duration: 228,
-    album: 'Synergy',
+    album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Chasin\'%20Dopamine%20(Vibe%20Mix).wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/chasingDopamine.jfif',
+    genre: 'R&B',
     bpm: null,
+    lyrics: `
+    [Intro]
+Chase the feelin'...
+
+[Verse 1]
+Night's still young
+Song not sung
+City turnin' gold
+A story left untold
+I don't need a reason
+Bad Vibes, that’s Treason
+I just need the vibe
+The one keeping me alive
+I'm just in the now
+Watch da show!
+
+[Pre-Chorus]
+Feel it risin' in my chest
+Every high just chasin' the next
+Ain't no shame in wantin' more of this
+
+[Chorus]
+Chasin' dopamine tonight
+Every corner, every light
+Chasin' dopamine, feel alright
+Ridin' high, we outta sight
+(Chasin'... chasin'... chasin'...)
+Chasin' dopamine tonight
+Elevated, feelin' right
+Every high just feels so tight
+Chasin' dopamine tonight
+
+[Verse 2]
+Bottle sweatin' on the table
+Hoe’s checkin’ the label
+Every conversation flowin' smooth
+That’s just how I move
+Like a canvas paintin' free
+Chasin' every feelin' that keeps callin' out to me
+
+[Pre-Chorus]
+Feel it risin' in my chest
+Every high just chasin' the next
+Ain't no shame in wantin' more of this
+
+[Chorus]
+Chasin' dopamine tonight
+Every corner, every light
+Chasin' dopamine, feel alright
+Ridin' high, we outta sight
+(Chasin'... chasin'... chasin'...)
+Chasin' dopamine tonight
+Elevated, feelin' right
+Every high just feels so tight
+Chasin' dopamine tonight
+
+[Bridge]
+Maybe the chase is the point of it all
+Maybe the high's just an echo, a call
+
+[Final Chorus]
+Chasin' dopamine tonight
+Every corner, every light
+Chasin' dopamine, feel alright
+Ridin' high, we outta sight
+(Chasin'... chasin'... chasin'...)
+Chasin' dopamine tonight
+Elevated, feelin' right
+Every high just feels so tight
+Chasin' dopamine tonight
+Chasin' dopamine tonight
+
+[Outro]
+Chasin' dopamine...
+    `
   },
   {
     id: 't237',
-    title: 'Chasing Tornados - \'26 Mix',
+    title: 'Chasing Tornados',
     artist: '8BitGinger',
     duration: 237,
-    album: 'Liquid Gold',
+    album: 'Pulse',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Chasing%20Tornados%20-%20\'26%20MIx.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't238',
-    title: 'Chasing a Shadow',
-    artist: '8BitGinger',
-    duration: 175,
-    album: 'Static Heart',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Chasing%20a%20Shadow.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't240',
-    title: 'Cold Focus',
-    artist: '8BitGinger',
-    duration: 223,
-    album: 'Coffee & Clouds',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Cold%20Focus%20(1).wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't241',
-    title: 'Cool on a Tuesday',
-    artist: '8BitGinger',
-    duration: 173,
-    album: 'Coffee & Clouds',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Cool%20on%20a%20Tuesday.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/chasingTornados.png',
+    genre: 'Pop',
     bpm: null,
   },
   {
@@ -1378,19 +1103,19 @@ export const tracks = [
     duration: 289,
     album: 'High Gain',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Drowning%20in%20the%20Dark.wav?alt=media',
-    art: null,
+    art: '/art/drowningInTheDark.webp',
     genre: null,
     bpm: null,
   },
   {
     id: 't243',
-    title: 'Dying Stars - Lowkey LoFi Remix',
+    title: 'Dying Stars',
     artist: '8BitGinger',
     duration: 258,
-    album: 'Coffee & Clouds',
+    album: 'Pulse',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Dying%20Stars%20-%20Lowkey%20LoFi%20Remix.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/dyingStars.png',
+    genre: 'Synth-Pop',
     bpm: null,
   },
   {
@@ -1400,8 +1125,8 @@ export const tracks = [
     duration: 206,
     album: 'Alt Drives',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Exist.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/exist.png',
+    genre: 'Alternative',
     bpm: null,
   },
   {
@@ -1409,10 +1134,10 @@ export const tracks = [
     title: 'Feelin\' Myself',
     artist: '8BitGinger',
     duration: 227,
-    album: 'Liquid Gold',
+    album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Feelin\'%20Myself.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/feelinMyself.jpeg',
+    genre: 'LoFi',
     bpm: null,
   },
   {
@@ -1428,13 +1153,13 @@ export const tracks = [
   },
   {
     id: 't247',
-    title: 'Frequency High / Studio Speedrap',
+    title: 'Frequency High',
     artist: '8BitGinger',
     duration: 181,
     album: 'Synergy',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Frequency%20High%20_%20Studio%20Speedrap.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/frequencyHigh.png',
+    genre: 'Drill',
     bpm: null,
   },
   {
@@ -1444,8 +1169,8 @@ export const tracks = [
     duration: 149,
     album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/I\'m%20A%20Mess%20Tonight!.wav?alt=media',
-    art: null,
-    genre: null,
+    art: './art/imAMessTonight.jpg',
+    genre: 'Hip-Hop',
     bpm: null,
   },
   {
@@ -1461,35 +1186,13 @@ export const tracks = [
   },
   {
     id: 't250',
-    title: 'Loverz - VNDAL Version (Remastered) 2',
+    title: 'Loverz',
     artist: 'VNDAL',
     duration: 252,
-    album: 'Static Heart',
+    album: 'Pulse',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Loverz%20-%20VNDAL%20Version%20(Remastered)%202.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't251',
-    title: 'Man with the Plan',
-    artist: '8BitGinger',
-    duration: 153,
-    album: 'Coffee & Clouds',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Man%20with%20the%20Plan.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't252',
-    title: 'Missed Calls',
-    artist: '8BitGinger',
-    duration: 216,
-    album: 'Static Heart',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Missed%20Calls.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/loverz.jpg',
+    genre: 'Hip-Hop',
     bpm: null,
   },
   {
@@ -1499,30 +1202,19 @@ export const tracks = [
     duration: 244,
     album: 'Synergy',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Missing%20Gateway%20Tape.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't254',
-    title: 'Moved On',
-    artist: '8BitGinger',
-    duration: 229,
-    album: 'Static Heart',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Moved%20On.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/missingGateway.png',
+    genre: 'Synthwave',
     bpm: null,
   },
   {
     id: 't255',
-    title: 'Nice To Meet You - Miss U Mix',
+    title: 'Nice To Meet U',
     artist: '8BitGinger',
     duration: 226,
     album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Nice%20To%20Meet%20You%20%20-%20Miss%20U%20Mix.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/niceToMeetU.png',
+    genre: 'Alt-Pop',
     bpm: null,
   },
   {
@@ -1530,32 +1222,32 @@ export const tracks = [
     title: 'Open All Night',
     artist: '8BitGinger',
     duration: 193,
-    album: 'Liquid Gold',
+    album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Open%20All%20Night.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/openAllNight.png',
+    genre: 'LoFi',
     bpm: null,
   },
   {
     id: 't257',
-    title: 'Queen of the Pain - Blacklist Beat (Remastered)',
-    artist: '8BitGinger',
+    title: 'Queen of the Pain',
+    artist: 'Blacklist Dahlia',
     duration: 240,
-    album: 'High Gain',
+    album: 'Silk Sheets',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Queen%20of%20the%20Pain%20-%20Blacklist%20Beat%20(Remastered).wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/queenOfPain.jpg',
+    genre: 'Neo-Soul Rock',
     bpm: null,
   },
   {
     id: 't258',
     title: 'Receipts',
-    artist: '8BitGinger',
+    artist: 'VNDAL',
     duration: 209,
-    album: 'Static Heart',
+    album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Receipts.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/receipts.png',
+    genre: 'Afrobeat',
     bpm: null,
   },
   {
@@ -1565,41 +1257,41 @@ export const tracks = [
     duration: 154,
     album: 'Flow State',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Rigid.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/rigid.jfif',
+    genre: 'Hardcore Trap',
     bpm: null,
   },
   {
     id: 't260',
-    title: 'Signal Unknown - VNDAL Version',
+    title: 'Wrong Version of Me',
     artist: 'VNDAL',
     duration: 183,
     album: 'Flow State',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Signal%20Unknown%20-%20VNDAL%20Version.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/wrongVersion.png',
+    genre: 'Hip-Hop',
     bpm: null,
   },
-  {
-    id: 't261',
-    title: 'Stalking the Feed - Lowkey LoFi',
-    artist: '8BitGinger',
-    duration: 147,
-    album: 'Coffee & Clouds',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Stalking%20the%20Feed%20-%20Lowkey%20LoFi.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
+  // {
+  //   id: 't261',
+  //   title: 'Stalking the Feed - Lowkey LoFi',
+  //   artist: '8BitGinger',
+  //   duration: 147,
+  //   album: 'Coffee & Clouds',
+  //   src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Stalking%20the%20Feed%20-%20Lowkey%20LoFi.wav?alt=media',
+  //   art: null,
+  //   genre: null,
+  //   bpm: null,
+  // },
   {
     id: 't262',
     title: 'Steppin’',
     artist: '8BitGinger',
     duration: 195,
-    album: 'Liquid Gold',
+    album: 'Synergy',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Steppin%E2%80%99.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/steppin.png',
+    genre: 'LoFi',
     bpm: null,
   },
   {
@@ -1607,11 +1299,163 @@ export const tracks = [
     title: 'Still Walking',
     artist: '8BitGinger',
     duration: 269,
-    album: 'High Gain',
+    album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Still%20Walking.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
+    art: '/art/stillWalking.jpeg',
+    genre: 'Soul',
+    bpm: 62,
+    lyrics: `
+    [Verse 1]
+The street lights got a different kind of weight tonight
+Everything is open but nothing feels quite right
+I told myself I'm fine
+I've been saying that for weeks
+There's a version of the truth
+That fits between the things I speak
+
+I walked out of a room
+That used to feel like mine
+Left my keys on the table
+For the last time
+Didn't look back — or I did
+But just the once
+The kind of look that answers
+Every question all at once
+
+And the city just kept moving
+Like it always does
+Indifferent and illuminated
+The way the city was
+[City]
+Where are you going?
+[Male]
+I don't know yet
+[City]
+Where did you come from?
+[Male]
+Somewhere I can't go back to
+[City]
+What are you carrying?
+[Male]
+Everything
+
+[Pre-Chorus]
+I know the geography of grief
+I've been here before
+Different street same feeling
+Different door same floor
+The kind of okay
+That wears the right expression
+That answers how are you
+Without the full confession
+
+[Chorus]
+Still walking
+Still moving through the amber light
+Still breathing
+Which means I'm doing something right
+The city holds a million endings
+Every night
+Still walking
+Even when I'm not sure
+Where I'm walking to tonight
+
+[Verse 2]
+I passed the place we used to sit
+And didn't stop
+I noticed that I noticed it
+And kept on
+There's a kind of loss
+That doesn't have a name
+Not dramatic
+Not the kind
+You get to fully blame
+On anyone
+
+The job that didn't last
+The version of yourself
+You were convinced was coming
+That just hasn't showed
+The friendship that just
+Quietly dissolved one day
+The dream you stopped
+Describing out loud somewhere
+Along the way
+
+I'm not asking for the past back
+I stopped asking that a while ago
+I'm just trying to figure out
+Which direction home is
+In a life where I'm not sure
+I remember what home is
+
+[City]
+You've been here before
+[Male]
+I know
+[City]
+And you survived it
+[Male]
+I know
+[City]
+So what is it this time
+That feels different
+[Male]
+All of it
+This time it's all of it
+
+[Pre-Chorus]
+The kind of okay
+That wears the right expression
+That answers how are you
+Without the full confession
+
+[Chorus]
+Still walking
+Still moving through the amber light
+Still breathing
+Which means I'm doing something right
+The city holds a million endings
+Every night
+Still walking
+Even when I'm not sure
+Where I'm walking to tonight
+
+[Bridge]
+
+I used to know what I was walking toward
+I had the whole thing mapped
+The person and the place
+And the version of the life
+That was supposed to have happened
+By now
+
+And somewhere it just
+Didn't
+
+Not with drama
+Not with fire
+Just with the quiet accumulation
+Of small divergences
+Until I looked up one day
+And the map was gone
+[City — Female, directly beside him now, not distant]
+Can I ask you something?
+[Male]
+Yeah
+And I mean really ask
+Not the way people ask
+When they already know the answer
+[Male]
+Okay
+[Male asking himself]: What would actually make you happy?
+ nothing
+
+[Outro]
+[City]
+Take your time
+[Silence]
+    `
   },
   {
     id: 't264',
@@ -1620,8 +1464,8 @@ export const tracks = [
     duration: 172,
     album: 'Synergy',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Superhuman.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/superhuman.png',
+    genre: 'Speed Rap',
     bpm: null,
   },
   {
@@ -1631,18 +1475,7 @@ export const tracks = [
     duration: 195,
     album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Tailor%20Made.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't266',
-    title: 'Tell You Something',
-    artist: '8BitGinger',
-    duration: 297,
-    album: 'Static Heart',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Tell%20You%20Something.wav?alt=media',
-    art: null,
+    art: '/art/tailorMade.jpg',
     genre: null,
     bpm: null,
   },
@@ -1653,8 +1486,8 @@ export const tracks = [
     duration: 268,
     album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/The%20Open%20Horizon.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/openHorizon.png',
+    genre: 'Hip-Hop',
     bpm: null,
   },
   {
@@ -1664,19 +1497,165 @@ export const tracks = [
     duration: 279,
     album: 'Silk Sheets',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/The%20Way%20You%20Move.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
+    art: '/art/theWayYouMove.png',
+    genre: 'Trap Soul',
+    bpm: 84,
+    lyrics: ` 
+    
+[INTRO]
+(I don't usually — )
+(Never mind)
+(Just listen)
+
+[VERSE 1]
+I been around
+I know how rooms feel
+I know the difference between presence
+And the specific kind of pull
+That makes you forget
+What you were even looking for
+
+You’re not anything dramatic
+You’re not some movie moment
+(Its just the way you move)
+Just the way you moved through the space
+Like the room was already yours
+Before you decided
+Whether you wanted it
+
+I watched you disagree with someone
+About something small
+And the way you held your ground
+Without raising your voice
+Without performing certainty —
+Just having it
+(Quietly)
+In your whole body
+
+[Pre-chorus builds]
+
+[PRE-CHORUS]
+( been trying to place what this is)
+(It ain't love — I know what that costs)
+(This is something earlier)
+(Something that moves like you do...)
+
+[CHORUS]
+It's the way you move (the way you move)
+Like gravity made an exception for you
+It's the way you move (the way you move)
+Like you been the answer to a question
+I forgot I was asking
+It's the way you think
+And the way you stand
+And the way you take up space
+The smile that owns that face
+(It’s contagious...)
+It's just the way you move
+
+[VERSE 2 – fuller, more specific, the amazement more visible now]
+You laugh at your own jokes
+Before the punchline lands
+And you're right every time
+Which should be annoying
+And isn't
+
+You got opinions about things
+I never thought to have opinions about
+And you say them like they're obvious
+Like the world is clearly this way
+And you're just the first one
+Who bothered to notice
+
+And then you move across the room
+To get a drink or check your phone
+Or nothing
+Just move
+And I lose the thread
+Of whatever I was thinking
+Because nothing I was thinking
+Was as interesting
+As the way you do that
+
+(I'm not falling)
+(I'm just — )
+(..adjacent to falling)
+(this is new… thanks for the space to enjoy this)
+
+[PRE-CHORUS]
+I been trying to place what this is
+It ain't love — I know what that costs
+This is something earlier
+Something that lives before the name
+(Something that moves like you do...)
+(Like you do...)
+
+[CHORUS]
+It's the way you move (the way you move)
+Like gravity made an exception for you
+It's the way you move (the way you move)
+Like you been the answer to a question
+I forgot I was asking
+It's the way you think
+And the way you stand
+And the way you take up space
+The smile that owns that face
+(It’s contagious...)
+It's just the way you move
+
+[BRIDGE]
+(I've met people before)
+(I've liked people before)
+(I’ve loved)
+(That's not what this is)
+
+This is the specific thing
+Where you notice someone doing something ordinary
+Making a point, passing a joint
+Just existing.
+
+(And you don't say it out loud)
+Because saying it out loud
+Makes it a thing
+(And right now it's just)
+Being genuinely amazed
+By someone just being themselves
+
+I don't know what to do with that yet
+(But I know I don't want it to stop)
+
+
+[FINAL CHORUS]
+It's the way you move (the way you move)
+Like gravity made an exception for you
+It's the way you move (the way you move)
+Like you been the answer to a question
+I forgot I was asking
+It's the way you think
+And the way you stand
+And the way you take up space
+The smile that owns that face
+(It’s contagious...)
+It's just the way you move
+You move
+(You move)
+(The way you move...)
+
+[OUTRO ]
+...yeah
+...the way you move
+
+    `
   },
   {
     id: 't269',
-    title: 'This is How We Vibe - VNDAL (Edit)',
+    title: 'This is How We Vibe',
     artist: 'VNDAL',
     duration: 227,
-    album: 'Liquid Gold',
+    album: 'Flow State',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/This%20is%20How%20We%20Vibe%20-%20VNDAL%20(Edit).wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/thisIsHowWeVibe.jpg',
+    genre: 'Hip-Hop',
     bpm: null,
   },
   {
@@ -1686,30 +1665,19 @@ export const tracks = [
     duration: 203,
     album: 'Coffee & Clouds',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Three%20Blind%20Mice.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/threeBlindMice.png',
+    genre: 'LoFi',
     bpm: null,
   },
   {
     id: 't271',
-    title: 'Trauma - Auraveil Original',
+    title: 'Trauma',
     artist: 'Auraveil',
     duration: 207,
     album: 'Alt Drives',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Trauma%20-%20Auraveil%20Original.wav?alt=media',
-    art: null,
-    genre: null,
-    bpm: null,
-  },
-  {
-    id: 't272',
-    title: 'Water',
-    artist: '8BitGinger',
-    duration: 207,
-    album: 'Flow State',
-    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Water.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/trauma.png',
+    genre: 'Alternative',
     bpm: null,
   },
   {
@@ -1717,10 +1685,10 @@ export const tracks = [
     title: 'We Are The Simulation',
     artist: '8BitGinger',
     duration: 199,
-    album: 'Synergy',
+    album: 'Pulse',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/We%20Are%20The%20Simulation.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/weAreTheSimulation.webp',
+    genre: 'Electro-Pop',
     bpm: null,
   },
   {
@@ -1728,10 +1696,10 @@ export const tracks = [
     title: 'Windows Cracked Down',
     artist: '8BitGinger',
     duration: 184,
-    album: 'Coffee & Clouds',
+    album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Windows%20Cracked%20Down.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/windowsCrackedDown.png',
+    genre: 'LoFi R&B',
     bpm: null,
   },
   {
@@ -1739,65 +1707,517 @@ export const tracks = [
     title: 'Wish I had Known',
     artist: '8BitGinger',
     duration: 247,
-    album: 'Static Heart',
+    album: 'Silk Sheets',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Wish%20I%20had%20Known.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/wishIHadKnown.png',
+    genre: 'R&B',
     bpm: null,
   },
   {
     id: 't276',
-    title: 'Your Last Song - Auraveil (Edit) (Remastered)',
+    title: 'Funeral Song',
     artist: 'Auraveil',
     duration: 225,
-    album: 'Static Heart',
+    album: 'Alt Drives',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Your%20Last%20Song%20-%20Auraveil%20(Edit)%20(Remastered).wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/funeralSong.jpg',
+    genre: 'Alternative',
     bpm: null,
   },
   {
     id: 't277',
-    title: '_I hope you\'re alright._',
+    title: 'I hope you\'re alright.',
     artist: '8BitGinger',
     duration: 163,
     album: 'Alt Drives',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/_I%20hope%20you\'re%20alright._.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/hopeAlright.jpg',
+    genre: 'Alt Pop',
     bpm: null,
   },
   {
     id: 't278',
-    title: 'still water - 8BitGinger Original (Remastered)',
+    title: 'Still Water',
     artist: '8BitGinger',
     duration: 264,
     album: 'Liquid Gold',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/still%20water%20-%20%208BitGinger%20Original%20(Remastered).wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/stillWater.jpg',
+    genre: 'Folk Rap',
     bpm: null,
   },
   {
     id: 't279',
-    title: '❌\'$ Only (h0e n0 ed1t)',
+    title: '❌\'$ Only',
     artist: '8BitGinger',
     duration: 281,
     album: 'Flow State',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/%E2%9D%8C\'%24%20Only%20(h0e%20n0%20ed1t).wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/x.webp',
+    genre: 'Hip-Hop',
     bpm: null,
   },
   {
     id: 't280',
-    title: '👽 ALIEN - VNDAL Version',
+    title: '👽 ALIEN',
     artist: 'VNDAL',
     duration: 232,
     album: 'Flow State',
     src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/%F0%9F%91%BD%20ALIEN%20-%20VNDAL%20Version.wav?alt=media',
-    art: null,
-    genre: null,
+    art: '/art/alien.webp',
+    genre: 'Hardcord LoFi',
+    bpm: null,
+  },
+  {
+    id: 't282',
+    title: 'Better Than Me',
+    artist: '8BitGinger',
+    duration: 235,
+    album: 'Pulse',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Better%20Than%20Me%20(8BitBop).wav?alt=media',
+    art: '/art/betterThanMe.jfif',
+    genre: 'Alt Pop',
+    bpm: null,
+  },
+  {
+    id: 't283',
+    title: 'Borrowed Time',
+    artist: '8BitGinger',
+    duration: 231,
+    album: 'Coffee & Clouds',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Borrowed%20Time.wav?alt=media',
+    art: '/art/borrowedTime.jfif',
+    genre: 'Dark R&B',
+    bpm: null,
+  },
+  // {
+  //   id: 't284',
+  //   title: 'Bourbon Bandit',
+  //   artist: '8BitGinger',
+  //   duration: 224,
+  //   album: 'Dirt Road',
+  //   src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Bourbon%20Bandit.wav?alt=media',
+  //   art: null,
+  //   genre: null,
+  //   bpm: null,
+  // },
+  {
+    id: 't285',
+    title: 'Cloud Level',
+    artist: 'Auraveil',
+    duration: 259,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Cloud%20Level%20-%20Auraveil%20Cover%20(Remastered)%20(Edit).wav?alt=media',
+    art: '/art/cloudLevel.jpg',
+    genre: 'Alternative',
+    bpm: null,
+  },
+  {
+    id: 't286',
+    title: 'Dopamine and Drama',
+    artist: '8BitGinger',
+    duration: 256,
+    album: 'High Gain',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Dopamine%20and%20Drama.wav?alt=media',
+    art: '/art/dopamineDrama.webp',
+    genre: 'Rock',
+    bpm: null,
+  },
+  {
+    id: 't287',
+    title: 'Dream Girl',
+    artist: '8BitGinger',
+    duration: 215,
+    album: 'Liquid Gold',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Dream%20Girl.wav?alt=media',
+    art: '/art/dreamGirl.webp',
+    genre: 'R&B',
+    bpm: null,
+  },
+
+  {
+    id: 't289',
+    title: 'Everything that Made Me',
+    artist: 'Auraveil',
+    duration: 198,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Everything%20that%20Made%20Me%20-%20Auraveil%20Published.wav?alt=media',
+    art: '/art/everythingThatMadeMe.jfif',
+    genre: 'Indie Alternative',
+    bpm: null,
+  },
+  {
+    id: 't290',
+    title: 'Fucking or Fighting',
+    artist: '8BitGinger',
+    duration: 241,
+    album: 'High Gain',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Fucking%20or%20Fighting%20(Remastered).wav?alt=media',
+    art: '/art/fuckingFighting.jfif',
+    genre: 'Rock',
+    bpm: null,
+  },
+
+  {
+    id: 't292',
+    title: 'Ganja Goddess',
+    artist: 'VNDAL',
+    duration: 190,
+    album: 'Flow State',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Ganja%20Goddess%20-%20VNDAL%20Version%20-%20no%20cover.wav?alt=media',
+     art: '/art/ganjaGoddess.jfif',
+    genre: 'Rap',
+    bpm: null,
+  },
+  {
+    id: 't293',
+    title: 'Ghost Tracks',
+    artist: '8BitGinger',
+    duration: 249,
+    album: 'Dirt Road',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Ghost%20Tracks.wav?alt=media',
+    art: '/art/ghostTracks.webp',
+    genre: 'Dark Country',
+    bpm: null,
+  },
+  {
+    id: 't294',
+    title: 'Heavy Breathing',
+    artist: '8BitGinger',
+    duration: 168,
+    album: 'Silk Sheets',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Heavy%20Breathing%20-%208BitPublish.wav?alt=media',
+    art: '/art/heavyBreathing.jfif',
+    genre: 'Trap',
+    bpm: null,
+  },
+  {
+    id: 't295',
+    title: 'Holes in my Dreams',
+    artist: '8BitGinger',
+    duration: 235,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Holes%20in%20my%20Dreams.wav?alt=media',
+    art: '/art/holesDreams.png',
+    genre: 'Alternative Phonk',
+    bpm: null,
+  },
+  {
+    id: 't296',
+    title: 'I\'m Fine, I Swear',
+    artist: '8BitGinger',
+    duration: 184,
+    album: 'Liquid Gold',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/I\'m%20Fine%2C%20I%20Swear.wav?alt=media',
+    art: '/art/imFine.jfif',
+    genre: 'Trap',
+    bpm: null,
+  },
+  {
+    id: 't297',
+    title: 'Live, Laugh, Lunacy',
+    artist: '8BitGinger',
+    duration: 171,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Live%2C%20Laugh%2C%20Lunacy.wav?alt=media',
+    art: '/art/liveLaughLunacy.jfif',
+    genre: 'Alternative',
+    bpm: null,
+  },
+  {
+    id: 't298',
+    title: 'Lock the Frame',
+    artist: 'Auraveil',
+    duration: 191,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Lock%20the%20Frame%20-%20Auraveil%20Edit.wav?alt=media',
+    art: '/art/lockTheFrame.jfif',
+    genre: 'Alternative Trap',
+    bpm: null,
+  },
+  {
+    id: 't299',
+    title: 'Lubbock Lean',
+    artist: '8BitGinger',
+    duration: 175,
+    album: 'Liquid Gold',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Lubbock%20Lean.wav?alt=media',
+    art: '/art/lubbockLean.png',
+    genre: 'Boom Bap',
+    bpm: null,
+  },
+  {
+    id: 't300',
+    title: 'Movin\' Different',
+    artist: '8BitGinger',
+    duration: 181,
+    album: 'Liquid Gold',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Move%20Different.wav?alt=media',
+    art: '/art/movinDifferent.jpg',
+    genre: 'Trap',
+    bpm: null,
+  },
+  {
+    id: 't301',
+    title: 'No Apologies',
+    artist: '8BitGinger',
+    duration: 175,
+    album: 'Flow State',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/No%20Apologies.wav?alt=media',
+    art: '/art/noApologies.jfif',
+    genre: 'Rock',
+    bpm: null,
+  },
+
+  {
+    id: 't303',
+    title: 'Ruin It Right',
+    artist: 'Blacklist Dahlia',
+    duration: 210,
+    album: 'High Gain',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Ruin%20It%20Right%20-%20Blacklist%20Banger.wav?alt=media',
+    art: '/art/ruinItRight.jfif',
+    genre: 'Rock Trap',
+    bpm: null,
+  },
+  {
+    id: 't304',
+    title: 'SOULGAZE',
+    artist: '8BitGinger',
+    duration: 214,
+    album: 'Synergy',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/SOULGAZE.wav?alt=media',
+    art: '/art/soulgaze.jpg',
+    genre: 'LoFi',
+    bpm: null,
+  },
+  {
+    id: 't305',
+    title: 'Show Me That Heart',
+    artist: '8BitGinger',
+    duration: 206,
+    album: 'Silk Sheets',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Show%20Me%20That%20Heart.wav?alt=media',
+    art: '/art/showMeThatHeart.jpeg',
+    genre: 'R&B',
+    bpm: null,
+  },
+  {
+    id: 't306',
+    title: 'Skin Don\'t Forget',
+    artist: '8BitGinger',
+    duration: 165,
+    album: 'Silk Sheets',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Skin%20Don\'t%20Forget.wav?alt=media',
+    art: '/art/skinDontForget.jpg',
+    genre: 'R&B',
+    bpm: null,
+  },
+  {
+    id: 't307',
+    title: 'Smoke in the Sun',
+    artist: '8BitGinger',
+    duration: 181,
+    album: 'Liquid Gold',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Smoke%20in%20the%20Sun.wav?alt=media',
+    art: '/art/smokeInTheSun.jpg',
+    genre: 'LoFi Hip-Hop',
+    bpm: null,
+  },
+  {
+    id: 't308',
+    title: 'Spent the Summer',
+    artist: '8BitGinger',
+    duration: 146,
+    album: 'Pulse',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Spent%20the%20Summer.wav?alt=media',
+    art: '/art/spentTheSummer.jpg',
+    genre: 'Pop R&B',
+    bpm: null,
+  },
+  {
+    id: 't309',
+    title: 'The Standard',
+    artist: 'VNDAL',
+    duration: 195,
+    album: 'Flow State',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/The%20Standard%20-%20VNDAL%20Version.wav?alt=media',
+    art: '/art/theStandard.jfif',
+    genre: 'Trip-Hop',
+    bpm: null,
+  },
+  {
+    id: 't310',
+    title: 'Thunder & Dust',
+    artist: '8BitGinger',
+    duration: 225,
+    album: 'Dirt Road',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Thunder%20%26%20Dust%20-%20Duet.wav?alt=media',
+    art: '/art/thunderDust.jfif',
+    genre: 'Outlaw Country',
+    bpm: null,
+  },
+  {
+    id: 't311',
+    title: 'Til the Sky Falls',
+    artist: '8BitGinger',
+    duration: 188,
+    album: 'Liquid Gold',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Til%20the%20Sky%20Falls.wav?alt=media',
+    art: '/art/tilTheSkyFalls.jpg',
+    genre: 'LoFi R&B',
+    bpm: null,
+  },
+  {
+    id: 't312',
+    title: 'Touch Me (Like a Secret)',
+    artist: '8BitGinger',
+    duration: 212,
+    album: 'Silk Sheets',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Touch%20Me%20(Like%20a%20Secret).wav?alt=media',
+    art: '/art/touchMeLikeASecret.png',
+    genre: 'LoFi R&B',
+    bpm: null,
+    lyrics: `
+    [Intro]
+
+[Hook]
+Saw you in that moonlight, (now I can't think straight)
+Something 'bout dat body, dat soul, (got me rearrangin' fate)
+Never been the type to fall, at all (but here I go again)
+You got me prayin' to a feeling, (I don't believe in)
+Touch me like a secret, (but you already know)
+Baby we ain't even started, (I ain't letting go)
+(yeah… like that… right there)
+
+[Verse 1]
+I don't do this — I don't fall fast
+I built my walls, fuck my past
+But you look like danger, worth chasing
+Forget the reason, I been self-erasing
+I stay cool, stay distant
+But now I'm texting fast, instant
+Said slow down, said wait —
+You smiled sideways, sealed my fate —
+Learning your body — touching your waist
+Leaned in close, setting the pace
+
+[Hook]
+Saw you in that moonlight, (now I can't think straight)
+Something 'bout dat body, dat soul, (got me rearrangin' fate)
+Never been the type to fall, at all (but here I go again)
+You got me prayin' to a feeling, (I don't believe in)
+Touch me like a secret, (but you already know)
+Baby we ain't even started, (I ain't letting go)
+(yeah… like that… right there)
+
+[Verse 2]
+Listen —
+Perfume still lingers, on my jacket
+Don't want to lose this feeling, let's track it
+Countin' the hours like I lost something (precious)
+Runnin' through my mind, (those dresses)
+Every touch felt like a secret I wasn't ready to keep
+I'm usually unreadable, usually composed
+But you cracked something open that I thought I had closed
+And now I'm —
+
+[Bridge]
+…When you bit my neck? (heaven)
+…What I ‘bout do? Wreck it
+…Hit it from behind, while I cum inside
+And now I'm —
+
+I don't do this...
+ Neither do I...
+But something 'bout tonight feels like...
+ Like we already know how this ends...
+ ...so hit the lights… let's go again!
+
+[Hook]
+Saw you in that moonlight, (now I can't think straight)
+Something 'bout dat body, dat soul, (got me rearrangin' fate)
+Never been the type to fall, at all (but here I go again)
+You got me prayin' to a feeling, (I don't believe in)
+Touch me like a secret, (but you already know)
+Baby we ain't even started, (I ain't letting go)
+(yeah… like that… right there)
+
+[Outro]
+Never fell this fast...
+Yeah... I know
+ But I'd fall again...
+Every single time...
+ (...yeah)
+
+(uh, uh, uh, yeah, oh. Oh god)
+
+    `
+  },
+  {
+    id: 't313',
+    title: 'Wide Open',
+    artist: '8BitGinger',
+    duration: 264,
+    album: 'Pulse',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Wide%20Open.wav?alt=media',
+    art: '/art/wideOpen.webp',
+    genre: 'Pop',
+    bpm: null,
+  },
+  {
+    id: 't314',
+    title: 'Can\'t Sleep',
+    artist: '8BitGinger',
+    duration: 200,
+    album: 'Coffee & Clouds',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Can\'t%20Sleep%20-%20My%20Mix.wav?alt=media',
+    art: '/art/cantSleep.jpeg',
+    genre: 'Trap Soul',
+    bpm: null,
+  },
+  {
+    id: 't315',
+    title: 'Venom',
+    artist: 'VNDAL',
+    duration: 212,
+    album: 'Flow State',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Venom%20-%20V6%20Version.wav?alt=media',
+    art: '/art/venom.png',
+    genre: 'Trap Soul',
+    bpm: null,
+  },
+  {
+    id: 't316',
+    title: 'Just Let Me Fade',
+    artist: 'Auraveil',
+    duration: 257,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Just%20Let%20Me%20Fade%20(Remastered).wav?alt=media',
+    art: '/art/letMeFade.webp',
+    genre: 'Alt Pop',
+    bpm: null,
+  },
+  {
+    id: 't317',
+    title: 'Dangerous',
+    artist: '8BitGinger',
+    duration: 237,
+    album: 'Silk Sheets',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Dangerous%20(1).wav?alt=media',
+    art: '/art/dangerous.webp',
+    genre: 'Alt Pop',
+    bpm: null,
+  },
+  {
+    id: 't318',
+    title: 'Sorrow is Just Joy',
+    artist: 'Auraveil',
+    duration: 191,
+    album: 'Alt Drives',
+    src: 'https://firebasestorage.googleapis.com/v0/b/ryfimusic-b6ccf.firebasestorage.app/o/Sorrow%20is%20just%20Joy%20(1).wav?alt=media',
+    art: '/art/sorrow.png',
+    genre: 'Alt Pop',
     bpm: null,
   },
 
@@ -1827,7 +2247,6 @@ export const albumPalettes = {
   'Flow State': ['#7c3aed', '#4c0870', '#0f0219'],
   'Dirt Road': ['#c5c359', '#7f7a1e', '#2c2c00'],
   'Synergy': ['#0b8cf5', '#064d8c', '#021519'],
-  'Static Heart': ['#db0e07', '#7f0a05', '#2c0000'],
   'Alt Drives': ['#36c236', '#1e7a1e', '#051904'],
   'Pulse': ['#ff4081', '#c60055', '#2c0014'],
   'High Gain': ['#ed6d3a', '#a83f1e', '#2c0f00'],
@@ -1845,25 +2264,26 @@ export const playlists = [
     description:
       'Trap, Boom Bap, and Hardcore Rap for letting the words flow',
     trackIds: [
-        't225',
+      't225',
       't2',
       't3',
       't10',
       't60',
       't202',
-      't96',
       't206',
-    
       't196',
-      't105',
       't226',
       't198',
-      't231',
       't259',
       't260',
-      't272',
       't279',
       't280',
+      't292',
+      't301',
+      't309',
+      't269',
+      't315',
+      't188',
     ],
     color: '#871cdf',
   },
@@ -1874,14 +2294,11 @@ export const playlists = [
     description:
       'Country Trap, Outlaw Country, and Trad Country for those dusty roads',
     trackIds: [
-    
       't15',
       't14',
-      
       't37',
-    
-      't107',
-     
+      't310',
+      't293',
     ],
     color: '#bda26d',
   },
@@ -1893,20 +2310,23 @@ export const playlists = [
     description:
       'Late-night Alternative for introspective moments and existential crises',
     trackIds: [
+      't316',
       't6',
       't8',
       't9',
-      
       't151',
-      
-      
-     
-      
-     't230',
+      't230',
       't244',
       't271',
       't277',
-      
+      't289',
+      't295',
+      't298',
+      't297',
+      't176',
+      't285',
+      't318',
+      't276',
     ],
     color: '#36c236',
   },
@@ -1917,18 +2337,17 @@ export const playlists = [
     description:
       'Rock, Nu-Metal, and Aggressive vibes for when you need to let it all out',
     trackIds: [
-      
-      
-      
       't52',
-      
       't181',
-      
       't130',
       't242',
-      't257',
-      't263',
-      
+      't303',
+      't286',
+      't118',
+      't290',
+      't158',
+      't137',
+      't32',
     ],
     color: '#ed6d3a',
   },
@@ -1938,9 +2357,17 @@ export const playlists = [
     name: 'Pulse',
     description: 'Pop hits, Electronica, and High-Energy Hits for any occasion',
     trackIds: [
+      't313',
+      't308',
       't228',
-      't127',
-      
+      't282',
+      't243',
+      't273',
+      't109',
+      't237',
+      't250',
+      't223',
+      't221',
     ],
     color: '#ff4081',
   },
@@ -1952,63 +2379,29 @@ export const playlists = [
     description:
       'LoFi, Mellow, and Emotional vibes for Rainy Days',
     trackIds: [
-      't70',
       't197',
-      't97',
-      't213',
+      't70',
       't210',
-      't111',
-      't176',
       't178',
       't122',
       't215',
-     't232',
-      't240',
-      't241',
-      't243',
-      't251',
+      't232',
       't255',
-      't261',
+      't263',
+      't1',
+      't256',
+      't245',
       't270',
-      't274',
+      't231',
+      't283',
+      't51',
+      't79',
+      't233',
+      't314',
+      't194',
+      't213',
     ],
     color: '#00e5ff',
-  },
-
-
-    
-
-
-  {
-    id: 'pl4',
-    icon: 'Heart',
-    name: 'Static Heart',
-    description: 'Love, Heartbreak, and Toxic cycles explored',
-    trackIds: [
-      't158',
-      
-      't79',
-      't51',
-      't32',
-      
-      't194',
-      't223',
-      't137',
-      't188',
-      
-      't221',
-     't281',
-      't233',
-      't238',
-      't250',
-      't252',
-      't254',
-      't258',
-      't266',
-      't275',
-      't276',
-    ],
-    color: '#e2231c',
   },
 
   {
@@ -2017,31 +2410,26 @@ export const playlists = [
     name: 'Liquid Gold',
     description: 'Smooth and Slick cross-genre Hits for vibing',
     trackIds: [
-       
+      't307',
       't186',
       't47',
       't199',
-      't1',
-      't217',
-
-    't118',
-    't200',
-    
-  
-   
- 
-     't235',
-      't237',
-      't245',
+      't200',
+      't235',
       't246',
       't248',
       't249',
-      't256',
-      't262',
       't265',
       't267',
-      't269',
       't278',
+      't300',
+      't311',
+      't287',
+      't299',
+      't296',
+      't274',
+      't236',
+      't258',
     ],
     color: '#f8d359',
 
@@ -2057,12 +2445,11 @@ export const playlists = [
       't33',
       't46',
       't49',
-      't109',
-      't236',
       't247',
       't253',
       't264',
-      't273',
+      't304',
+      't262',
     ],
     color: '#0b8cf5',
   },
@@ -2087,11 +2474,14 @@ export const playlists = [
       't99',
       't58',
       't268',
-      
-     
-     
-
-      
+      't294',
+      't306',
+      't312',
+      't217',
+      't257',
+      't305',
+      't317',
+      't275',
     ],
     color: '#b642d3',
   },

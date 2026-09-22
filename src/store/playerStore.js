@@ -29,7 +29,7 @@ export const usePlayerStore = create((set, get) => ({
   isPlaying: false,
   progress: 0,
   duration: 0,
-  volume: 0.8,
+  volume: 0.5,
   isMuted: false,
   shuffle: false,
   repeat: 'none',
