@@ -4,13 +4,13 @@ import { tracks, playlists } from '../data/library.js'
 
 let howl = null
 
-function createHowl(src, onEnd, onLoad) {
+function createHowl(src, onEnd, onLoad, volume) {
   if (howl) { howl.unload() }
   if (!src) return null
   howl = new Howl({
     src: [src],
     html5: true,
-    volume: 0.8,
+    volume,
     onend: onEnd,
     onload: onLoad,
     onloaderror: () => console.warn('RyFi: Could not load audio. Check your src path.'),
@@ -69,7 +69,8 @@ export const usePlayerStore = create((set, get) => ({
         set({ isPlaying: true })
         startProgressLoop()
         updateMediaSession(track)
-      }
+      },
+      state.isMuted ? 0 : state.volume
     )
     if (!track.src) {
       set({ isLoading: false, isPlaying: false, duration: track.duration || 0, progress: 0 })
